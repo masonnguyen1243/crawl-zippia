@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "jt_root",
+    "slug": "qa-tech",
+    "name": "QA Technician",
+    "nextIds": ["jt_analyst", "jt_tester"]
+  },
+  {
+    "_id": "jt_analyst",
+    "slug": "qa-analyst",
+    "name": "QA Analyst",
+    "nextIds": ["jt_engineer", "jt_specialist", "jt_teamlead"]
+  },
+  {
+    "_id": "jt_tester",
+    "slug": "tester",
+    "name": "Tester",
+    "nextIds": ["jt_specialist"]
+  },
+  {
+    "_id": "jt_engineer",
+    "slug": "qa-engineer",
+    "name": "QA Engineer",
+    "nextIds": ["jt_manager"]
+  },
+  {
+    "_id": "jt_specialist",
+    "slug": "qa-specialist",
+    "name": "QA Specialist",
+    "nextIds": ["jt_teamlead"]
+  },
+  {
+    "_id": "jt_teamlead",
+    "slug": "team-lead",
+    "name": "Team Leader",
+    "nextIds": ["jt_pm"]
+  },
+  {
+    "_id": "jt_manager",
+    "slug": "qa-manager",
+    "name": "QA Manager",
+    "nextIds": []
+  },
+  {
+    "_id": "jt_pm",
+    "slug": "project-manager",
+    "name": "Project Manager",
+    "nextIds": []
+  }
+]

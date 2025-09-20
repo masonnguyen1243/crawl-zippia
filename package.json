@@ -1,0 +1,23 @@
+{
+  "name": "crawdata",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "@google-cloud/translate": "^9.2.0",
+    "@google/generative-ai": "^0.24.1",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.12.2",
+    "fs": "^0.0.1-security",
+    "openai": "^5.20.3",
+    "puppeteer": "^24.19.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-extra-plugin-user-data-dir": "^2.4.1",
+    "uuid": "^10.0.0"
+  }
+}

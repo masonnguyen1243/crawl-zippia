@@ -1,0 +1,56 @@
+{
+  "job_id": "string",
+  "job_name": "string",
+  "parents": ["ObjectId('...')"],
+  "children": ["ObjectId('...')"],
+  "details": [
+    {
+      "overview": "string",
+      "salary": [
+        {
+          "salary_us": "string or number",
+          "salary_vn": "string or number",
+          "salary_average": "string or number"
+        }
+      ],
+      "stability_level": [
+        {
+          "stability_level_us": "string",
+          "stability_level_vn": "string",
+          "stability_level_average": "string"
+        }
+      ],
+      "diversity": [
+        { "race": ["string"] },
+        { "gender": ["string"] },
+        { "age": ["string"] }
+      ],
+      "stress_level": "number",
+      "complexity_level": "number",
+      "work_life_balance": "number",
+      "skills": [
+        {
+          "skill_name": "string",
+          "percent": 0
+        }
+      ],
+      "pros_and_cons": {
+        "pros": ["string"],
+        "cons": ["string"]
+      },
+      "requirements": [
+        {
+          "requirement": "string",
+          "level": "string"
+        }
+      ],
+      "job_description": "string",
+      "meta_data": [
+        {
+          "info_name": "string",
+          "info_value": "string"
+        }
+      ]
+    }
+  ]
+}

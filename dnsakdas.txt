@@ -1,0 +1,53 @@
+Collection Job:
+    _id: ObjectId
+    job_id: String
+    job_name: String
+    job_description: String
+    parents: [ObjectId]
+    children: [ObjectId]
+    details: [
+        overview: String
+        salary: [
+            {
+                
+            }
+        ]
+        stability_level: String
+        diversity: String
+        stress_level: String
+        complexity_level: String
+        work_life_balance: String
+        skills: [
+            skill_name: String
+            percent: Number
+        ]
+        pros_and_cons: [
+            pros: [String]
+            cons: [String]
+        ]
+        requirements: [
+            requirement: String
+            level: String
+        ]
+        related_info: [
+            info_name: String
+            info_value: String
+        ]
+    ]
+
+Collection Edge:
+    _id: ObjectId
+    from: ObjectId
+    to: ObjectId
+
+
+         "race": [
+              {
+                "group_name": "American Indian and Alaska Native",
+                "percentage": 3.0
+              },
+              {
+                "group_name": "White",
+                "percentage": 57.0
+              }
+            ]

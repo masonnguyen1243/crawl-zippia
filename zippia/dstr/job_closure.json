@@ -1,0 +1,21 @@
+[
+  { "ancestorId": "jt_root", "descendantId": "jt_root", "depth": 0 },
+  { "ancestorId": "jt_analyst", "descendantId": "jt_analyst", "depth": 0 },
+  { "ancestorId": "jt_tester", "descendantId": "jt_tester", "depth": 0 },
+  { "ancestorId": "jt_engineer", "descendantId": "jt_engineer", "depth": 0 },
+  {
+    "ancestorId": "jt_specialist",
+    "descendantId": "jt_specialist",
+    "depth": 0
+  },
+  { "ancestorId": "jt_teamlead", "descendantId": "jt_teamlead", "depth": 0 },
+  { "ancestorId": "jt_manager", "descendantId": "jt_manager", "depth": 0 },
+  { "ancestorId": "jt_pm", "descendantId": "jt_pm", "depth": 0 },
+
+  { "ancestorId": "jt_root", "descendantId": "jt_analyst", "depth": 1 },
+  { "ancestorId": "jt_root", "descendantId": "jt_tester", "depth": 1 },
+
+  { "ancestorId": "jt_root", "descendantId": "jt_engineer", "depth": 2 },
+  { "ancestorId": "jt_root", "descendantId": "jt_specialist", "depth": 2 },
+  { "ancestorId": "jt_root", "descendantId": "jt_teamlead", "depth": 2 }
+]

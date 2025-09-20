@@ -1,0 +1,646 @@
+[
+  {
+    "job_id": "4d0aa290-3d39-410a-b75b-f219c9f8a914",
+    "job_name": "Account Executive",
+    "parents": [],
+    "children": [],
+    "details": [
+      {
+        "overview": "An account executive manages client accounts for a company. They serve as the primary point of contact and work to build strong relationships with clients to meet their needs. Account executives also monitor client satisfaction, identify new business opportunities, and negotiate contracts. They work closely with other departments such as marketing and customer service, to effectively address clientsâ€™ needs. Successful account executives possess communication and negotiation skills.",
+        "salary": [
+          {
+            "salary_us": 59228,
+            "salary_vn": 11846,
+            "salary_average": 59228
+          }
+        ],
+        "stability_level": 0.3,
+        "diversity": [
+          {
+            "race": [
+              {
+                "group_name": "American Indian and Alaska Native",
+                "percentage": 3
+              },
+              {
+                "group_name": "Asian",
+                "percentage": 7
+              },
+              {
+                "group_name": "Black or African American",
+                "percentage": 14
+              },
+              {
+                "group_name": "Hispanic or Latino",
+                "percentage": 19
+              },
+              {
+                "group_name": "White",
+                "percentage": 57
+              }
+            ]
+          },
+          {
+            "gender": {
+              "female": 47,
+              "male": 53
+            }
+          },
+          {
+            "age": 44
+          }
+        ],
+        "stress_level": 7,
+        "complexity_level": 7,
+        "work_life_balance": 6,
+        "skills": [
+          {
+            "skill_name": "Customer Service",
+            "percent": 8.7,
+            "description": "Customer Service is an important skill for this role, representing 8.7% of the key competencies required."
+          },
+          {
+            "skill_name": "CRM",
+            "percent": 6.3,
+            "description": "CRM is an important skill for this role, representing 6.3% of the key competencies required."
+          },
+          {
+            "skill_name": "Healthcare",
+            "percent": 5,
+            "description": "Healthcare is an important skill for this role, representing 5% of the key competencies required."
+          },
+          {
+            "skill_name": "Sales Process",
+            "percent": 4.6,
+            "description": "Sales Process is an important skill for this role, representing 4.6% of the key competencies required."
+          },
+          {
+            "skill_name": "Salesforce",
+            "percent": 4.4,
+            "description": "Salesforce is an important skill for this role, representing 4.4% of the key competencies required."
+          },
+          {
+            "skill_name": "Work Ethic",
+            "percent": 4,
+            "description": "Work Ethic is an important skill for this role, representing 4% of the key competencies required."
+          },
+          {
+            "skill_name": "Other Skills",
+            "percent": 63.4,
+            "description": "Other Skills"
+          }
+        ],
+        "pros_and_cons": {
+          "pros": [
+            "Potential for high income through commission and bonuses",
+            "Collaborative work environment with a team",
+            "Ability to work independently and manage your own schedule",
+            "Access to networking events and industry conferences",
+            "Variety in daily tasks and responsibilities"
+          ],
+          "cons": [
+            "Long hours, including evenings and weekends",
+            "Frequent rejection and frustration when deals don't go through",
+            "Constant need to keep up with industry trends and changes",
+            "Competition with other account executives for clients and commissions",
+            "Potential for conflicts of interest or ethical dilemmas"
+          ]
+        },
+        "requirements": [
+          {
+            "requirement": "Bachelor's",
+            "level": 78
+          },
+          {
+            "requirement": "Associate",
+            "level": 9.7
+          },
+          {
+            "requirement": "Master's",
+            "level": 6.5
+          }
+        ],
+        "job_description": "",
+        "meta_data": [
+          {
+            "info_name": "Explore account executive education requirements",
+            "info_value": "Most common account executive degreesBachelor's78.0 %Associate9.7 %Master's6.5 %Show more"
+          },
+          {
+            "info_name": "Start to develop specific account executive skills",
+            "info_value": "SkillsPercentagesCustomer Service8.69%CRM6.30%Healthcare5.04%Sales Process4.62%Salesforce4.42%Show more"
+          },
+          {
+            "info_name": "Research account executive duties and responsibilities",
+            "info_value": "Create and manage Facebook and twitter accounts.Have achieve Google certification for both SEM and SEO sales.Lead proposal team in winning a $1MM RFP, turning around a key account relationship.Manage all aspects of new FedEx implementations (automation set-up, operational support and training of customers)."
+          },
+          {
+            "info_name": "Prepare your account executive resume",
+            "info_value": "When your background is strong enough, you can start writing your account executive resume. You can use Zippia's AI resume builder to make the resume writing process easier while also making sure that you include key information that hiring managers expect to see on an account executive resume. You'll find resume tips and examples of skills, responsibilities, and summaries, all provided by Zippi, your career sidekick."
+          },
+          {
+            "info_name": "Apply for account executive jobs",
+            "info_value": "Now it's time to start searching for an account executive job. Consider the tips below for a successful job search:  Browse job boards for relevant postings Consult your professional network Reach out to companies you're interested in working for directly Watch out for job scams"
+          }
+        ],
+        "education": {
+          "description": "There are several educational requirements to become an account executive. Account executives usually study business, marketing, or communication. 78% of account executives hold a bachelor's degree, and 10% hold an associate degree. We analyzed 218,138 real account executive resumes to see exactly what account executive education sections show. The most common colleges for account executives are the University of Phoenix and the University of Phoenix. There are also many online account executive courses to help get the education required to be an account executive.There are certain account executive certifications that you should consider. These account executive certifications include Certified Sales Professional (CSP) and Professional Certified Marketer (PCM).",
+          "degree": [
+            {
+              "name": "Bachelor's",
+              "level": 78
+            },
+            {
+              "name": "Associate",
+              "level": 10
+            },
+            {
+              "name": "Master's",
+              "level": 6
+            },
+            {
+              "name": "High School Diploma",
+              "level": 3
+            },
+            {
+              "name": "Other Degrees",
+              "level": 3
+            }
+          ],
+          "major": [
+            {
+              "name": "Business",
+              "level": 1,
+              "major_detailt": "https://www.zippia.com/business-major/"
+            },
+            {
+              "name": "Marketing",
+              "level": 2,
+              "major_detailt": "https://www.zippia.com/marketing-major/"
+            },
+            {
+              "name": "Communication",
+              "level": 3,
+              "major_detailt": "https://www.zippia.com/communication-major/"
+            },
+            {
+              "name": "Psychology",
+              "level": 4,
+              "major_detailt": "https://www.zippia.com/psychology-major/"
+            },
+            {
+              "name": "Management",
+              "level": 5,
+              "major_detailt": "https://www.zippia.com/management-major/"
+            }
+          ],
+          "courses": [
+            {
+              "course_title": "1. Sales Fire: B2B Sales & Business Development for Startups",
+              "rank": 4.6,
+              "review_count": 584,
+              "course_url": "https://www.zippia.com/advice/degree-levels/"
+            },
+            {
+              "course_title": "2. The Complete B2B Sales Masterclass: 6 Courses in 1",
+              "rank": 0,
+              "review_count": 413,
+              "course_url": "https://www.zippia.com/advice/average-salary-us/"
+            },
+            {
+              "course_title": "3. Business Development & B2B Sales for Startups- Sales Valley",
+              "rank": 4,
+              "review_count": 6788,
+              "course_url": "https://www.zippia.com/advice/masthead/"
+            },
+            {
+              "course_title": "4. Sales Training Pro: The Complete Sales Presentation Course",
+              "rank": 0,
+              "review_count": 346,
+              "course_url": "https://www.zippia.com/careers/"
+            },
+            {
+              "course_title": "5. B2B Sales Skills: LinkedIn Lead Generation, Cold Email Sales",
+              "rank": 4.5,
+              "review_count": 327,
+              "course_url": "https://www.zippia.com/sales-industry/"
+            },
+            {
+              "course_title": "6. The Complete Sales Skills Master Class - Sales Marketing B2B",
+              "rank": 0,
+              "review_count": 741,
+              "course_url": "https://www.zippia.com/account-executive-jobs/"
+            },
+            {
+              "course_title": "7. Sales Skills: 9 Sales Training Courses In 1",
+              "rank": 4.6,
+              "review_count": 994,
+              "course_url": ""
+            },
+            {
+              "course_title": "8. CSMath: Make Data-Driven Decisions in Customer Success",
+              "rank": 0,
+              "review_count": 320,
+              "course_url": ""
+            },
+            {
+              "course_title": "9. Sales Machine: The Sales Training B2B Master Course",
+              "rank": 4.5,
+              "review_count": 4040,
+              "course_url": ""
+            },
+            {
+              "course_title": "10. Sales and Marketing For Online Businesses",
+              "rank": 0,
+              "review_count": 1581,
+              "course_url": ""
+            },
+            {
+              "course_title": "11. Sales Training: Become A Sales Superstar",
+              "rank": 4.5,
+              "review_count": 262,
+              "course_url": ""
+            },
+            {
+              "course_title": "12. Sales Skills Training: Give a Winning Sales Presentation",
+              "rank": 0,
+              "review_count": 281,
+              "course_url": ""
+            },
+            {
+              "course_title": "13. Customer Service & Support For Customer Service Executives",
+              "rank": 4.4,
+              "review_count": 941,
+              "course_url": ""
+            },
+            {
+              "course_title": "14. Cloud Computing Sales",
+              "rank": 0,
+              "review_count": 657,
+              "course_url": ""
+            },
+            {
+              "course_title": "15. Sales Training: How To Close More Sales",
+              "rank": 4.2,
+              "review_count": 1734,
+              "course_url": ""
+            },
+            {
+              "course_title": "16. LinkedIn Sales Navigator: LinkedIn's tool for B2B Sales",
+              "rank": 0,
+              "review_count": 393,
+              "course_url": ""
+            },
+            {
+              "course_title": "17. Sales Training: Practical Sales Techniques",
+              "rank": 4.6,
+              "review_count": 23968,
+              "course_url": ""
+            },
+            {
+              "course_title": "18. CRUSH IT!!! - Sales Strategies",
+              "rank": 0,
+              "review_count": 710,
+              "course_url": ""
+            },
+            {
+              "course_title": "19. Sales Funnels Masterclass: Increase Sales With Sales Funnels",
+              "rank": 4,
+              "review_count": 599,
+              "course_url": ""
+            },
+            {
+              "course_title": "20. Sales Prospecting Fundamentals: A Complete Guide to Success",
+              "rank": 0,
+              "review_count": 298,
+              "course_url": ""
+            }
+          ]
+        }
+      }
+    ],
+    "nextId": []
+  },
+  {
+    "job_id": "02f8e10d-3ff9-4d9d-9549-ab4f6eab4c29",
+    "job_name": "Ambassador",
+    "parents": [],
+    "children": [],
+    "details": [
+      {
+        "overview": "An ambassador represents and promotes their country's interests and policies in a foreign nation. They act as a diplomat, negotiating with government officials and building relationships with local leaders. They also provide information to their home government on political, economic, and social issues in the host country. Ambassadors may also work to facilitate trade and investment opportunities and provide assistance to citizens. They use communication, negotiation, and problem-solving skills, as well as cultural awareness.",
+        "salary": [
+          {
+            "salary_us": 59228,
+            "salary_vn": 11846,
+            "salary_average": 59228
+          }
+        ],
+        "stability_level": 0,
+        "diversity": [
+          {
+            "race": [
+              {
+                "group_name": "American Indian and Alaska Native",
+                "percentage": 3
+              },
+              {
+                "group_name": "Asian",
+                "percentage": 7
+              },
+              {
+                "group_name": "Black or African American",
+                "percentage": 14
+              },
+              {
+                "group_name": "Hispanic or Latino",
+                "percentage": 19
+              },
+              {
+                "group_name": "White",
+                "percentage": 57
+              }
+            ]
+          },
+          {
+            "gender": {
+              "female": 47,
+              "male": 53
+            }
+          },
+          {
+            "age": 42
+          }
+        ],
+        "stress_level": 7,
+        "complexity_level": 6,
+        "work_life_balance": 7,
+        "skills": [
+          {
+            "skill_name": "Patients",
+            "percent": 16.8,
+            "description": "Patients is an important skill for this role, representing 16.8% of the key competencies required."
+          },
+          {
+            "skill_name": "Ambassadors",
+            "percent": 8.2,
+            "description": "Ambassadors is an important skill for this role, representing 8.2% of the key competencies required."
+          },
+          {
+            "skill_name": "Customer Service",
+            "percent": 7.6,
+            "description": "Customer Service is an important skill for this role, representing 7.6% of the key competencies required."
+          },
+          {
+            "skill_name": "Cleanliness",
+            "percent": 7.3,
+            "description": "Cleanliness is an important skill for this role, representing 7.3% of the key competencies required."
+          },
+          {
+            "skill_name": "Product Knowledge",
+            "percent": 6.4,
+            "description": "Product Knowledge is an important skill for this role, representing 6.4% of the key competencies required."
+          },
+          {
+            "skill_name": "Excellent Interpersonal",
+            "percent": 5.8,
+            "description": "Excellent Interpersonal is an important skill for this role, representing 5.8% of the key competencies required."
+          },
+          {
+            "skill_name": "Other Skills",
+            "percent": 42.2,
+            "description": "Other Skills"
+          }
+        ],
+        "pros_and_cons": {
+          "pros": [
+            "Possibility of contributing to global peace and security",
+            "Access to exclusive events, conferences, and meetings",
+            "Ability to influence policy decisions",
+            "Competitive salary and benefits package",
+            "High level of job security"
+          ],
+          "cons": [
+            "Potential for high stress levels and long working hours",
+            "Constant need to maintain a professional image and conduct",
+            "Difficulty in balancing personal beliefs with official positions",
+            "High level of scrutiny from the media and public",
+            "Potential for dangerous or volatile situations in certain countries or regions"
+          ]
+        },
+        "requirements": [
+          {
+            "requirement": "Bachelor's",
+            "level": 64
+          },
+          {
+            "requirement": "High School Diploma",
+            "level": 12.6
+          },
+          {
+            "requirement": "Associate",
+            "level": 12.3
+          }
+        ],
+        "job_description": "",
+        "meta_data": [
+          {
+            "info_name": "Explore ambassador education requirements",
+            "info_value": "Most common ambassador degreesBachelor's64.0 %High School Diploma12.6 %Associate12.3 %Show more"
+          },
+          {
+            "info_name": "Start to develop specific ambassador skills",
+            "info_value": "SkillsPercentagesPatients16.75%Ambassadors8.24%Customer Service7.57%Cleanliness7.32%Product Knowledge6.39%Show more"
+          },
+          {
+            "info_name": "Research ambassador duties and responsibilities",
+            "info_value": "Manage and mail a large inventory of CDs.Require to have a good GPA, be a good role model and volunteer on and off campus.Segue edit shows for several FM stations including WXXM, WZEE, WIBA, and WMAD.Organize station community service events.98.7 Kiss FM."
+          },
+          {
+            "info_name": "Prepare your ambassador resume",
+            "info_value": "When your background is strong enough, you can start writing your ambassador resume. You can use Zippia's AI resume builder to make the resume writing process easier while also making sure that you include key information that hiring managers expect to see on an ambassador resume. You'll find resume tips and examples of skills, responsibilities, and summaries, all provided by Zippi, your career sidekick."
+          },
+          {
+            "info_name": "Apply for ambassador jobs",
+            "info_value": "Now it's time to start searching for an ambassador job. Consider the tips below for a successful job search:  Browse job boards for relevant postings Consult your professional network Reach out to companies you're interested in working for directly Watch out for job scams"
+          }
+        ],
+        "education": {
+          "description": "Usually, ambassadors don't need a college education. The most common degree for ambassadors is bachelor's degree with 64% graduates, with only 13% ambassador graduates earning high school diploma. Ambassadors who decided to graduate from college often finish University of Phoenix or The University of Alabama. Some good skills to have in this position include patients, ambassadors and customer service.Popular ambassador certifications include First Aid, CPR and AED Instructor, Certified Professional - Human Resource (IPMA-CP), or Certified Sales Professional (CSP). To improve ambassador qualification and skills, we prepared some online courses to help in ambassador education paths.",
+          "degree": [
+            {
+              "name": "Bachelor's",
+              "level": 64
+            },
+            {
+              "name": "High School Diploma",
+              "level": 13
+            },
+            {
+              "name": "Associate",
+              "level": 12
+            },
+            {
+              "name": "Master's",
+              "level": 6
+            },
+            {
+              "name": "Other Degrees",
+              "level": 5
+            }
+          ],
+          "major": [
+            {
+              "name": "Business",
+              "level": 1,
+              "major_detailt": "https://www.zippia.com/business-major/"
+            },
+            {
+              "name": "Psychology",
+              "level": 2,
+              "major_detailt": "https://www.zippia.com/psychology-major/"
+            },
+            {
+              "name": "Communication",
+              "level": 3,
+              "major_detailt": "https://www.zippia.com/communication-major/"
+            },
+            {
+              "name": "Marketing",
+              "level": 4,
+              "major_detailt": "https://www.zippia.com/marketing-major/"
+            },
+            {
+              "name": "Criminal Justice",
+              "level": 5,
+              "major_detailt": "https://www.zippia.com/criminal-justice-major/"
+            }
+          ],
+          "courses": [
+            {
+              "course_title": "1. Mental Health Ambassador Certificate",
+              "rank": 4.6,
+              "review_count": 1115,
+              "course_url": "https://www.zippia.com/advice/degree-levels/"
+            },
+            {
+              "course_title": "2. Business Communication Skills: Handling Clients & Customers",
+              "rank": 0,
+              "review_count": 1161,
+              "course_url": "https://www.zippia.com/advice/masthead/"
+            },
+            {
+              "course_title": "3. Winning Communication Skills for Telephone, Conference Calls",
+              "rank": 4.4,
+              "review_count": 2677,
+              "course_url": "https://www.zippia.com/careers/"
+            },
+            {
+              "course_title": "4. Customer Service Training: Dealing with Difficult Customers",
+              "rank": 0,
+              "review_count": 1035,
+              "course_url": "https://www.zippia.com/sales-industry/"
+            },
+            {
+              "course_title": "5. Communication Skills Masterclass - Your Communication Guide",
+              "rank": 4.3,
+              "review_count": 961,
+              "course_url": "https://www.zippia.com/ambassador-jobs/"
+            },
+            {
+              "course_title": "6. Public Speaking Training & Facilitator Certification",
+              "rank": 0,
+              "review_count": 1480,
+              "course_url": ""
+            },
+            {
+              "course_title": "7. Public Speaking & Communicating: Skip Theory, Master the Art",
+              "rank": 4.5,
+              "review_count": 2476,
+              "course_url": ""
+            },
+            {
+              "course_title": "8. The Art of Public Speaking",
+              "rank": 0,
+              "review_count": 270,
+              "course_url": ""
+            },
+            {
+              "course_title": "9. Communication Skills for Beginners",
+              "rank": 4.5,
+              "review_count": 5736,
+              "course_url": ""
+            },
+            {
+              "course_title": "10. Public Speaking: A tactical approach",
+              "rank": 0,
+              "review_count": 1523,
+              "course_url": ""
+            },
+            {
+              "course_title": "11. Start Improving Customer Service",
+              "rank": 4.6,
+              "review_count": 2040,
+              "course_url": ""
+            },
+            {
+              "course_title": "12. Communication Skills Masterclass: Speak Like A Leader",
+              "rank": 0,
+              "review_count": 295,
+              "course_url": ""
+            },
+            {
+              "course_title": "13. Customer Service Foundation",
+              "rank": 4.6,
+              "review_count": 290,
+              "course_url": ""
+            },
+            {
+              "course_title": "14. Public Speaking and Presenting at Work",
+              "rank": 0,
+              "review_count": 6108,
+              "course_url": ""
+            },
+            {
+              "course_title": "15. Advanced Product Management: Leadership & Communication",
+              "rank": 4.7,
+              "review_count": 2424,
+              "course_url": ""
+            },
+            {
+              "course_title": "16. Public Speaking: Be a Professional Speaker",
+              "rank": 0,
+              "review_count": 540,
+              "course_url": ""
+            },
+            {
+              "course_title": "17. Communication Fundamentals: How To Communicate Better",
+              "rank": 4.5,
+              "review_count": 82838,
+              "course_url": ""
+            },
+            {
+              "course_title": "18. Fear of Public Speaking: Never Fear Public Speaking Again",
+              "rank": 0,
+              "review_count": 623,
+              "course_url": ""
+            },
+            {
+              "course_title": "19. Speaking on the Telephone: Confidently Speak on the Phone",
+              "rank": 4.5,
+              "review_count": 399,
+              "course_url": ""
+            },
+            {
+              "course_title": "20. ChatGPT for Better Business Communication",
+              "rank": 0,
+              "review_count": 548,
+              "course_url": ""
+            }
+          ]
+        }
+      }
+    ],
+    "nextId": []
+  }
+]

@@ -1,0 +1,11 @@
+[
+  { "fromId": "jt_root", "toId": "jt_analyst", "likelihood": 0.6 },
+  { "fromId": "jt_root", "toId": "jt_tester", "likelihood": 0.4 },
+  { "fromId": "jt_analyst", "toId": "jt_engineer", "likelihood": 0.55 },
+  { "fromId": "jt_analyst", "toId": "jt_specialist", "likelihood": 0.25 },
+  { "fromId": "jt_analyst", "toId": "jt_teamlead", "likelihood": 0.2 },
+  { "fromId": "jt_tester", "toId": "jt_specialist", "likelihood": 0.35 },
+  { "fromId": "jt_specialist", "toId": "jt_teamlead", "likelihood": 0.4 },
+  { "fromId": "jt_engineer", "toId": "jt_manager", "likelihood": 0.5 },
+  { "fromId": "jt_teamlead", "toId": "jt_pm", "likelihood": 0.6 }
+]
