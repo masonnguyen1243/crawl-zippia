@@ -8,6 +8,7 @@ export class ZippiaCrawler {
     this.page = null;
     this.dataFile = "result123.json";
     this.existingData = [];
+    this.industriesData = []; // Add industries data storage
     this.maxDepth = 10; // Maximum recursion depth
     this.visitedJobs = new Set(); // Track visited job URLs to avoid cycles
     this.jobQueue = []; // Queue for jobs to be crawled
@@ -26,6 +27,9 @@ export class ZippiaCrawler {
 
     // Load existing data if file exists
     await this.loadExistingData();
+
+    // Load industries data
+    await this.loadIndustriesData();
   }
 
   async loadExistingData() {
@@ -37,6 +41,42 @@ export class ZippiaCrawler {
       console.log("No existing data file found, starting fresh");
       this.existingData = [];
     }
+  }
+
+  async loadIndustriesData() {
+    try {
+      const data = await fs.readFile("industry-result.json", "utf8");
+      this.industriesData = JSON.parse(data);
+      console.log(`Loaded ${this.industriesData.length} industries`);
+    } catch (error) {
+      console.log("No industries data file found");
+      this.industriesData = [];
+    }
+  }
+
+  // Helper method to convert text to slug
+  textToSlug(text) {
+    if (!text) return null;
+    return text
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9\s]/g, "") // Remove special characters but keep spaces
+      .replace(/\s+/g, "-") // Replace spaces with hyphens
+      .replace(/-+/g, "-") // Replace multiple hyphens with single
+      .replace(/^-|-$/g, ""); // Remove leading/trailing hyphens
+  }
+
+  // Find industry ID by slug matching
+  findIndustryId(industrySlug) {
+    if (!industrySlug || this.industriesData.length === 0) {
+      return null;
+    }
+
+    const matchingIndustry = this.industriesData.find(
+      (industry) => industry.slug === industrySlug
+    );
+
+    return matchingIndustry ? matchingIndustry.industryId : null;
   }
 
   findJobId(jobName) {
@@ -369,12 +409,19 @@ export class ZippiaCrawler {
 
     const jobData = {
       job_id: this.findJobId(jobName),
+      industry_id: null, // Will be populated by extracting industry from breadcrumb
       job_name: jobName,
       parents: [],
       children: [],
       details: [],
       nextId: [],
     };
+
+    // Extract industry from breadcrumb
+    const industryId = await this.extractIndustryFromBreadcrumb();
+    if (industryId) {
+      jobData.industry_id = industryId;
+    }
 
     // Extract job details
     const details = await this.extractJobDetailsSection();
@@ -432,6 +479,78 @@ export class ZippiaCrawler {
     }
 
     return jobData;
+  }
+
+  async extractIndustryFromBreadcrumb() {
+    try {
+      const industryText = await this.page.evaluate(() => {
+        // Find the breadcrumb ul element
+        const breadcrumbUl = document.querySelector(
+          "ul.d-flex.flex-column.flex-md-row.flex-md-wrap.z-inter.BreadCrumbs_breadcrumb__xtOCT.col-12.col-lg-9.order-last.order-lg-first.mb-0"
+        );
+
+        if (!breadcrumbUl) {
+          console.log("Breadcrumb ul not found");
+          return null;
+        }
+
+        // Get all li elements
+        const listItems = breadcrumbUl.querySelectorAll("li");
+
+        if (listItems.length < 2) {
+          console.log("Not enough breadcrumb items");
+          return null;
+        }
+
+        // Get the second li element (index 1)
+        const secondLi = listItems[1];
+        const linkElement = secondLi.querySelector("a");
+
+        if (!linkElement) {
+          console.log("Link not found in second breadcrumb item");
+          return null;
+        }
+
+        const linkText = linkElement.textContent?.trim();
+        console.log("Found breadcrumb link text:", linkText);
+
+        return linkText;
+      });
+
+      if (!industryText) {
+        console.log("No industry text found in breadcrumb");
+        return null;
+      }
+
+      // Remove "Industry" text and convert to slug
+      let cleanIndustryText = industryText.replace(/industry/i, "").trim();
+
+      if (!cleanIndustryText) {
+        console.log('No clean industry text after removing "Industry"');
+        return null;
+      }
+
+      const industrySlug = this.textToSlug(cleanIndustryText);
+      console.log(
+        `Industry text: "${cleanIndustryText}" -> slug: "${industrySlug}"`
+      );
+
+      // Find matching industry ID
+      const industryId = this.findIndustryId(industrySlug);
+
+      if (industryId) {
+        console.log(
+          `✅ Matched industry: ${cleanIndustryText} -> ${industryId}`
+        );
+        return industryId;
+      } else {
+        console.log(`❌ No matching industry found for slug: ${industrySlug}`);
+        return null;
+      }
+    } catch (error) {
+      console.error("Error extracting industry from breadcrumb:", error);
+      return null;
+    }
   }
 
   async extractJobDetailsSection() {

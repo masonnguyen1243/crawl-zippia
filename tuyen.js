@@ -1250,47 +1250,63 @@ export class ZippiaCrawler {
     }
   }
 
-  async extractNextIdData() {
-    try {
-      const nextIdData = await this.page.evaluate(() => {
-        const careerPathRows = document.querySelectorAll(
-          "div.d-flex.align-items-end.position-relative.careerPaths_row__kyPft.careerPaths_right__ME3vJ.z-ml-30.careerPaths_bottom__3Kj_O.careerPaths_even__xslbY"
-        );
-        const result = [];
+ async extractNextIdData() {
+  try {
+    const nextIdData = await this.page.evaluate(() => {
+      const columns = document.querySelectorAll(
+        "div.position-relative.careerPaths_column__VCDCr.careerPaths_right__ME3vJ"
+      );
 
-        careerPathRows.forEach((row) => {
+      const result = [];
+      columns.forEach((col) => {
+        // Chỉ lấy cột bên trái (text-left)
+        const rows = col.querySelectorAll(
+          "div.careerPaths_row__kyPft.careerPaths_right__ME3vJ"
+        );
+
+        rows.forEach((row) => {
           const infoDiv = row.querySelector(
-            "div.careerPaths_info__zncVb.careerPaths_right__ME3vJ.text-right"
+            "div.careerPaths_info__zncVb.careerPaths_right__ME3vJ.text-left"
           );
           if (infoDiv) {
             const titleElement = infoDiv.querySelector(
-              "p.z-m-0.z-font-14.z-leading-14px.line-clamp-3.careerPaths_title__SY2KB.careerPaths_link__E78bU.z-mb-6"
+              "p.careerPaths_title__SY2KB.careerPaths_link__E78bU"
             );
             if (titleElement) {
               const jobTitle = titleElement.textContent.trim();
+
+              // Tạo slug
+              const slug = jobTitle
+                .toLowerCase()
+                .replace(/[^a-z0-9\s]/g, "") // bỏ ký tự đặc biệt
+                .replace(/\s+/g, "-"); // khoảng trắng -> -
+
               result.push({
                 jobtitle: jobTitle,
-                jobid: "", // Will be filled by findJobId method
+                slug: slug,
+                jobid: "" // sẽ thêm cuid bên dưới
               });
             }
           }
         });
-
-        return result;
       });
 
-      // Fill in job IDs
-      const processedNextId = nextIdData.map((item) => ({
-        jobtitle: item.jobtitle,
-        jobid: this.findJobId(item.jobtitle),
-      }));
+      return result;
+    });
 
-      return processedNextId;
-    } catch (error) {
-      console.error("Error extracting nextId data:", error);
-      return [];
-    }
+    // Fill cuid jobid cho từng job
+    const processedNextId = nextIdData.map((item) => ({
+      jobtitle: item.jobtitle,
+      slug: item.slug,
+      jobid: this.findJobId(item.jobtitle),
+    }));
+
+    return processedNextId;
+  } catch (error) {
+    console.error("Error extracting nextId data:", error);
+    return [];
   }
+}
 
   async crawlJobs() {
     try {

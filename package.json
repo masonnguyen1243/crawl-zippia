@@ -10,6 +10,7 @@
   "dependencies": {
     "@google-cloud/translate": "^9.2.0",
     "@google/generative-ai": "^0.24.1",
+    "@paralleldrive/cuid2": "^2.2.2",
     "@vitalets/google-translate-api": "^9.2.1",
     "axios": "^1.12.2",
     "fs": "^0.0.1-security",

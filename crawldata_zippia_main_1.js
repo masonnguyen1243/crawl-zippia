@@ -1,15 +1,17 @@
 import puppeteer from "puppeteer";
 import fs from "fs/promises";
-import { createId } from "@paralleldrive/cuid2";
+import { v4 as uuidv4 } from "uuid";
 
 export class ZippiaCrawler {
   constructor() {
     this.browser = null;
     this.page = null;
-    this.dataFile = "zippia-jobs-result.json";
+    this.dataFile = "result12123.json";
     this.existingData = [];
-    this.salesDataFile = "Input/sales.json";
-    this.industryId = null;
+    this.industriesData = []; // Add industries data storage
+    this.maxDepth = 10; // Maximum recursion depth
+    this.visitedJobs = new Set(); // Track visited job URLs to avoid cycles
+    this.jobQueue = []; // Queue for jobs to be crawled
   }
 
   async init() {
@@ -25,6 +27,9 @@ export class ZippiaCrawler {
 
     // Load existing data if file exists
     await this.loadExistingData();
+
+    // Load industries data
+    await this.loadIndustriesData();
   }
 
   async loadExistingData() {
@@ -38,70 +43,281 @@ export class ZippiaCrawler {
     }
   }
 
-  findJobId(jobName) {
-    // Check if job already exists in data
-    const existingJob = this.existingData.find(
-      (job) =>
-        job.job_name === jobName ||
-        (job.nextId && job.nextId.some((next) => next.jobtitle === jobName))
+  async loadIndustriesData() {
+    try {
+      const data = await fs.readFile("industry-result.json", "utf8");
+      this.industriesData = JSON.parse(data);
+      console.log(`Loaded ${this.industriesData.length} industries`);
+    } catch (error) {
+      console.log("No industries data file found");
+      this.industriesData = [];
+    }
+  }
+
+  // Helper method to convert text to slug
+  textToSlug(text) {
+    if (!text) return null;
+    return text
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9\s]/g, "") // Remove special characters but keep spaces
+      .replace(/\s+/g, "-") // Replace spaces with hyphens
+      .replace(/-+/g, "-") // Replace multiple hyphens with single
+      .replace(/^-|-$/g, ""); // Remove leading/trailing hyphens
+  }
+
+  // Find industry ID by slug matching
+  findIndustryId(industrySlug) {
+    if (!industrySlug || this.industriesData.length === 0) {
+      return null;
+    }
+
+    const matchingIndustry = this.industriesData.find(
+      (industry) => industry.slug === industrySlug
     );
+
+    return matchingIndustry ? matchingIndustry.industryId : null;
+  }
+
+  findJobId(jobName) {
+    if (!jobName || jobName.trim().length === 0) {
+      return uuidv4();
+    }
+
+    // Normalize job name for comparison
+    const normalizedJobName = jobName.trim().toLowerCase();
+
+    // Check if job already exists in data
+    const existingJob = this.existingData.find((job) => {
+      const existingJobName = job.job_name?.trim().toLowerCase();
+      if (existingJobName === normalizedJobName) {
+        return true;
+      }
+
+      // Also check in nextId relationships
+      if (
+        job.nextId &&
+        job.nextId.some(
+          (next) => next.jobtitle?.trim().toLowerCase() === normalizedJobName
+        )
+      ) {
+        return true;
+      }
+
+      // Check in parents relationships
+      if (
+        job.parents &&
+        job.parents.some(
+          (parent) =>
+            parent.jobtitle?.trim().toLowerCase() === normalizedJobName
+        )
+      ) {
+        return true;
+      }
+
+      return false;
+    });
 
     if (existingJob) {
       return existingJob.job_id;
     }
 
-    // Generate new CUID if not found
-    return createId();
+    // Generate new UUID if not found
+    return uuidv4();
   }
 
   async saveJobData(jobData) {
-    // Thêm job mới vào mảng và lưu toàn bộ mảng vào file
+    // Add job to existing data
     this.existingData.push(jobData);
+
+    // Update bidirectional relationships
+    this.updateJobRelationships(jobData);
+
+    // Save to file after each job to ensure progress is preserved
     await fs.writeFile(
       this.dataFile,
       JSON.stringify(this.existingData, null, 2)
     );
-    console.log(`Saved job: ${jobData.job_name}`);
+    console.log(
+      `💾 Saved job: ${jobData.job_name} (Total: ${this.existingData.length} jobs)`
+    );
+  }
+
+  updateJobRelationships(currentJobData) {
+    // Update parent-child relationships bidirectionally
+
+    // For each child in nextId, update their parents to include current job
+    if (currentJobData.nextId && currentJobData.nextId.length > 0) {
+      currentJobData.nextId.forEach((child) => {
+        const childJob = this.existingData.find(
+          (job) => job.job_name === child.jobtitle || job.job_id === child.jobid
+        );
+
+        if (childJob) {
+          // Add current job as parent to the child job
+          const parentExists = childJob.parents.some(
+            (parent) => parent.jobid === currentJobData.job_id
+          );
+
+          if (!parentExists) {
+            childJob.parents.push({
+              jobtitle: currentJobData.job_name,
+              jobid: currentJobData.job_id,
+            });
+          }
+        }
+      });
+    }
+
+    // For each parent, update their children to include current job
+    if (currentJobData.parents && currentJobData.parents.length > 0) {
+      currentJobData.parents.forEach((parent) => {
+        const parentJob = this.existingData.find(
+          (job) =>
+            job.job_name === parent.jobtitle || job.job_id === parent.jobid
+        );
+
+        if (parentJob) {
+          // Add current job as child to the parent job
+          const childExists = parentJob.nextId.some(
+            (child) => child.jobid === currentJobData.job_id
+          );
+
+          if (!childExists) {
+            parentJob.nextId.push({
+              jobtitle: currentJobData.job_name,
+              jobid: currentJobData.job_id,
+            });
+          }
+        }
+      });
+    }
   }
 
   async getJobsList() {
+    console.log("Navigating to Zippia sales industry page...");
+    await this.page.goto("https://www.zippia.com/sales-industry/", {
+      waitUntil: "networkidle2",
+      timeout: 30000,
+    });
+
     try {
-      console.log(`Reading jobs from file: ${this.salesDataFile}`);
+      // Get sample job link text and hrefs to understand the structure
+      const pageInfo = await this.page.evaluate(() => {
+        const info = {
+          title: document.title,
+          allLinks: document.querySelectorAll("a").length,
+          listLinks: document.querySelectorAll("a.list-link").length,
+          jobLinks: document.querySelectorAll("a[href*='-jobs']").length,
+          salesLinks: document.querySelectorAll("a[href*='sales']").length,
+          sampleJobLinks: Array.from(
+            document.querySelectorAll("a[href*='-jobs']")
+          )
+            .slice(0, 5)
+            .map((link) => ({
+              text: link.textContent.trim(),
+              href: link.getAttribute("href"),
+              className: link.className,
+            })),
+          possibleSelectors: {
+            "a.list-link": document.querySelectorAll("a.list-link").length,
+            'a[href*="-jobs"]':
+              document.querySelectorAll("a[href*='-jobs']").length,
+            'a[href*="/"]': document.querySelectorAll("a[href*='/']").length,
+          },
+        };
+        return info;
+      });
 
-      // Read the sales.json file
-      const data = await fs.readFile(this.salesDataFile, "utf8");
-      const salesData = JSON.parse(data);
+      let jobLinks = [];
 
-      console.log(`Industry: ${salesData.industry_name}`);
-      console.log(`Total jobs found in file: ${salesData.jobtitle.length}`);
+      // Try multiple selectors in order of preference
+      const selectors = [
+        "a.list-link",
+        "a[href*='-jobs']",
+        "a[href*='/'][title*='job']",
+        "a[href*='/'][title]",
+      ];
 
-      // Store industry_id for later use
-      this.industryId = salesData.id;
+      for (const selector of selectors) {
+        jobLinks = await this.page.evaluate((sel) => {
+          const links = Array.from(document.querySelectorAll(sel))
+            .filter((link) => {
+              const href = link.getAttribute("href");
+              const text = link.textContent.trim();
 
-      // Extract job links from the jobtitle array
-      const jobLinks = salesData.jobtitle.map((job) => ({
-        name: job.jobtitle_name,
-        job_name: job.jobtitle_name,
-        job_slug: job.slug,
-        industry_id: salesData.id,
-        href: job.jobtitle_url,
-      }));
+              // Filter for job-related links
+              return (
+                href &&
+                href.includes("-jobs") &&
+                text.length > 2 &&
+                text.length < 50
+              );
+            })
+            .slice(0, jobLinks.length) // Remove limit - get all jobs on page
+            .map((link) => ({
+              name: link.textContent.trim(),
+              href: link.href.startsWith("http")
+                ? link.href
+                : `https://www.zippia.com${link.getAttribute("href")}`,
+            }));
 
-      // Limit to first 10 jobs for testing (remove this line to crawl all jobs)
-      const limitedJobLinks = jobLinks.slice(0, 10);
+          return links;
+        }, selector);
 
-      console.log(
-        `Found ${limitedJobLinks.length} job links to crawl:`,
-        limitedJobLinks.map((j) => j.name)
-      );
+        if (jobLinks.length > 0) {
+          break;
+        }
+      }
 
-      return limitedJobLinks;
+      // If still no jobs found, try a broader approach
+      if (jobLinks.length === 0) {
+        console.log("Trying broader job search approach...");
+        jobLinks = await this.page.evaluate(() => {
+          const allLinks = Array.from(document.querySelectorAll("a"));
+          const jobLinks = [];
+
+          for (const link of allLinks) {
+            const href = link.getAttribute("href");
+            const text = link.textContent.trim();
+
+            if (
+              href &&
+              href.includes("-jobs") &&
+              text.length > 2 &&
+              text.length < 50 &&
+              !text.toLowerCase().includes("show") &&
+              !text.toLowerCase().includes("more")
+            ) {
+              jobLinks.push({
+                name: text,
+                href: href.startsWith("http")
+                  ? href
+                  : `https://www.zippia.com${href}`,
+              });
+            }
+          }
+
+          return jobLinks;
+        });
+      }
+
+      if (jobLinks.length > 0) {
+        console.log(
+          `Found ${jobLinks.length} job links to crawl:`,
+          jobLinks.map((j) => j.name)
+        );
+        return jobLinks;
+      } else {
+        throw new Error("No job links found on page");
+      }
     } catch (error) {
-      console.error(`Error reading sales data file:`, error.message);
-
-      // Fallback to hardcoded jobs if file reading fails
-      console.log("Using fallback job list...");
-      const fallbackJobLinks = [
+      console.log(
+        "Error getting job list from page, using fallback...",
+        error.message
+      );
+      // Fallback to hardcoded jobs if page loading fails
+      const jobLinks = [
         {
           name: "Account Executive",
           href: "https://www.zippia.com/account-executive-jobs/",
@@ -116,12 +332,49 @@ export class ZippiaCrawler {
         },
       ];
 
-      return fallbackJobLinks;
+      console.log(
+        `Using fallback: Found ${jobLinks.length} job links to crawl`
+      );
+      return jobLinks;
     }
   }
 
-  async extractJobDetails(jobUrl, job) {
-    console.log(`Crawling job details for: ${job.job_name}`);
+  // Helper method to convert job name to URL
+  jobNameToUrl(jobName) {
+    if (!jobName) return null;
+
+    // Convert job name to URL format
+    const urlSafeJobName = jobName
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, "") // Remove special characters
+      .replace(/\s+/g, "-") // Replace spaces with hyphens
+      .trim();
+
+    return `https://www.zippia.com/${urlSafeJobName}-jobs/`;
+  }
+
+  // Add discovered jobs to queue for crawling
+  addJobsToQueue(jobNames, currentDepth) {
+    if (currentDepth >= this.maxDepth) {
+      return;
+    }
+
+    jobNames.forEach((jobName) => {
+      const jobUrl = this.jobNameToUrl(jobName);
+      if (jobUrl && !this.visitedJobs.has(jobUrl)) {
+        this.jobQueue.push({
+          name: jobName,
+          href: jobUrl,
+          depth: currentDepth + 1,
+        });
+      }
+    });
+  }
+
+  async extractJobDetails(jobUrl, jobName, depth = 0) {
+    // Mark this job as visited
+    this.visitedJobs.add(jobUrl);
+
     await this.page.goto(jobUrl, {
       waitUntil: "networkidle2",
       timeout: 30000,
@@ -130,16 +383,45 @@ export class ZippiaCrawler {
     // Wait for content to load
     await new Promise((resolve) => setTimeout(resolve, 2000));
 
+    // Click "Show more" button in career-paths section if it exists
+    try {
+      const showMoreButton = await this.page.$(
+        'section#career-paths button[type="button"]'
+      );
+      if (showMoreButton) {
+        const buttonText = await this.page.evaluate(
+          (btn) => btn.textContent.trim(),
+          showMoreButton
+        );
+        if (buttonText.toLowerCase().includes("show more")) {
+          console.log(`🔘 Clicking "Show more" button for ${jobName}`);
+          await showMoreButton.click();
+          // Wait for content to expand
+          await new Promise((resolve) => setTimeout(resolve, 2000));
+        }
+      }
+    } catch (error) {
+      console.log(
+        `⚠️ Could not click "Show more" button for ${jobName}:`,
+        error.message
+      );
+    }
+
     const jobData = {
-      job_id: this.findJobId(job.job_name),
-      job_name: job.job_name,
-      job_slug: job.job_slug,
-      industry_id: job.industry_id,
+      job_id: this.findJobId(jobName),
+      industry_id: null, // Will be populated by extracting industry from breadcrumb
+      job_name: jobName,
       parents: [],
       children: [],
       details: [],
       nextId: [],
     };
+
+    // Extract industry from breadcrumb
+    const industryId = await this.extractIndustryFromBreadcrumb();
+    if (industryId) {
+      jobData.industry_id = industryId;
+    }
 
     // Extract job details
     const details = await this.extractJobDetailsSection();
@@ -154,10 +436,121 @@ export class ZippiaCrawler {
     }
 
     // Extract nextId relationships
-    const nextIdData = await this.extractNextIdData();
-    jobData.nextId = nextIdData;
+    const careerData = await this.extractNextIdData();
+
+    // Map children to nextId array (limit to first 5 for performance)
+    if (careerData.children && careerData.children.length > 0) {
+      jobData.nextId = careerData.children.slice(0, 5).map((childJob) => ({
+        jobtitle: childJob,
+        jobid: this.findJobId(childJob),
+      }));
+    }
+
+    // Map parents - if there are parents, set the last one as the immediate parent
+    if (careerData.parents && careerData.parents.length > 0) {
+      const immediateParent = careerData.parents[careerData.parents.length - 1];
+      jobData.parents = [
+        {
+          jobtitle: immediateParent,
+          jobid: this.findJobId(immediateParent),
+        },
+      ];
+    }
+
+    console.log(`Job processed: ${jobData.job_name} (Depth: ${depth})`);
+
+    // Add discovered career path jobs to queue for future crawling
+    if (depth < this.maxDepth) {
+      const allRelatedJobs = [];
+
+      // Add children jobs
+      if (careerData.children && careerData.children.length > 0) {
+        allRelatedJobs.push(...careerData.children);
+      }
+
+      // Add parent jobs
+      if (careerData.parents && careerData.parents.length > 0) {
+        allRelatedJobs.push(...careerData.parents);
+      }
+
+      if (allRelatedJobs.length > 0) {
+        this.addJobsToQueue(allRelatedJobs, depth);
+      }
+    }
 
     return jobData;
+  }
+
+  async extractIndustryFromBreadcrumb() {
+    try {
+      const industryText = await this.page.evaluate(() => {
+        // Find the breadcrumb ul element
+        const breadcrumbUl = document.querySelector(
+          "ul.d-flex.flex-column.flex-md-row.flex-md-wrap.z-inter.BreadCrumbs_breadcrumb__xtOCT.col-12.col-lg-9.order-last.order-lg-first.mb-0"
+        );
+
+        if (!breadcrumbUl) {
+          console.log("Breadcrumb ul not found");
+          return null;
+        }
+
+        // Get all li elements
+        const listItems = breadcrumbUl.querySelectorAll("li");
+
+        if (listItems.length < 2) {
+          console.log("Not enough breadcrumb items");
+          return null;
+        }
+
+        // Get the second li element (index 1)
+        const secondLi = listItems[1];
+        const linkElement = secondLi.querySelector("a");
+
+        if (!linkElement) {
+          console.log("Link not found in second breadcrumb item");
+          return null;
+        }
+
+        const linkText = linkElement.textContent?.trim();
+        console.log("Found breadcrumb link text:", linkText);
+
+        return linkText;
+      });
+
+      if (!industryText) {
+        console.log("No industry text found in breadcrumb");
+        return null;
+      }
+
+      // Remove "Industry" text and convert to slug
+      let cleanIndustryText = industryText.replace(/industry/i, "").trim();
+
+      if (!cleanIndustryText) {
+        console.log('No clean industry text after removing "Industry"');
+        return null;
+      }
+
+      const industrySlug = this.textToSlug(cleanIndustryText);
+      console.log(
+        `Industry text: "${cleanIndustryText}" -> slug: "${industrySlug}"`
+      );
+
+      // Find matching industry ID
+      const industryId = this.findIndustryId(industrySlug);
+
+      if (industryId) {
+        console.log(
+          `✅ Matched industry: ${cleanIndustryText} -> ${industryId}`
+        );
+        return industryId;
+      } else {
+        console.log(`❌ No matching industry found for slug: ${industrySlug}`);
+        return null;
+      }
+    } catch (error) {
+      console.error("Error extracting industry from breadcrumb:", error);
+      return null;
+    }
   }
 
   async extractJobDetailsSection() {
@@ -176,16 +569,17 @@ export class ZippiaCrawler {
           requirements: [],
           job_description: "",
           meta_data: [],
+          FAQ: [],
         };
 
         // Extract overview
         try {
-          const overviewDiv = document.querySelector("div.content.no-margin");
+          const overviewDiv = document.querySelector("div.content.no-margin p");
           if (overviewDiv) {
             result.overview = overviewDiv.textContent.trim();
           }
         } catch (e) {
-          console.log("Error extracting overview:", e);
+          // ignore
         }
 
         // Extract salary and other data from bg-white z-p-20 sections
@@ -334,7 +728,7 @@ export class ZippiaCrawler {
                   }
                 }
               } catch (e) {
-                console.log("Error extracting diversity from section:", e);
+                // ignore
               }
             }
 
@@ -428,7 +822,7 @@ export class ZippiaCrawler {
             result.work_life_balance = 6; // Manageable = 6/10
           }
         } catch (e) {
-          console.log("Error extracting bg-white sections:", e);
+          // ignore
         }
 
         return result;
@@ -752,7 +1146,7 @@ export class ZippiaCrawler {
 
         details.pros_and_cons = prosAndCons;
       } catch (e) {
-        console.log("Error extracting pros and cons:", e);
+        // ignore
       }
 
       // Extract requirements
@@ -796,7 +1190,7 @@ export class ZippiaCrawler {
 
         details.requirements = requirements;
       } catch (e) {
-        console.log("Error extracting requirements:", e);
+        // ignore
       }
 
       // Extract meta data
@@ -821,7 +1215,444 @@ export class ZippiaCrawler {
 
         details.meta_data = metaData;
       } catch (e) {
-        console.log("Error extracting meta data:", e);
+        // ignore
+      }
+
+      // Extract FAQ data
+      try {
+        let allFaqData = [];
+
+        // Find all expandable FAQ buttons
+        const faqButtons = await this.page.$$(
+          "button.zpButton_button__1H39q.zpButton_link__8ZM66.zpButton_small__ow5Bs.zpButton_btn-link__oYFSK.rounded-circle.border.flex-shrink-0.z-ml-2.expandableCard_button__qlE4N"
+        );
+
+        console.log(`Found ${faqButtons.length} FAQ expandable buttons`);
+
+        if (faqButtons.length > 0) {
+          // Click buttons one by one and extract data after each click
+          for (let i = 0; i < faqButtons.length; i++) {
+            try {
+              console.log(`FAQ: Clicking button ${i + 1}/${faqButtons.length}`);
+              await faqButtons[i].click();
+              // Wait for content to expand
+              await new Promise((resolve) => setTimeout(resolve, 2000));
+
+              // Extract FAQ data after this button click
+              const faqData = await this.page.evaluate((buttonIndex) => {
+                const faqArray = [];
+
+                // Debug: Check what elements exist
+                const h3Elements = document.querySelectorAll("h3");
+                const questionContainers = document.querySelectorAll(
+                  "div.d-flex.justify-content-between.align-items-center.gg-18.expandableCard_trigger__wUt01.z-p-20"
+                );
+                const answerContainers = document.querySelectorAll(
+                  "div.overflow-hidden.expandableCard_content__8VCYc.z-px-20"
+                );
+                const contentBlurbs = document.querySelectorAll(
+                  "div.content-blurb.z-mb-20.questionAndAnswerSection_qna-answer__aged4"
+                );
+
+                console.log(
+                  `FAQ Debug Button ${buttonIndex + 1}: Found ${
+                    h3Elements.length
+                  } h3 elements, ${
+                    questionContainers.length
+                  } question containers, ${
+                    answerContainers.length
+                  } answer containers, ${
+                    contentBlurbs.length
+                  } content-blurb divs`
+                );
+
+                // Look for questions using the specific structure
+                const questionElements = document.querySelectorAll(
+                  "div.d-flex.justify-content-between.align-items-center.gg-18.expandableCard_trigger__wUt01.z-p-20 h3.zp-title-h3.mb-0"
+                );
+
+                console.log(
+                  `FAQ Debug Button ${buttonIndex + 1}: Found ${
+                    questionElements.length
+                  } question elements with specific structure`
+                );
+
+                questionElements.forEach((questionElement, index) => {
+                  const question = questionElement.textContent.trim();
+
+                  // Skip if question is too short
+                  if (!question || question.length < 5) {
+                    console.log(
+                      `FAQ Button ${
+                        buttonIndex + 1
+                      } Skipping short question ${index}: "${question}"`
+                    );
+                    return;
+                  }
+
+                  console.log(
+                    `FAQ Button ${
+                      buttonIndex + 1
+                    } Question ${index}: "${question}"`
+                  );
+
+                  // Find the corresponding answer using the specific structure
+                  let answer = "";
+
+                  // Method 1: Look for the answer in the expandable content structure
+                  // Find the parent expandable card trigger
+                  const triggerContainer = questionElement.closest(
+                    "div.d-flex.justify-content-between.align-items-center.gg-18.expandableCard_trigger__wUt01.z-p-20"
+                  );
+                  if (triggerContainer) {
+                    // Look for the corresponding expandable content container (sibling or nearby)
+                    let contentContainer = triggerContainer.nextElementSibling;
+                    let attempts = 0;
+
+                    while (contentContainer && attempts < 3 && !answer) {
+                      if (
+                        contentContainer.classList &&
+                        contentContainer.classList.contains(
+                          "overflow-hidden"
+                        ) &&
+                        contentContainer.classList.contains(
+                          "expandableCard_content__8VCYc"
+                        ) &&
+                        contentContainer.classList.contains("z-px-20")
+                      ) {
+                        // Look for the answer paragraph inside content-blurb
+                        const contentBlurbDiv = contentContainer.querySelector(
+                          "div.content-blurb.z-mb-20.questionAndAnswerSection_qna-answer__aged4"
+                        );
+                        if (contentBlurbDiv) {
+                          const answerParagraph =
+                            contentBlurbDiv.querySelector("p");
+                          if (answerParagraph) {
+                            answer = answerParagraph.textContent.trim();
+                            console.log(
+                              `FAQ Button ${
+                                buttonIndex + 1
+                              } Found specific answer structure: "${answer.substring(
+                                0,
+                                50
+                              )}..."`
+                            );
+                            break;
+                          }
+                        }
+                      }
+                      contentContainer = contentContainer.nextElementSibling;
+                      attempts++;
+                    }
+                  }
+
+                  // Method 2: Fallback - look for content-blurb divs near this question
+                  if (!answer) {
+                    console.log(
+                      `FAQ Button ${
+                        buttonIndex + 1
+                      } Using fallback method for question ${index}`
+                    );
+
+                    // Find all content-blurb divs and try to match with questions by position
+                    const allContentBlurbs = document.querySelectorAll(
+                      "div.content-blurb.z-mb-20.questionAndAnswerSection_qna-answer__aged4"
+                    );
+
+                    if (allContentBlurbs[index]) {
+                      const answerParagraph =
+                        allContentBlurbs[index].querySelector("p");
+                      if (answerParagraph) {
+                        answer = answerParagraph.textContent.trim();
+                        console.log(
+                          `FAQ Button ${
+                            buttonIndex + 1
+                          } Found fallback answer: "${answer.substring(
+                            0,
+                            50
+                          )}..."`
+                        );
+                      }
+                    }
+                  }
+
+                  // Method 3: Last resort - look for any paragraph element near the question
+                  if (!answer) {
+                    console.log(
+                      `FAQ Button ${
+                        buttonIndex + 1
+                      } Using last resort method for question ${index}`
+                    );
+
+                    let currentElement = questionElement.parentElement;
+                    let searchAttempts = 0;
+
+                    while (currentElement && searchAttempts < 5 && !answer) {
+                      const paragraphs = currentElement.querySelectorAll("p");
+                      for (let p of paragraphs) {
+                        const text = p.textContent.trim();
+                        if (
+                          text.length > 20 &&
+                          text.length < 1000 &&
+                          text !== question
+                        ) {
+                          answer = text;
+                          console.log(
+                            `FAQ Button ${
+                              buttonIndex + 1
+                            } Found last resort answer: "${answer.substring(
+                              0,
+                              50
+                            )}..."`
+                          );
+                          break;
+                        }
+                      }
+                      currentElement = currentElement.parentElement;
+                      searchAttempts++;
+                    }
+                  }
+
+                  if (
+                    question &&
+                    answer &&
+                    question.length > 5 &&
+                    answer.length > 10
+                  ) {
+                    faqArray.push({
+                      question: question,
+                      answer: answer,
+                    });
+                    console.log(
+                      `FAQ Button ${
+                        buttonIndex + 1
+                      } Added pair: "${question.substring(
+                        0,
+                        40
+                      )}..." -> "${answer.substring(0, 40)}..."`
+                    );
+                  } else {
+                    console.log(
+                      `FAQ Button ${
+                        buttonIndex + 1
+                      } Skipping pair - Question: "${question}" (${
+                        question.length
+                      } chars), Answer: "${answer}" (${answer.length} chars)`
+                    );
+                  }
+                });
+
+                return faqArray;
+              }, i);
+
+              console.log(
+                `FAQ: Button ${i + 1} extracted ${faqData.length} entries`
+              );
+
+              // Add new FAQ data to the collection (avoid duplicates)
+              faqData.forEach((newFaq) => {
+                const isDuplicate = allFaqData.some(
+                  (existingFaq) =>
+                    existingFaq.question.toLowerCase() ===
+                    newFaq.question.toLowerCase()
+                );
+                if (!isDuplicate) {
+                  allFaqData.push(newFaq);
+                }
+              });
+            } catch (buttonError) {
+              console.log(
+                `Error clicking FAQ button ${i + 1}:`,
+                buttonError.message
+              );
+            }
+          }
+        } else {
+          // No expandable buttons found, try to extract FAQ data directly
+          console.log(
+            "No FAQ expandable buttons found, trying direct extraction..."
+          );
+
+          const directFaqData = await this.page.evaluate(() => {
+            const faqArray = [];
+
+            // Debug: Check what elements exist
+            const h3Elements = document.querySelectorAll("h3");
+            const questionContainers = document.querySelectorAll(
+              "div.d-flex.justify-content-between.align-items-center.gg-18.expandableCard_trigger__wUt01.z-p-20"
+            );
+            const answerContainers = document.querySelectorAll(
+              "div.overflow-hidden.expandableCard_content__8VCYc.z-px-20"
+            );
+            const contentBlurbs = document.querySelectorAll(
+              "div.content-blurb.z-mb-20.questionAndAnswerSection_qna-answer__aged4"
+            );
+
+            console.log(
+              `FAQ Debug Direct: Found ${h3Elements.length} h3 elements, ${questionContainers.length} question containers, ${answerContainers.length} answer containers, ${contentBlurbs.length} content-blurb divs`
+            );
+
+            // Look for questions using the specific structure
+            const questionElements = document.querySelectorAll(
+              "div.d-flex.justify-content-between.align-items-center.gg-18.expandableCard_trigger__wUt01.z-p-20 h3.zp-title-h3.mb-0"
+            );
+
+            console.log(
+              `FAQ Debug Direct: Found ${questionElements.length} question elements with specific structure`
+            );
+
+            questionElements.forEach((questionElement, index) => {
+              const question = questionElement.textContent.trim();
+
+              // Skip if question is too short
+              if (!question || question.length < 5) {
+                console.log(
+                  `FAQ Direct Skipping short question ${index}: "${question}"`
+                );
+                return;
+              }
+
+              console.log(`FAQ Direct Question ${index}: "${question}"`);
+
+              // Find the corresponding answer using the specific structure
+              let answer = "";
+
+              // Method 1: Look for the answer in the expandable content structure
+              // Find the parent expandable card trigger
+              const triggerContainer = questionElement.closest(
+                "div.d-flex.justify-content-between.align-items-center.gg-18.expandableCard_trigger__wUt01.z-p-20"
+              );
+              if (triggerContainer) {
+                // Look for the corresponding expandable content container (sibling or nearby)
+                let contentContainer = triggerContainer.nextElementSibling;
+                let attempts = 0;
+
+                while (contentContainer && attempts < 3 && !answer) {
+                  if (
+                    contentContainer.classList &&
+                    contentContainer.classList.contains("overflow-hidden") &&
+                    contentContainer.classList.contains(
+                      "expandableCard_content__8VCYc"
+                    ) &&
+                    contentContainer.classList.contains("z-px-20")
+                  ) {
+                    // Look for the answer paragraph inside content-blurb
+                    const contentBlurbDiv = contentContainer.querySelector(
+                      "div.content-blurb.z-mb-20.questionAndAnswerSection_qna-answer__aged4"
+                    );
+                    if (contentBlurbDiv) {
+                      const answerParagraph =
+                        contentBlurbDiv.querySelector("p");
+                      if (answerParagraph) {
+                        answer = answerParagraph.textContent.trim();
+                        console.log(
+                          `FAQ Direct Found specific answer structure: "${answer.substring(
+                            0,
+                            50
+                          )}..."`
+                        );
+                        break;
+                      }
+                    }
+                  }
+                  contentContainer = contentContainer.nextElementSibling;
+                  attempts++;
+                }
+              }
+
+              // Method 2: Fallback - look for content-blurb divs near this question
+              if (!answer) {
+                console.log(
+                  `FAQ Direct Using fallback method for question ${index}`
+                );
+
+                // Find all content-blurb divs and try to match with questions by position
+                const allContentBlurbs = document.querySelectorAll(
+                  "div.content-blurb.z-mb-20.questionAndAnswerSection_qna-answer__aged4"
+                );
+
+                if (allContentBlurbs[index]) {
+                  const answerParagraph =
+                    allContentBlurbs[index].querySelector("p");
+                  if (answerParagraph) {
+                    answer = answerParagraph.textContent.trim();
+                    console.log(
+                      `FAQ Direct Found fallback answer: "${answer.substring(
+                        0,
+                        50
+                      )}..."`
+                    );
+                  }
+                }
+              }
+
+              // Method 3: Last resort - look for any paragraph element near the question
+              if (!answer) {
+                console.log(
+                  `FAQ Direct Using last resort method for question ${index}`
+                );
+
+                let currentElement = questionElement.parentElement;
+                let searchAttempts = 0;
+
+                while (currentElement && searchAttempts < 5 && !answer) {
+                  const paragraphs = currentElement.querySelectorAll("p");
+                  for (let p of paragraphs) {
+                    const text = p.textContent.trim();
+                    if (
+                      text.length > 20 &&
+                      text.length < 1000 &&
+                      text !== question
+                    ) {
+                      answer = text;
+                      console.log(
+                        `FAQ Direct Found last resort answer: "${answer.substring(
+                          0,
+                          50
+                        )}..."`
+                      );
+                      break;
+                    }
+                  }
+                  currentElement = currentElement.parentElement;
+                  searchAttempts++;
+                }
+              }
+
+              if (
+                question &&
+                answer &&
+                question.length > 5 &&
+                answer.length > 10
+              ) {
+                faqArray.push({
+                  question: question,
+                  answer: answer,
+                });
+                console.log(
+                  `FAQ Direct Added pair: "${question.substring(
+                    0,
+                    40
+                  )}..." -> "${answer.substring(0, 40)}..."`
+                );
+              } else {
+                console.log(
+                  `FAQ Direct Skipping pair - Question: "${question}" (${question.length} chars), Answer: "${answer}" (${answer.length} chars)`
+                );
+              }
+            });
+
+            return faqArray;
+          });
+
+          allFaqData = directFaqData;
+        }
+
+        details.FAQ = allFaqData;
+        console.log(`Total extracted ${allFaqData.length} FAQ entries`);
+      } catch (e) {
+        console.log("Error extracting FAQ data:", e);
+        details.FAQ = [];
       }
 
       return details;
@@ -835,7 +1666,6 @@ export class ZippiaCrawler {
     try {
       // Navigate to education page
       const educationUrl = jobUrl + "education/";
-      console.log(`Navigating to education page: ${educationUrl}`);
 
       await this.page.goto(educationUrl, {
         waitUntil: "networkidle2",
@@ -859,7 +1689,7 @@ export class ZippiaCrawler {
             education.description = descriptionDiv.textContent.trim();
           }
         } catch (e) {
-          console.log("Error extracting education description:", e);
+          // ignore
         }
 
         // Extract degree data
@@ -915,7 +1745,7 @@ export class ZippiaCrawler {
             }
           });
         } catch (e) {
-          console.log("Error extracting degree data:", e);
+          // ignore
         }
 
         // Extract major data with show more functionality
@@ -1007,7 +1837,7 @@ export class ZippiaCrawler {
             }
           }
         } catch (e) {
-          console.log("Error extracting major data:", e);
+          // ignore
         }
 
         // Extract courses data with show more functionality
@@ -1215,18 +2045,13 @@ export class ZippiaCrawler {
             }
           }
         } catch (e) {
-          console.log("Error extracting courses data:", e);
+          // ignore
         }
 
         return education;
       });
 
-      console.log(
-        `Found education data: ${educationData.degree.length} degrees, ${educationData.major.length} majors, ${educationData.courses.length} courses`
-      );
-
       // Navigate back to the main job page
-      console.log(`Navigating back to main job page: ${jobUrl}`);
       await this.page.goto(jobUrl, {
         waitUntil: "networkidle2",
         timeout: 30000,
@@ -1252,70 +2077,197 @@ export class ZippiaCrawler {
 
   async extractNextIdData() {
     try {
-      const nextIdData = await this.page.evaluate(() => {
-        const careerPathRows = document.querySelectorAll(
-          "div.d-flex.align-items-end.position-relative.careerPaths_row__kyPft.careerPaths_right__ME3vJ.z-ml-30.careerPaths_bottom__3Kj_O.careerPaths_even__xslbY"
+      const careerData = await this.page.evaluate(() => {
+        const careerDiv = document.querySelector(
+          "section#career-paths div.d-flex.justify-content-center.z-pb-60.align-items-center"
         );
-        const result = [];
 
-        careerPathRows.forEach((row) => {
-          const infoDiv = row.querySelector(
-            "div.careerPaths_info__zncVb.careerPaths_right__ME3vJ.text-right"
-          );
-          if (infoDiv) {
-            const titleElement = infoDiv.querySelector(
-              "p.z-m-0.z-font-14.z-leading-14px.line-clamp-3.careerPaths_title__SY2KB.careerPaths_link__E78bU.z-mb-6"
-            );
-            if (titleElement) {
-              const jobTitle = titleElement.textContent.trim();
-              result.push({
-                jobtitle: jobTitle,
-                jobid: "", // Will be filled by findJobId method
-              });
+        if (!careerDiv) {
+          return { currentJob: null, parents: [], children: [] };
+        }
+
+        const childDivs = Array.from(careerDiv.children);
+
+        let currentJob = null;
+        let parents = [];
+        let children = [];
+
+        function cleanJobTitle(text) {
+          // Remove salary information, years, and extra whitespace
+          return text
+            .replace(/\$[\d,]+.*$/i, "") // Remove salary amounts
+            .replace(/salary.*$/i, "") // Remove "salary" text
+            .replace(/\d+\s*years?/i, "") // Remove "X years"
+            .replace(/\s*avg.*$/i, "") // Remove "Avg" and everything after
+            .replace(/\s*average\s*$/i, "") // Remove "Average" at end
+            .replace(/\s*show\s*more\s*$/i, "") // Remove "Show more" at end
+            .replace(/^\d+\.\s*/, "") // Remove numbering like "1. "
+            .replace(/\s+/g, " ") // Normalize whitespace
+            .trim();
+        }
+
+        function extractJobsFromDiv(div) {
+          const jobs = [];
+          const jobElements = div.querySelectorAll("*");
+
+          jobElements.forEach((element) => {
+            const text = element.textContent?.trim();
+            if (text && text.length > 2 && text.length < 100) {
+              const cleanedText = cleanJobTitle(text);
+              if (
+                cleanedText &&
+                cleanedText.length > 2 &&
+                !cleanedText.toLowerCase().includes("show") &&
+                !cleanedText.toLowerCase().includes("avg") &&
+                cleanedText.toLowerCase() !== "average" &&
+                cleanedText.toLowerCase() !== "more" &&
+                !jobs.includes(cleanedText)
+              ) {
+                jobs.push(cleanedText);
+              }
             }
-          }
-        });
+          });
 
-        return result;
+          return jobs.filter((job) => job.length > 2 && !job.match(/^\d+$/)); // Filter out pure numbers
+        }
+
+        if (childDivs.length === 3) {
+          // 3 child divs: 1st = left (parents), 2nd = current, 3rd = right (children)
+
+          // Get current job from 2nd div
+          const currentJobText = childDivs[1].textContent?.trim();
+          if (currentJobText) {
+            currentJob = cleanJobTitle(currentJobText);
+          }
+
+          // Get parents from 1st div (reversed order: 0 -> 1 -> 2 -> current)
+          const leftJobs = extractJobsFromDiv(childDivs[0]);
+          parents = leftJobs.reverse(); // Reverse to get correct order
+
+          // Get children from 3rd div (current -> 1 -> 2 -> 3)
+          children = extractJobsFromDiv(childDivs[2]);
+        } else if (childDivs.length === 2) {
+          // 2 child divs: 1st = current, 2nd = right (children)
+
+          // Get current job from 1st div
+          const currentJobText = childDivs[0].textContent?.trim();
+          if (currentJobText) {
+            currentJob = cleanJobTitle(currentJobText);
+          }
+
+          // No parents (current job is root)
+          parents = [];
+
+          // Get children from 2nd div
+          children = extractJobsFromDiv(childDivs[1]);
+        }
+
+        return {
+          currentJob,
+          parents,
+          children,
+        };
       });
 
-      // Fill in job IDs
-      const processedNextId = nextIdData.map((item) => ({
-        jobtitle: item.jobtitle,
-        jobid: this.findJobId(item.jobtitle),
-      }));
-
-      return processedNextId;
+      return careerData;
     } catch (error) {
       console.error("Error extracting nextId data:", error);
-      return [];
+      return { currentJob: null, parents: [], children: [] };
     }
   }
 
   async crawlJobs() {
     try {
-      // Get list of jobs to crawl
-      const jobsList = await this.getJobsList();
+      console.log("🚀 Starting recursive job crawling process...");
+      console.log(`📏 Maximum crawling depth: ${this.maxDepth}`);
 
-      for (const job of jobsList) {
+      // Get initial list of jobs to crawl
+      const initialJobsList = await this.getJobsList();
+
+      // Add initial jobs to queue with depth 0
+      initialJobsList.forEach((job) => {
+        this.jobQueue.push({
+          name: job.name,
+          href: job.href,
+          depth: 0,
+        });
+      });
+
+      console.log(`📋 Initial jobs to crawl: ${this.jobQueue.length}`);
+
+      let jobsProcessed = 0;
+
+      // Process jobs from queue until empty
+      while (this.jobQueue.length > 0) {
+        const currentJob = this.jobQueue.shift(); // Get next job from queue
+
+        // Skip if already visited
+        if (this.visitedJobs.has(currentJob.href)) {
+          continue;
+        }
+
         try {
-          // Extract details for each job
-          const jobData = await this.extractJobDetails(job.href, job);
+          jobsProcessed++;
+          console.log(
+            `[${jobsProcessed}] Processing: ${currentJob.name} (Depth: ${currentJob.depth})`
+          );
 
-          // Save job data to file
+          // Extract details for current job
+          const jobData = await this.extractJobDetails(
+            currentJob.href,
+            currentJob.name,
+            currentJob.depth
+          );
+
+          // Save job data to file (this also updates relationships)
           await this.saveJobData(jobData);
 
-          // Wait between requests to be respectful
-          await new Promise((resolve) => setTimeout(resolve, 3000));
+          // Wait between requests to be respectful to the server
+          if (this.jobQueue.length > 0) {
+            await new Promise((resolve) => setTimeout(resolve, 3000));
+          }
         } catch (error) {
-          console.error(`Error crawling job ${job.job_name}:`, error);
+          console.error(
+            `❌ Error crawling job ${currentJob.name}:`,
+            error.message
+          );
+          // Continue with next job even if one fails
         }
       }
 
-      console.log("Crawling completed successfully!");
+      console.log("\n🎉 Recursive crawling completed!");
+      console.log(`📈 Total jobs processed: ${jobsProcessed}`);
+      console.log(
+        `📈 Final database contains ${this.existingData.length} jobs`
+      );
+
+      // Show summary of relationships
+      this.showRelationshipsSummary();
     } catch (error) {
-      console.error("Error in crawling process:", error);
+      console.error("❌ Error in recursive crawling process:", error);
     }
+  }
+
+  showRelationshipsSummary() {
+    console.log("\n📊 === RELATIONSHIPS SUMMARY ===");
+
+    let totalParents = 0;
+    let totalChildren = 0;
+
+    this.existingData.forEach((job) => {
+      if (job.job_name) {
+        const parentCount = job.parents ? job.parents.length : 0;
+        const childCount = job.nextId ? job.nextId.length : 0;
+
+        totalParents += parentCount;
+        totalChildren += childCount;
+      }
+    });
+
+    console.log(`📈 Total parent relationships: ${totalParents}`);
+    console.log(`📈 Total child relationships: ${totalChildren}`);
+    console.log(`🔄 Max depth explored: ${this.maxDepth}`);
+    console.log(`💾 Data saved to: ${this.dataFile}`);
   }
 
   async close() {

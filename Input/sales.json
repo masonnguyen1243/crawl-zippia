@@ -1,0 +1,5242 @@
+{
+  "id": "cmftgg8nw001vaumfb4cseg4x",
+  "industry_name": "Sales",
+  "slug": "sales",
+  "jobtitle": [
+    {
+      "jobtitle_name": "Account Customer Engineer",
+      "slug": "account-customer-engineer",
+      "jobtitle_url": "https://www.zippia.com/account-customer-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Development Representative",
+      "slug": "account-development-representative",
+      "jobtitle_url": "https://www.zippia.com/account-development-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Executive",
+      "slug": "account-executive",
+      "jobtitle_url": "https://www.zippia.com/account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Executive Lead",
+      "slug": "account-executive-lead",
+      "jobtitle_url": "https://www.zippia.com/account-executive-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Executive-Field",
+      "slug": "account-executivefield",
+      "jobtitle_url": "https://www.zippia.com/account-executivefield-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Executive, Advertising & Sales",
+      "slug": "account-executive-advertising-sales",
+      "jobtitle_url": "https://www.zippia.com/account-executive-advertising-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Executive, Key Accounts",
+      "slug": "account-executive-key-accounts",
+      "jobtitle_url": "https://www.zippia.com/account-executive-key-accounts-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Executive/Outside Sales",
+      "slug": "account-executiveoutside-sales",
+      "jobtitle_url": "https://www.zippia.com/account-executiveoutside-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Manager Supervisor",
+      "slug": "account-manager-supervisor",
+      "jobtitle_url": "https://www.zippia.com/account-manager-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Manager/Consultant",
+      "slug": "account-managerconsultant",
+      "jobtitle_url": "https://www.zippia.com/account-managerconsultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Manager/Senior Technician",
+      "slug": "account-managersenior-technician",
+      "jobtitle_url": "https://www.zippia.com/account-managersenior-technician-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Marketing Representative",
+      "slug": "account-marketing-representative",
+      "jobtitle_url": "https://www.zippia.com/account-marketing-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Representative-Non-Profit Division",
+      "slug": "account-representativenonprofit-division",
+      "jobtitle_url": "https://www.zippia.com/account-representativenonprofit-division-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Support Representative",
+      "slug": "account-support-representative",
+      "jobtitle_url": "https://www.zippia.com/account-support-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Account Systems Engineer",
+      "slug": "account-systems-engineer",
+      "jobtitle_url": "https://www.zippia.com/account-systems-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Administrative Assistant Lead",
+      "slug": "administrative-assistant-lead",
+      "jobtitle_url": "https://www.zippia.com/administrative-assistant-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Admissions Gate Attendant",
+      "slug": "admissions-gate-attendant",
+      "jobtitle_url": "https://www.zippia.com/admissions-gate-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Advanced Repair Agent",
+      "slug": "advanced-repair-agent",
+      "jobtitle_url": "https://www.zippia.com/advanced-repair-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Advanced Sales Representative",
+      "slug": "advanced-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/advanced-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising & Sales Coordinator",
+      "slug": "advertising-sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/advertising-sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Account Executive",
+      "slug": "advertising-account-executive",
+      "jobtitle_url": "https://www.zippia.com/advertising-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Agent",
+      "slug": "advertising-agent",
+      "jobtitle_url": "https://www.zippia.com/advertising-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Associate",
+      "slug": "advertising-associate",
+      "jobtitle_url": "https://www.zippia.com/advertising-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Consultant",
+      "slug": "advertising-consultant",
+      "jobtitle_url": "https://www.zippia.com/advertising-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Coordinator",
+      "slug": "advertising-coordinator",
+      "jobtitle_url": "https://www.zippia.com/advertising-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Internship",
+      "slug": "advertising-internship",
+      "jobtitle_url": "https://www.zippia.com/advertising-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Media Consultant",
+      "slug": "advertising-media-consultant",
+      "jobtitle_url": "https://www.zippia.com/advertising-media-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Representative",
+      "slug": "advertising-representative",
+      "jobtitle_url": "https://www.zippia.com/advertising-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Sales",
+      "slug": "advertising-sales",
+      "jobtitle_url": "https://www.zippia.com/advertising-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Sales Consultant",
+      "slug": "advertising-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/advertising-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Sales Executive",
+      "slug": "advertising-sales-executive",
+      "jobtitle_url": "https://www.zippia.com/advertising-sales-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Sales Representative",
+      "slug": "advertising-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/advertising-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Advertising Specialist",
+      "slug": "advertising-specialist",
+      "jobtitle_url": "https://www.zippia.com/advertising-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Adviser Sales",
+      "slug": "adviser-sales",
+      "jobtitle_url": "https://www.zippia.com/adviser-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Affiliate Broker",
+      "slug": "affiliate-broker",
+      "jobtitle_url": "https://www.zippia.com/affiliate-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Agent",
+      "slug": "agent",
+      "jobtitle_url": "https://www.zippia.com/agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Agent Assistant",
+      "slug": "agent-assistant",
+      "jobtitle_url": "https://www.zippia.com/agent-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Agricultural Sales Representative",
+      "slug": "agricultural-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/agricultural-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Airport Sales Agent",
+      "slug": "airport-sales-agent",
+      "jobtitle_url": "https://www.zippia.com/airport-sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "All Purpose Clerk",
+      "slug": "all-purpose-clerk",
+      "jobtitle_url": "https://www.zippia.com/all-purpose-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Ambassador",
+      "slug": "ambassador",
+      "jobtitle_url": "https://www.zippia.com/ambassador-jobs/"
+    },
+    {
+      "jobtitle_name": "Apartment Leasing Agent",
+      "slug": "apartment-leasing-agent",
+      "jobtitle_url": "https://www.zippia.com/apartment-leasing-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Apparel Associate",
+      "slug": "apparel-associate",
+      "jobtitle_url": "https://www.zippia.com/apparel-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Apparel Rental Clerk",
+      "slug": "apparel-rental-clerk",
+      "jobtitle_url": "https://www.zippia.com/apparel-rental-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Apparel Sales Associate",
+      "slug": "apparel-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/apparel-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Appliance Sales Associate",
+      "slug": "appliance-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/appliance-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Appliance Sales Specialist",
+      "slug": "appliance-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/appliance-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Application Engineer",
+      "slug": "application-engineer",
+      "jobtitle_url": "https://www.zippia.com/application-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Applications Engineer/Product Manager",
+      "slug": "applications-engineerproduct-manager",
+      "jobtitle_url": "https://www.zippia.com/applications-engineerproduct-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Appointment Setter",
+      "slug": "appointment-setter",
+      "jobtitle_url": "https://www.zippia.com/appointment-setter-jobs/"
+    },
+    {
+      "jobtitle_name": "Area Sales Representative",
+      "slug": "area-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/area-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Area Supervisor",
+      "slug": "area-supervisor",
+      "jobtitle_url": "https://www.zippia.com/area-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Art Department Head",
+      "slug": "art-department-head",
+      "jobtitle_url": "https://www.zippia.com/art-department-head-jobs/"
+    },
+    {
+      "jobtitle_name": "Art Model",
+      "slug": "art-model",
+      "jobtitle_url": "https://www.zippia.com/art-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Artist's Model",
+      "slug": "artists-model",
+      "jobtitle_url": "https://www.zippia.com/artists-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Department Head",
+      "slug": "assistant-department-head",
+      "jobtitle_url": "https://www.zippia.com/assistant-department-head-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Department Manager",
+      "slug": "assistant-department-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-department-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Floor Manager",
+      "slug": "assistant-floor-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-floor-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Front End Manager",
+      "slug": "assistant-front-end-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-front-end-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Golf Professional",
+      "slug": "assistant-golf-professional",
+      "jobtitle_url": "https://www.zippia.com/assistant-golf-professional-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Grocery Manager",
+      "slug": "assistant-grocery-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-grocery-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Lead Technician",
+      "slug": "assistant-lead-technician",
+      "jobtitle_url": "https://www.zippia.com/assistant-lead-technician-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager & Visual Manager",
+      "slug": "assistant-manager-visual-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-manager-visual-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager Retail",
+      "slug": "assistant-manager-retail",
+      "jobtitle_url": "https://www.zippia.com/assistant-manager-retail-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager Trainee",
+      "slug": "assistant-manager-trainee",
+      "jobtitle_url": "https://www.zippia.com/assistant-manager-trainee-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager-Key Holder",
+      "slug": "assistant-managerkey-holder",
+      "jobtitle_url": "https://www.zippia.com/assistant-managerkey-holder-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager, Sales",
+      "slug": "assistant-manager-sales",
+      "jobtitle_url": "https://www.zippia.com/assistant-manager-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager/Inventory Manager",
+      "slug": "assistant-managerinventory-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-managerinventory-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager/Manager Training",
+      "slug": "assistant-managermanager-training",
+      "jobtitle_url": "https://www.zippia.com/assistant-managermanager-training-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager/Merchandise",
+      "slug": "assistant-managermerchandise",
+      "jobtitle_url": "https://www.zippia.com/assistant-managermerchandise-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager/Sales Associate",
+      "slug": "assistant-managersales-associate",
+      "jobtitle_url": "https://www.zippia.com/assistant-managersales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Manager/Sales Person",
+      "slug": "assistant-managersales-person",
+      "jobtitle_url": "https://www.zippia.com/assistant-managersales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Parts Manager",
+      "slug": "assistant-parts-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-parts-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Produce Manager",
+      "slug": "assistant-produce-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-produce-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Program Leader",
+      "slug": "assistant-program-leader",
+      "jobtitle_url": "https://www.zippia.com/assistant-program-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Retail Sales Manager",
+      "slug": "assistant-retail-sales-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-retail-sales-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Shift Supervisor",
+      "slug": "assistant-shift-supervisor",
+      "jobtitle_url": "https://www.zippia.com/assistant-shift-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Shop Manager",
+      "slug": "assistant-shop-manager",
+      "jobtitle_url": "https://www.zippia.com/assistant-shop-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Assistant Store Director",
+      "slug": "assistant-store-director",
+      "jobtitle_url": "https://www.zippia.com/assistant-store-director-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate",
+      "slug": "associate",
+      "jobtitle_url": "https://www.zippia.com/associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate Account Executive",
+      "slug": "associate-account-executive",
+      "jobtitle_url": "https://www.zippia.com/associate-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate Broker",
+      "slug": "associate-broker",
+      "jobtitle_url": "https://www.zippia.com/associate-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate Broker/Realtor",
+      "slug": "associate-brokerrealtor",
+      "jobtitle_url": "https://www.zippia.com/associate-brokerrealtor-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate Retailer",
+      "slug": "associate-retailer",
+      "jobtitle_url": "https://www.zippia.com/associate-retailer-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate Sales Representative",
+      "slug": "associate-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/associate-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate Specialist",
+      "slug": "associate-specialist",
+      "jobtitle_url": "https://www.zippia.com/associate-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate Supervisor",
+      "slug": "associate-supervisor",
+      "jobtitle_url": "https://www.zippia.com/associate-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Associate/Team Lead",
+      "slug": "associateteam-lead",
+      "jobtitle_url": "https://www.zippia.com/associateteam-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Attendant Sales",
+      "slug": "attendant-sales",
+      "jobtitle_url": "https://www.zippia.com/attendant-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Auctioneer",
+      "slug": "auctioneer",
+      "jobtitle_url": "https://www.zippia.com/auctioneer-jobs/"
+    },
+    {
+      "jobtitle_name": "Auto Dealer",
+      "slug": "auto-dealer",
+      "jobtitle_url": "https://www.zippia.com/auto-dealer-jobs/"
+    },
+    {
+      "jobtitle_name": "Auto Leasing Manager",
+      "slug": "auto-leasing-manager",
+      "jobtitle_url": "https://www.zippia.com/auto-leasing-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Auto Parts Clerk",
+      "slug": "auto-parts-clerk",
+      "jobtitle_url": "https://www.zippia.com/auto-parts-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Auto Parts Counterperson",
+      "slug": "auto-parts-counterperson",
+      "jobtitle_url": "https://www.zippia.com/auto-parts-counterperson-jobs/"
+    },
+    {
+      "jobtitle_name": "Auto Rental Supervisor",
+      "slug": "auto-rental-supervisor",
+      "jobtitle_url": "https://www.zippia.com/auto-rental-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Auto Sales Consultant",
+      "slug": "auto-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/auto-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Automobile Leasing Supervisor",
+      "slug": "automobile-leasing-supervisor",
+      "jobtitle_url": "https://www.zippia.com/automobile-leasing-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Automobile Sales Person",
+      "slug": "automobile-sales-person",
+      "jobtitle_url": "https://www.zippia.com/automobile-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Automotive Leasing Sales Representative",
+      "slug": "automotive-leasing-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/automotive-leasing-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Automotive Sales Consultant",
+      "slug": "automotive-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/automotive-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Automotive Sales Person",
+      "slug": "automotive-sales-person",
+      "jobtitle_url": "https://www.zippia.com/automotive-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Avon Representative",
+      "slug": "avon-representative",
+      "jobtitle_url": "https://www.zippia.com/avon-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Avon Sales Representative",
+      "slug": "avon-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/avon-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "B2B Sales Representatives",
+      "slug": "b2b-sales-representatives",
+      "jobtitle_url": "https://www.zippia.com/b2b-sales-representatives-jobs/"
+    },
+    {
+      "jobtitle_name": "Backroom Associate",
+      "slug": "backroom-associate",
+      "jobtitle_url": "https://www.zippia.com/backroom-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Backroom Team Member",
+      "slug": "backroom-team-member",
+      "jobtitle_url": "https://www.zippia.com/backroom-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Bakery Clerk And Cashier",
+      "slug": "bakery-clerk-and-cashier",
+      "jobtitle_url": "https://www.zippia.com/bakery-clerk-and-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Bank Cashier",
+      "slug": "bank-cashier",
+      "jobtitle_url": "https://www.zippia.com/bank-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Bank Specialist",
+      "slug": "bank-specialist",
+      "jobtitle_url": "https://www.zippia.com/bank-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Banker",
+      "slug": "banker",
+      "jobtitle_url": "https://www.zippia.com/banker-jobs/"
+    },
+    {
+      "jobtitle_name": "Bay Integrity Associate",
+      "slug": "bay-integrity-associate",
+      "jobtitle_url": "https://www.zippia.com/bay-integrity-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Beauty Advisor",
+      "slug": "beauty-advisor",
+      "jobtitle_url": "https://www.zippia.com/beauty-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Beauty Advisor/Sales Associate",
+      "slug": "beauty-advisorsales-associate",
+      "jobtitle_url": "https://www.zippia.com/beauty-advisorsales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Beauty Consultant",
+      "slug": "beauty-consultant",
+      "jobtitle_url": "https://www.zippia.com/beauty-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Bell Ringer",
+      "slug": "bell-ringer",
+      "jobtitle_url": "https://www.zippia.com/bell-ringer-jobs/"
+    },
+    {
+      "jobtitle_name": "Bilingual Sales Representative",
+      "slug": "bilingual-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/bilingual-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Bingo Cashier",
+      "slug": "bingo-cashier",
+      "jobtitle_url": "https://www.zippia.com/bingo-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Blood Donor Recruiter",
+      "slug": "blood-donor-recruiter",
+      "jobtitle_url": "https://www.zippia.com/blood-donor-recruiter-jobs/"
+    },
+    {
+      "jobtitle_name": "Blood Donor Recruiter Supervisor",
+      "slug": "blood-donor-recruiter-supervisor",
+      "jobtitle_url": "https://www.zippia.com/blood-donor-recruiter-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Bond Trader",
+      "slug": "bond-trader",
+      "jobtitle_url": "https://www.zippia.com/bond-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Bonding Agent",
+      "slug": "bonding-agent",
+      "jobtitle_url": "https://www.zippia.com/bonding-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Bookseller/Cashier",
+      "slug": "booksellercashier",
+      "jobtitle_url": "https://www.zippia.com/booksellercashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Bookstore Clerk",
+      "slug": "bookstore-clerk",
+      "jobtitle_url": "https://www.zippia.com/bookstore-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Bookstore Manager",
+      "slug": "bookstore-manager",
+      "jobtitle_url": "https://www.zippia.com/bookstore-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Booth Cashier",
+      "slug": "booth-cashier",
+      "jobtitle_url": "https://www.zippia.com/booth-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Booth Operator",
+      "slug": "booth-operator",
+      "jobtitle_url": "https://www.zippia.com/booth-operator-jobs/"
+    },
+    {
+      "jobtitle_name": "Bottle Booth Attendant",
+      "slug": "bottle-booth-attendant",
+      "jobtitle_url": "https://www.zippia.com/bottle-booth-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Box Office, Cashier",
+      "slug": "box-office-cashier",
+      "jobtitle_url": "https://www.zippia.com/box-office-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "BRA Specialist",
+      "slug": "bra-specialist",
+      "jobtitle_url": "https://www.zippia.com/bra-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Branch Account Executive",
+      "slug": "branch-account-executive",
+      "jobtitle_url": "https://www.zippia.com/branch-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Branch Rental Manager",
+      "slug": "branch-rental-manager",
+      "jobtitle_url": "https://www.zippia.com/branch-rental-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Brand Advocate",
+      "slug": "brand-advocate",
+      "jobtitle_url": "https://www.zippia.com/brand-advocate-jobs/"
+    },
+    {
+      "jobtitle_name": "Brand Ambassador",
+      "slug": "brand-ambassador",
+      "jobtitle_url": "https://www.zippia.com/brand-ambassador-jobs/"
+    },
+    {
+      "jobtitle_name": "Brand Representative",
+      "slug": "brand-representative",
+      "jobtitle_url": "https://www.zippia.com/brand-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Bridal Consultant",
+      "slug": "bridal-consultant",
+      "jobtitle_url": "https://www.zippia.com/bridal-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Broker",
+      "slug": "broker",
+      "jobtitle_url": "https://www.zippia.com/broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Broker In Charge",
+      "slug": "broker-in-charge",
+      "jobtitle_url": "https://www.zippia.com/broker-in-charge-jobs/"
+    },
+    {
+      "jobtitle_name": "Broker Realtor",
+      "slug": "broker-realtor",
+      "jobtitle_url": "https://www.zippia.com/broker-realtor-jobs/"
+    },
+    {
+      "jobtitle_name": "Bulk Plant Supervisor",
+      "slug": "bulk-plant-supervisor",
+      "jobtitle_url": "https://www.zippia.com/bulk-plant-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Business Account Leader",
+      "slug": "business-account-leader",
+      "jobtitle_url": "https://www.zippia.com/business-account-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Business Agent",
+      "slug": "business-agent",
+      "jobtitle_url": "https://www.zippia.com/business-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Business Banker",
+      "slug": "business-banker",
+      "jobtitle_url": "https://www.zippia.com/business-banker-jobs/"
+    },
+    {
+      "jobtitle_name": "Business Development Engineer",
+      "slug": "business-development-engineer",
+      "jobtitle_url": "https://www.zippia.com/business-development-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Business Development Representative",
+      "slug": "business-development-representative",
+      "jobtitle_url": "https://www.zippia.com/business-development-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Business Sales Associate",
+      "slug": "business-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/business-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Business Sales Representative",
+      "slug": "business-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/business-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Business To Business Sales Consultant",
+      "slug": "business-to-business-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/business-to-business-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Business-Business-Account Representative",
+      "slug": "businessbusinessaccount-representative",
+      "jobtitle_url": "https://www.zippia.com/businessbusinessaccount-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Buyer Broker",
+      "slug": "buyer-broker",
+      "jobtitle_url": "https://www.zippia.com/buyer-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Cafeteria Clerk",
+      "slug": "cafeteria-clerk",
+      "jobtitle_url": "https://www.zippia.com/cafeteria-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Campus Marketing Representative",
+      "slug": "campus-marketing-representative",
+      "jobtitle_url": "https://www.zippia.com/campus-marketing-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Campus Representative",
+      "slug": "campus-representative",
+      "jobtitle_url": "https://www.zippia.com/campus-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Canvasser",
+      "slug": "canvasser",
+      "jobtitle_url": "https://www.zippia.com/canvasser-jobs/"
+    },
+    {
+      "jobtitle_name": "Car Dealer",
+      "slug": "car-dealer",
+      "jobtitle_url": "https://www.zippia.com/car-dealer-jobs/"
+    },
+    {
+      "jobtitle_name": "Car Rental Agent",
+      "slug": "car-rental-agent",
+      "jobtitle_url": "https://www.zippia.com/car-rental-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Car Rental Manager",
+      "slug": "car-rental-manager",
+      "jobtitle_url": "https://www.zippia.com/car-rental-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Car Sales Consultant",
+      "slug": "car-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/car-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Car Sales Representative",
+      "slug": "car-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/car-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Cardiovascular Sales Specialist",
+      "slug": "cardiovascular-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/cardiovascular-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Career Agent",
+      "slug": "career-agent",
+      "jobtitle_url": "https://www.zippia.com/career-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Carousel Attendant",
+      "slug": "carousel-attendant",
+      "jobtitle_url": "https://www.zippia.com/carousel-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Cart Associate",
+      "slug": "cart-associate",
+      "jobtitle_url": "https://www.zippia.com/cart-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Case Manager Supervisor",
+      "slug": "case-manager-supervisor",
+      "jobtitle_url": "https://www.zippia.com/case-manager-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Cash Checker",
+      "slug": "cash-checker",
+      "jobtitle_url": "https://www.zippia.com/cash-checker-jobs/"
+    },
+    {
+      "jobtitle_name": "Cash Office Associate",
+      "slug": "cash-office-associate",
+      "jobtitle_url": "https://www.zippia.com/cash-office-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Cash Register Operator",
+      "slug": "cash-register-operator",
+      "jobtitle_url": "https://www.zippia.com/cash-register-operator-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier",
+      "slug": "cashier",
+      "jobtitle_url": "https://www.zippia.com/cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier Associate",
+      "slug": "cashier-associate",
+      "jobtitle_url": "https://www.zippia.com/cashier-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier Host/Hostess",
+      "slug": "cashier-hosthostess",
+      "jobtitle_url": "https://www.zippia.com/cashier-hosthostess-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier Manager",
+      "slug": "cashier-manager",
+      "jobtitle_url": "https://www.zippia.com/cashier-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier Operator",
+      "slug": "cashier-operator",
+      "jobtitle_url": "https://www.zippia.com/cashier-operator-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier Supervisor",
+      "slug": "cashier-supervisor",
+      "jobtitle_url": "https://www.zippia.com/cashier-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Closer",
+      "slug": "cashiercloser",
+      "jobtitle_url": "https://www.zippia.com/cashiercloser-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Courtesy Clerk",
+      "slug": "cashiercourtesy-clerk",
+      "jobtitle_url": "https://www.zippia.com/cashiercourtesy-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Deli Clerk",
+      "slug": "cashierdeli-clerk",
+      "jobtitle_url": "https://www.zippia.com/cashierdeli-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Dishwasher",
+      "slug": "cashierdishwasher",
+      "jobtitle_url": "https://www.zippia.com/cashierdishwasher-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Host",
+      "slug": "cashierhost",
+      "jobtitle_url": "https://www.zippia.com/cashierhost-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Merchandiser",
+      "slug": "cashiermerchandiser",
+      "jobtitle_url": "https://www.zippia.com/cashiermerchandiser-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Overnight Stock",
+      "slug": "cashierovernight-stock",
+      "jobtitle_url": "https://www.zippia.com/cashierovernight-stock-jobs/"
+    },
+    {
+      "jobtitle_name": "Cashier/Service Clerk",
+      "slug": "cashierservice-clerk",
+      "jobtitle_url": "https://www.zippia.com/cashierservice-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Casino Cashier",
+      "slug": "casino-cashier",
+      "jobtitle_url": "https://www.zippia.com/casino-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Casino Floor Person",
+      "slug": "casino-floor-person",
+      "jobtitle_url": "https://www.zippia.com/casino-floor-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Casino Floor Walker",
+      "slug": "casino-floor-walker",
+      "jobtitle_url": "https://www.zippia.com/casino-floor-walker-jobs/"
+    },
+    {
+      "jobtitle_name": "Category Supervisor",
+      "slug": "category-supervisor",
+      "jobtitle_url": "https://www.zippia.com/category-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Cellular Sales",
+      "slug": "cellular-sales",
+      "jobtitle_url": "https://www.zippia.com/cellular-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Center Aisle Cashier",
+      "slug": "center-aisle-cashier",
+      "jobtitle_url": "https://www.zippia.com/center-aisle-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Central Aisle Cashier",
+      "slug": "central-aisle-cashier",
+      "jobtitle_url": "https://www.zippia.com/central-aisle-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Certified Sales Consultant",
+      "slug": "certified-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/certified-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Chain Sales Representative",
+      "slug": "chain-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/chain-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Change Attendant",
+      "slug": "change-attendant",
+      "jobtitle_url": "https://www.zippia.com/change-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Change Booth Attendant",
+      "slug": "change-booth-attendant",
+      "jobtitle_url": "https://www.zippia.com/change-booth-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Change Person",
+      "slug": "change-person",
+      "jobtitle_url": "https://www.zippia.com/change-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Channel Sales Representative",
+      "slug": "channel-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/channel-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Check Cashier",
+      "slug": "check-cashier",
+      "jobtitle_url": "https://www.zippia.com/check-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Check Out Cashier",
+      "slug": "check-out-cashier",
+      "jobtitle_url": "https://www.zippia.com/check-out-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Checker In",
+      "slug": "checker-in",
+      "jobtitle_url": "https://www.zippia.com/checker-in-jobs/"
+    },
+    {
+      "jobtitle_name": "Checkout Operator",
+      "slug": "checkout-operator",
+      "jobtitle_url": "https://www.zippia.com/checkout-operator-jobs/"
+    },
+    {
+      "jobtitle_name": "Chemical Sales Representative",
+      "slug": "chemical-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/chemical-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Chocolatier",
+      "slug": "chocolatier",
+      "jobtitle_url": "https://www.zippia.com/chocolatier-jobs/"
+    },
+    {
+      "jobtitle_name": "Circulation Sales Representative",
+      "slug": "circulation-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/circulation-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Cleaning Team Member",
+      "slug": "cleaning-team-member",
+      "jobtitle_url": "https://www.zippia.com/cleaning-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Clerk/Manager",
+      "slug": "clerkmanager",
+      "jobtitle_url": "https://www.zippia.com/clerkmanager-jobs/"
+    },
+    {
+      "jobtitle_name": "Client Services Executive",
+      "slug": "client-services-executive",
+      "jobtitle_url": "https://www.zippia.com/client-services-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Client Solution Executive",
+      "slug": "client-solution-executive",
+      "jobtitle_url": "https://www.zippia.com/client-solution-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Clinical Sales Specialist",
+      "slug": "clinical-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/clinical-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Closing Agent",
+      "slug": "closing-agent",
+      "jobtitle_url": "https://www.zippia.com/closing-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Closing Manager",
+      "slug": "closing-manager",
+      "jobtitle_url": "https://www.zippia.com/closing-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Co-Manager",
+      "slug": "comanager",
+      "jobtitle_url": "https://www.zippia.com/comanager-jobs/"
+    },
+    {
+      "jobtitle_name": "Coater Associate",
+      "slug": "coater-associate",
+      "jobtitle_url": "https://www.zippia.com/coater-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Account Executive",
+      "slug": "commercial-account-executive",
+      "jobtitle_url": "https://www.zippia.com/commercial-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Account Representative",
+      "slug": "commercial-account-representative",
+      "jobtitle_url": "https://www.zippia.com/commercial-account-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Agent",
+      "slug": "commercial-agent",
+      "jobtitle_url": "https://www.zippia.com/commercial-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Equipment And Supplies Sales Representative",
+      "slug": "commercial-equipment-and-supplies-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/commercial-equipment-and-supplies-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Lines Account Manager",
+      "slug": "commercial-lines-account-manager",
+      "jobtitle_url": "https://www.zippia.com/commercial-lines-account-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Lines Insurance Agent",
+      "slug": "commercial-lines-insurance-agent",
+      "jobtitle_url": "https://www.zippia.com/commercial-lines-insurance-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Representative",
+      "slug": "commercial-representative",
+      "jobtitle_url": "https://www.zippia.com/commercial-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Sales Associate",
+      "slug": "commercial-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/commercial-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Commercial Sales Specialist",
+      "slug": "commercial-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/commercial-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Commission Broker",
+      "slug": "commission-broker",
+      "jobtitle_url": "https://www.zippia.com/commission-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Commissioned Sales Associate",
+      "slug": "commissioned-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/commissioned-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Commodity Broker",
+      "slug": "commodity-broker",
+      "jobtitle_url": "https://www.zippia.com/commodity-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Commodity Trader",
+      "slug": "commodity-trader",
+      "jobtitle_url": "https://www.zippia.com/commodity-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Communications Department Head",
+      "slug": "communications-department-head",
+      "jobtitle_url": "https://www.zippia.com/communications-department-head-jobs/"
+    },
+    {
+      "jobtitle_name": "Compensation Agent",
+      "slug": "compensation-agent",
+      "jobtitle_url": "https://www.zippia.com/compensation-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Competitive Shopper",
+      "slug": "competitive-shopper",
+      "jobtitle_url": "https://www.zippia.com/competitive-shopper-jobs/"
+    },
+    {
+      "jobtitle_name": "Computer Sales Associate",
+      "slug": "computer-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/computer-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Computer Sales Consultant",
+      "slug": "computer-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/computer-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Computer Sales Person",
+      "slug": "computer-sales-person",
+      "jobtitle_url": "https://www.zippia.com/computer-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Computer Technician/Sales",
+      "slug": "computer-techniciansales",
+      "jobtitle_url": "https://www.zippia.com/computer-techniciansales-jobs/"
+    },
+    {
+      "jobtitle_name": "Concert Promoter",
+      "slug": "concert-promoter",
+      "jobtitle_url": "https://www.zippia.com/concert-promoter-jobs/"
+    },
+    {
+      "jobtitle_name": "Concession Cashier",
+      "slug": "concession-cashier",
+      "jobtitle_url": "https://www.zippia.com/concession-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Connection Center Associate",
+      "slug": "connection-center-associate",
+      "jobtitle_url": "https://www.zippia.com/connection-center-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Consultant And Sales Representative",
+      "slug": "consultant-and-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/consultant-and-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Consultant Electronics",
+      "slug": "consultant-electronics",
+      "jobtitle_url": "https://www.zippia.com/consultant-electronics-jobs/"
+    },
+    {
+      "jobtitle_name": "Consultation Agent",
+      "slug": "consultation-agent",
+      "jobtitle_url": "https://www.zippia.com/consultation-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Consumer Banker",
+      "slug": "consumer-banker",
+      "jobtitle_url": "https://www.zippia.com/consumer-banker-jobs/"
+    },
+    {
+      "jobtitle_name": "Consumer Sales Associate",
+      "slug": "consumer-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/consumer-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Convenience Store Clerk",
+      "slug": "convenience-store-clerk",
+      "jobtitle_url": "https://www.zippia.com/convenience-store-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Cook/Team Member",
+      "slug": "cookteam-member",
+      "jobtitle_url": "https://www.zippia.com/cookteam-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Copy Center Associate",
+      "slug": "copy-center-associate",
+      "jobtitle_url": "https://www.zippia.com/copy-center-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Account Executive",
+      "slug": "corporate-account-executive",
+      "jobtitle_url": "https://www.zippia.com/corporate-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Account Representative",
+      "slug": "corporate-account-representative",
+      "jobtitle_url": "https://www.zippia.com/corporate-account-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Bond Trader",
+      "slug": "corporate-bond-trader",
+      "jobtitle_url": "https://www.zippia.com/corporate-bond-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Sales Representative",
+      "slug": "corporate-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/corporate-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Sales Trainer",
+      "slug": "corporate-sales-trainer",
+      "jobtitle_url": "https://www.zippia.com/corporate-sales-trainer-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Travel Agent",
+      "slug": "corporate-travel-agent",
+      "jobtitle_url": "https://www.zippia.com/corporate-travel-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Travel Consultant",
+      "slug": "corporate-travel-consultant",
+      "jobtitle_url": "https://www.zippia.com/corporate-travel-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Travel Counselor",
+      "slug": "corporate-travel-counselor",
+      "jobtitle_url": "https://www.zippia.com/corporate-travel-counselor-jobs/"
+    },
+    {
+      "jobtitle_name": "Corporate Travel Expert",
+      "slug": "corporate-travel-expert",
+      "jobtitle_url": "https://www.zippia.com/corporate-travel-expert-jobs/"
+    },
+    {
+      "jobtitle_name": "Cosmetic Consultant",
+      "slug": "cosmetic-consultant",
+      "jobtitle_url": "https://www.zippia.com/cosmetic-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Cosmetic Counter Manager",
+      "slug": "cosmetic-counter-manager",
+      "jobtitle_url": "https://www.zippia.com/cosmetic-counter-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Cosmetics Supervisor",
+      "slug": "cosmetics-supervisor",
+      "jobtitle_url": "https://www.zippia.com/cosmetics-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter",
+      "slug": "counter",
+      "jobtitle_url": "https://www.zippia.com/counter-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Associate",
+      "slug": "counter-associate",
+      "jobtitle_url": "https://www.zippia.com/counter-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Clerk",
+      "slug": "counter-clerk",
+      "jobtitle_url": "https://www.zippia.com/counter-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Manager",
+      "slug": "counter-manager",
+      "jobtitle_url": "https://www.zippia.com/counter-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Operations Agent",
+      "slug": "counter-operations-agent",
+      "jobtitle_url": "https://www.zippia.com/counter-operations-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Person",
+      "slug": "counter-person",
+      "jobtitle_url": "https://www.zippia.com/counter-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Sales Person",
+      "slug": "counter-sales-person",
+      "jobtitle_url": "https://www.zippia.com/counter-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Sales Representative",
+      "slug": "counter-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/counter-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Counter Supervisor",
+      "slug": "counter-supervisor",
+      "jobtitle_url": "https://www.zippia.com/counter-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Courtesy Booth Cashier",
+      "slug": "courtesy-booth-cashier",
+      "jobtitle_url": "https://www.zippia.com/courtesy-booth-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Cruise Counselor",
+      "slug": "cruise-counselor",
+      "jobtitle_url": "https://www.zippia.com/cruise-counselor-jobs/"
+    },
+    {
+      "jobtitle_name": "Customer Account Technician",
+      "slug": "customer-account-technician",
+      "jobtitle_url": "https://www.zippia.com/customer-account-technician-jobs/"
+    },
+    {
+      "jobtitle_name": "Customer Sales Leader",
+      "slug": "customer-sales-leader",
+      "jobtitle_url": "https://www.zippia.com/customer-sales-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Customer Service Advisor",
+      "slug": "customer-service-advisor",
+      "jobtitle_url": "https://www.zippia.com/customer-service-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Customer Service And Driver",
+      "slug": "customer-service-and-driver",
+      "jobtitle_url": "https://www.zippia.com/customer-service-and-driver-jobs/"
+    },
+    {
+      "jobtitle_name": "Customer Service Retail Associate",
+      "slug": "customer-service-retail-associate",
+      "jobtitle_url": "https://www.zippia.com/customer-service-retail-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Customer Service Specialist",
+      "slug": "customer-service-specialist",
+      "jobtitle_url": "https://www.zippia.com/customer-service-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Dairy Department Manager",
+      "slug": "dairy-department-manager",
+      "jobtitle_url": "https://www.zippia.com/dairy-department-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Data Processing Services Sales Representative",
+      "slug": "data-processing-services-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/data-processing-services-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Day Trader",
+      "slug": "day-trader",
+      "jobtitle_url": "https://www.zippia.com/day-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Deli Associate/Cashier",
+      "slug": "deli-associatecashier",
+      "jobtitle_url": "https://www.zippia.com/deli-associatecashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Deli Sales Associate",
+      "slug": "deli-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/deli-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Delicatessen Store Manager",
+      "slug": "delicatessen-store-manager",
+      "jobtitle_url": "https://www.zippia.com/delicatessen-store-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Demonstrator",
+      "slug": "demonstrator",
+      "jobtitle_url": "https://www.zippia.com/demonstrator-jobs/"
+    },
+    {
+      "jobtitle_name": "Demonstrator Sales",
+      "slug": "demonstrator-sales",
+      "jobtitle_url": "https://www.zippia.com/demonstrator-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Dental Detail Representative",
+      "slug": "dental-detail-representative",
+      "jobtitle_url": "https://www.zippia.com/dental-detail-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Department Lead",
+      "slug": "department-lead",
+      "jobtitle_url": "https://www.zippia.com/department-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Department Manager",
+      "slug": "department-manager",
+      "jobtitle_url": "https://www.zippia.com/department-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Department Manager/Sales Associate",
+      "slug": "department-managersales-associate",
+      "jobtitle_url": "https://www.zippia.com/department-managersales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Department Specialist",
+      "slug": "department-specialist",
+      "jobtitle_url": "https://www.zippia.com/department-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Department Supervisor",
+      "slug": "department-supervisor",
+      "jobtitle_url": "https://www.zippia.com/department-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Dept Manager",
+      "slug": "dept-manager",
+      "jobtitle_url": "https://www.zippia.com/dept-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Design And Sales Consultant",
+      "slug": "design-and-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/design-and-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Design Team Member",
+      "slug": "design-team-member",
+      "jobtitle_url": "https://www.zippia.com/design-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Designer And Sales Associate",
+      "slug": "designer-and-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/designer-and-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Development Team Member",
+      "slug": "development-team-member",
+      "jobtitle_url": "https://www.zippia.com/development-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Diabetes Sales Specialist",
+      "slug": "diabetes-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/diabetes-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Digital Account Executive",
+      "slug": "digital-account-executive",
+      "jobtitle_url": "https://www.zippia.com/digital-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Digital Media Executive",
+      "slug": "digital-media-executive",
+      "jobtitle_url": "https://www.zippia.com/digital-media-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Digital Sales Specialist",
+      "slug": "digital-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/digital-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Direct Sales Agent",
+      "slug": "direct-sales-agent",
+      "jobtitle_url": "https://www.zippia.com/direct-sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Direct Sales Representative",
+      "slug": "direct-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/direct-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Director Of Retail Sales",
+      "slug": "director-of-retail-sales",
+      "jobtitle_url": "https://www.zippia.com/director-of-retail-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Director Of Sales & Service",
+      "slug": "director-of-sales-service",
+      "jobtitle_url": "https://www.zippia.com/director-of-sales-service-jobs/"
+    },
+    {
+      "jobtitle_name": "Director, Inside Sales",
+      "slug": "director-inside-sales",
+      "jobtitle_url": "https://www.zippia.com/director-inside-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Distribution Center Associate",
+      "slug": "distribution-center-associate",
+      "jobtitle_url": "https://www.zippia.com/distribution-center-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Distribution Sales Representative",
+      "slug": "distribution-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/distribution-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Distributor",
+      "slug": "distributor",
+      "jobtitle_url": "https://www.zippia.com/distributor-jobs/"
+    },
+    {
+      "jobtitle_name": "District Agent",
+      "slug": "district-agent",
+      "jobtitle_url": "https://www.zippia.com/district-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "District Representative",
+      "slug": "district-representative",
+      "jobtitle_url": "https://www.zippia.com/district-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "District Sales Coordinator",
+      "slug": "district-sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/district-sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "District Sales Representative",
+      "slug": "district-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/district-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "District Supervisor",
+      "slug": "district-supervisor",
+      "jobtitle_url": "https://www.zippia.com/district-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Door To Door Sales Person",
+      "slug": "door-to-door-sales-person",
+      "jobtitle_url": "https://www.zippia.com/door-to-door-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Drug Clerk",
+      "slug": "drug-clerk",
+      "jobtitle_url": "https://www.zippia.com/drug-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Dry Cleaning Manager",
+      "slug": "dry-cleaning-manager",
+      "jobtitle_url": "https://www.zippia.com/dry-cleaning-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Dry Goods Clerk",
+      "slug": "dry-goods-clerk",
+      "jobtitle_url": "https://www.zippia.com/dry-goods-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Electricity Trading Analyst",
+      "slug": "electricity-trading-analyst",
+      "jobtitle_url": "https://www.zippia.com/electricity-trading-analyst-jobs/"
+    },
+    {
+      "jobtitle_name": "Electronic Specialist",
+      "slug": "electronic-specialist",
+      "jobtitle_url": "https://www.zippia.com/electronic-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Electronics Associate",
+      "slug": "electronics-associate",
+      "jobtitle_url": "https://www.zippia.com/electronics-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Electronics Department Manager",
+      "slug": "electronics-department-manager",
+      "jobtitle_url": "https://www.zippia.com/electronics-department-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Electronics Sales Associate",
+      "slug": "electronics-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/electronics-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Electronics Team Member",
+      "slug": "electronics-team-member",
+      "jobtitle_url": "https://www.zippia.com/electronics-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Energy Scheduler",
+      "slug": "energy-scheduler",
+      "jobtitle_url": "https://www.zippia.com/energy-scheduler-jobs/"
+    },
+    {
+      "jobtitle_name": "Energy Trader",
+      "slug": "energy-trader",
+      "jobtitle_url": "https://www.zippia.com/energy-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Energy Trading Analyst",
+      "slug": "energy-trading-analyst",
+      "jobtitle_url": "https://www.zippia.com/energy-trading-analyst-jobs/"
+    },
+    {
+      "jobtitle_name": "Engineering Supplies Sales",
+      "slug": "engineering-supplies-sales",
+      "jobtitle_url": "https://www.zippia.com/engineering-supplies-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Enrolled Agent",
+      "slug": "enrolled-agent",
+      "jobtitle_url": "https://www.zippia.com/enrolled-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Enterprise Account Executive",
+      "slug": "enterprise-account-executive",
+      "jobtitle_url": "https://www.zippia.com/enterprise-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Enterprise Sales Person",
+      "slug": "enterprise-sales-person",
+      "jobtitle_url": "https://www.zippia.com/enterprise-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Equity Trader",
+      "slug": "equity-trader",
+      "jobtitle_url": "https://www.zippia.com/equity-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Escrow Agent",
+      "slug": "escrow-agent",
+      "jobtitle_url": "https://www.zippia.com/escrow-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Escrow Closer",
+      "slug": "escrow-closer",
+      "jobtitle_url": "https://www.zippia.com/escrow-closer-jobs/"
+    },
+    {
+      "jobtitle_name": "Event Promoter",
+      "slug": "event-promoter",
+      "jobtitle_url": "https://www.zippia.com/event-promoter-jobs/"
+    },
+    {
+      "jobtitle_name": "Event Representative",
+      "slug": "event-representative",
+      "jobtitle_url": "https://www.zippia.com/event-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Executive Sales Consultant",
+      "slug": "executive-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/executive-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Executive Sales Representative",
+      "slug": "executive-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/executive-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Executive Team Leader",
+      "slug": "executive-team-leader",
+      "jobtitle_url": "https://www.zippia.com/executive-team-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Exhibitor Sales",
+      "slug": "exhibitor-sales",
+      "jobtitle_url": "https://www.zippia.com/exhibitor-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Expert",
+      "slug": "expert",
+      "jobtitle_url": "https://www.zippia.com/expert-jobs/"
+    },
+    {
+      "jobtitle_name": "Fact Checker",
+      "slug": "fact-checker",
+      "jobtitle_url": "https://www.zippia.com/fact-checker-jobs/"
+    },
+    {
+      "jobtitle_name": "Factory Representative",
+      "slug": "factory-representative",
+      "jobtitle_url": "https://www.zippia.com/factory-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Fashion Adviser",
+      "slug": "fashion-adviser",
+      "jobtitle_url": "https://www.zippia.com/fashion-adviser-jobs/"
+    },
+    {
+      "jobtitle_name": "Fashion Consultant",
+      "slug": "fashion-consultant",
+      "jobtitle_url": "https://www.zippia.com/fashion-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Fashion Consultant, Sales",
+      "slug": "fashion-consultant-sales",
+      "jobtitle_url": "https://www.zippia.com/fashion-consultant-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Fashion Consultant, Selling",
+      "slug": "fashion-consultant-selling",
+      "jobtitle_url": "https://www.zippia.com/fashion-consultant-selling-jobs/"
+    },
+    {
+      "jobtitle_name": "Fashion Model",
+      "slug": "fashion-model",
+      "jobtitle_url": "https://www.zippia.com/fashion-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Fastener",
+      "slug": "fastener",
+      "jobtitle_url": "https://www.zippia.com/fastener-jobs/"
+    },
+    {
+      "jobtitle_name": "Federal Account Executive",
+      "slug": "federal-account-executive",
+      "jobtitle_url": "https://www.zippia.com/federal-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Agent",
+      "slug": "field-agent",
+      "jobtitle_url": "https://www.zippia.com/field-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Applications Engineer",
+      "slug": "field-applications-engineer",
+      "jobtitle_url": "https://www.zippia.com/field-applications-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Cashier",
+      "slug": "field-cashier",
+      "jobtitle_url": "https://www.zippia.com/field-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Marketing Representative",
+      "slug": "field-marketing-representative",
+      "jobtitle_url": "https://www.zippia.com/field-marketing-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Representative",
+      "slug": "field-representative",
+      "jobtitle_url": "https://www.zippia.com/field-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Sales Engineer",
+      "slug": "field-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/field-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Sales Representative",
+      "slug": "field-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/field-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Sales Trainer",
+      "slug": "field-sales-trainer",
+      "jobtitle_url": "https://www.zippia.com/field-sales-trainer-jobs/"
+    },
+    {
+      "jobtitle_name": "Field Technical Representative",
+      "slug": "field-technical-representative",
+      "jobtitle_url": "https://www.zippia.com/field-technical-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Figure Model",
+      "slug": "figure-model",
+      "jobtitle_url": "https://www.zippia.com/figure-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance & Sales Representative",
+      "slug": "finance-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/finance-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Agent",
+      "slug": "finance-agent",
+      "jobtitle_url": "https://www.zippia.com/finance-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Associate",
+      "slug": "finance-associate",
+      "jobtitle_url": "https://www.zippia.com/finance-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Representative",
+      "slug": "finance-representative",
+      "jobtitle_url": "https://www.zippia.com/finance-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Sales Consultant",
+      "slug": "finance-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/finance-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Service Advisor",
+      "slug": "finance-service-advisor",
+      "jobtitle_url": "https://www.zippia.com/finance-service-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Service Representative",
+      "slug": "finance-service-representative",
+      "jobtitle_url": "https://www.zippia.com/finance-service-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Service Sales Agent",
+      "slug": "finance-service-sales-agent",
+      "jobtitle_url": "https://www.zippia.com/finance-service-sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Finance Service Specialist",
+      "slug": "finance-service-specialist",
+      "jobtitle_url": "https://www.zippia.com/finance-service-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Fine Arts Model",
+      "slug": "fine-arts-model",
+      "jobtitle_url": "https://www.zippia.com/fine-arts-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Fine Jewelry Associate",
+      "slug": "fine-jewelry-associate",
+      "jobtitle_url": "https://www.zippia.com/fine-jewelry-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Fine Jewelry Sales Associate",
+      "slug": "fine-jewelry-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/fine-jewelry-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "First Assistant Manager",
+      "slug": "first-assistant-manager",
+      "jobtitle_url": "https://www.zippia.com/first-assistant-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Fitting Room Associate",
+      "slug": "fitting-room-associate",
+      "jobtitle_url": "https://www.zippia.com/fitting-room-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Fleet Service Clerk",
+      "slug": "fleet-service-clerk",
+      "jobtitle_url": "https://www.zippia.com/fleet-service-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Floor Associate",
+      "slug": "floor-associate",
+      "jobtitle_url": "https://www.zippia.com/floor-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Floor Cashier",
+      "slug": "floor-cashier",
+      "jobtitle_url": "https://www.zippia.com/floor-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Floor Manager",
+      "slug": "floor-manager",
+      "jobtitle_url": "https://www.zippia.com/floor-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Floor Supervisor",
+      "slug": "floor-supervisor",
+      "jobtitle_url": "https://www.zippia.com/floor-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Floor Trader",
+      "slug": "floor-trader",
+      "jobtitle_url": "https://www.zippia.com/floor-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Flooring Sales Specialist",
+      "slug": "flooring-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/flooring-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Flooring Specialist",
+      "slug": "flooring-specialist",
+      "jobtitle_url": "https://www.zippia.com/flooring-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Florist Manager",
+      "slug": "florist-manager",
+      "jobtitle_url": "https://www.zippia.com/florist-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Flower Shop Manager",
+      "slug": "flower-shop-manager",
+      "jobtitle_url": "https://www.zippia.com/flower-shop-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Food Broker",
+      "slug": "food-broker",
+      "jobtitle_url": "https://www.zippia.com/food-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Food Demonstrator",
+      "slug": "food-demonstrator",
+      "jobtitle_url": "https://www.zippia.com/food-demonstrator-jobs/"
+    },
+    {
+      "jobtitle_name": "Food Sales Clerk",
+      "slug": "food-sales-clerk",
+      "jobtitle_url": "https://www.zippia.com/food-sales-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Footwear Associate",
+      "slug": "footwear-associate",
+      "jobtitle_url": "https://www.zippia.com/footwear-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Footwear Sales Associate",
+      "slug": "footwear-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/footwear-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Footwear Sales Representative",
+      "slug": "footwear-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/footwear-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Forex Trader",
+      "slug": "forex-trader",
+      "jobtitle_url": "https://www.zippia.com/forex-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Franchise Sales Representative",
+      "slug": "franchise-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/franchise-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Front Counter Attendant",
+      "slug": "front-counter-attendant",
+      "jobtitle_url": "https://www.zippia.com/front-counter-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Front Counter Cashier",
+      "slug": "front-counter-cashier",
+      "jobtitle_url": "https://www.zippia.com/front-counter-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Front Counter Clerk",
+      "slug": "front-counter-clerk",
+      "jobtitle_url": "https://www.zippia.com/front-counter-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Associate",
+      "slug": "front-end-associate",
+      "jobtitle_url": "https://www.zippia.com/front-end-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Cashier",
+      "slug": "front-end-cashier",
+      "jobtitle_url": "https://www.zippia.com/front-end-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Clerk",
+      "slug": "front-end-clerk",
+      "jobtitle_url": "https://www.zippia.com/front-end-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Coordinator",
+      "slug": "front-end-coordinator",
+      "jobtitle_url": "https://www.zippia.com/front-end-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Developer",
+      "slug": "front-end-developer",
+      "jobtitle_url": "https://www.zippia.com/front-end-developer-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Lead",
+      "slug": "front-end-lead",
+      "jobtitle_url": "https://www.zippia.com/front-end-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Manager",
+      "slug": "front-end-manager",
+      "jobtitle_url": "https://www.zippia.com/front-end-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Mechanic",
+      "slug": "front-end-mechanic",
+      "jobtitle_url": "https://www.zippia.com/front-end-mechanic-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Specialist",
+      "slug": "front-end-specialist",
+      "jobtitle_url": "https://www.zippia.com/front-end-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Front End Supervisor",
+      "slug": "front-end-supervisor",
+      "jobtitle_url": "https://www.zippia.com/front-end-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Front Line Agent",
+      "slug": "front-line-agent",
+      "jobtitle_url": "https://www.zippia.com/front-line-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Front Window Cashier",
+      "slug": "front-window-cashier",
+      "jobtitle_url": "https://www.zippia.com/front-window-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Fuel Clerk",
+      "slug": "fuel-clerk",
+      "jobtitle_url": "https://www.zippia.com/fuel-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Fuels Sales Representative",
+      "slug": "fuels-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/fuels-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Fulfillment Associate",
+      "slug": "fulfillment-associate",
+      "jobtitle_url": "https://www.zippia.com/fulfillment-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Fulfillment Center Associate",
+      "slug": "fulfillment-center-associate",
+      "jobtitle_url": "https://www.zippia.com/fulfillment-center-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Furniture Rental Consultant",
+      "slug": "furniture-rental-consultant",
+      "jobtitle_url": "https://www.zippia.com/furniture-rental-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Furniture Sales Associate",
+      "slug": "furniture-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/furniture-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Futures Trader",
+      "slug": "futures-trader",
+      "jobtitle_url": "https://www.zippia.com/futures-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Gallery Manager",
+      "slug": "gallery-manager",
+      "jobtitle_url": "https://www.zippia.com/gallery-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Game Advisor",
+      "slug": "game-advisor",
+      "jobtitle_url": "https://www.zippia.com/game-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Garden Associate",
+      "slug": "garden-associate",
+      "jobtitle_url": "https://www.zippia.com/garden-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Garden Center Associate",
+      "slug": "garden-center-associate",
+      "jobtitle_url": "https://www.zippia.com/garden-center-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Garden Center Manager",
+      "slug": "garden-center-manager",
+      "jobtitle_url": "https://www.zippia.com/garden-center-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Garden Consultant",
+      "slug": "garden-consultant",
+      "jobtitle_url": "https://www.zippia.com/garden-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Gas Station Cashier",
+      "slug": "gas-station-cashier",
+      "jobtitle_url": "https://www.zippia.com/gas-station-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Gas Station Clerk",
+      "slug": "gas-station-clerk",
+      "jobtitle_url": "https://www.zippia.com/gas-station-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Gas Station Manager",
+      "slug": "gas-station-manager",
+      "jobtitle_url": "https://www.zippia.com/gas-station-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Geek Squad Agent",
+      "slug": "geek-squad-agent",
+      "jobtitle_url": "https://www.zippia.com/geek-squad-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "General Agent",
+      "slug": "general-agent",
+      "jobtitle_url": "https://www.zippia.com/general-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "General Merchandise Sales Representative",
+      "slug": "general-merchandise-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/general-merchandise-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "General Sales Associate",
+      "slug": "general-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/general-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Gift Shop Manager",
+      "slug": "gift-shop-manager",
+      "jobtitle_url": "https://www.zippia.com/gift-shop-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Global Account Executive",
+      "slug": "global-account-executive",
+      "jobtitle_url": "https://www.zippia.com/global-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Grocery Cashier",
+      "slug": "grocery-cashier",
+      "jobtitle_url": "https://www.zippia.com/grocery-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Grocery Checker",
+      "slug": "grocery-checker",
+      "jobtitle_url": "https://www.zippia.com/grocery-checker-jobs/"
+    },
+    {
+      "jobtitle_name": "Grocery Supervisor",
+      "slug": "grocery-supervisor",
+      "jobtitle_url": "https://www.zippia.com/grocery-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Group Insurance Specialist",
+      "slug": "group-insurance-specialist",
+      "jobtitle_url": "https://www.zippia.com/group-insurance-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Group Sales Coordinator",
+      "slug": "group-sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/group-sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Group Sales Representative",
+      "slug": "group-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/group-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Hardware Associate",
+      "slug": "hardware-associate",
+      "jobtitle_url": "https://www.zippia.com/hardware-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Hardware Sales Associate",
+      "slug": "hardware-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/hardware-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Hawker",
+      "slug": "hawker",
+      "jobtitle_url": "https://www.zippia.com/hawker-jobs/"
+    },
+    {
+      "jobtitle_name": "Head Cashier",
+      "slug": "head-cashier",
+      "jobtitle_url": "https://www.zippia.com/head-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Health Insurance Agent",
+      "slug": "health-insurance-agent",
+      "jobtitle_url": "https://www.zippia.com/health-insurance-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Health Insurance Specialist",
+      "slug": "health-insurance-specialist",
+      "jobtitle_url": "https://www.zippia.com/health-insurance-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Hedge Fund Trader",
+      "slug": "hedge-fund-trader",
+      "jobtitle_url": "https://www.zippia.com/hedge-fund-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Holiday Sales Associate",
+      "slug": "holiday-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/holiday-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Home Agent",
+      "slug": "home-agent",
+      "jobtitle_url": "https://www.zippia.com/home-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Home Demonstrator",
+      "slug": "home-demonstrator",
+      "jobtitle_url": "https://www.zippia.com/home-demonstrator-jobs/"
+    },
+    {
+      "jobtitle_name": "Home Furnishing Consultant",
+      "slug": "home-furnishing-consultant",
+      "jobtitle_url": "https://www.zippia.com/home-furnishing-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Home Furnishings Sales Representative",
+      "slug": "home-furnishings-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/home-furnishings-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Home Office Representative",
+      "slug": "home-office-representative",
+      "jobtitle_url": "https://www.zippia.com/home-office-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Home Planning Consultant Sales Person",
+      "slug": "home-planning-consultant-sales-person",
+      "jobtitle_url": "https://www.zippia.com/home-planning-consultant-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Home Service Consultant",
+      "slug": "home-service-consultant",
+      "jobtitle_url": "https://www.zippia.com/home-service-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Hospital Sales Representative",
+      "slug": "hospital-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/hospital-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Hospital Sales Specialist",
+      "slug": "hospital-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/hospital-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Hospitality Representative",
+      "slug": "hospitality-representative",
+      "jobtitle_url": "https://www.zippia.com/hospitality-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Hostess Cashier",
+      "slug": "hostess-cashier",
+      "jobtitle_url": "https://www.zippia.com/hostess-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Hourly Sales Staff",
+      "slug": "hourly-sales-staff",
+      "jobtitle_url": "https://www.zippia.com/hourly-sales-staff-jobs/"
+    },
+    {
+      "jobtitle_name": "Hvac Commercial Sales Person",
+      "slug": "hvac-commercial-sales-person",
+      "jobtitle_url": "https://www.zippia.com/hvac-commercial-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Image Consultant",
+      "slug": "image-consultant",
+      "jobtitle_url": "https://www.zippia.com/image-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Implementation Engineer",
+      "slug": "implementation-engineer",
+      "jobtitle_url": "https://www.zippia.com/implementation-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "In Store Demonstrator",
+      "slug": "in-store-demonstrator",
+      "jobtitle_url": "https://www.zippia.com/in-store-demonstrator-jobs/"
+    },
+    {
+      "jobtitle_name": "In-Store Marketing Associate",
+      "slug": "instore-marketing-associate",
+      "jobtitle_url": "https://www.zippia.com/instore-marketing-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Inbound Sales Specialist",
+      "slug": "inbound-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/inbound-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Inbound Telemarketer",
+      "slug": "inbound-telemarketer",
+      "jobtitle_url": "https://www.zippia.com/inbound-telemarketer-jobs/"
+    },
+    {
+      "jobtitle_name": "Indirect Account Executive",
+      "slug": "indirect-account-executive",
+      "jobtitle_url": "https://www.zippia.com/indirect-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Information Technology Technician/Sales",
+      "slug": "information-technology-techniciansales",
+      "jobtitle_url": "https://www.zippia.com/information-technology-techniciansales-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Account Executive",
+      "slug": "inside-account-executive",
+      "jobtitle_url": "https://www.zippia.com/inside-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Product Specialist",
+      "slug": "inside-product-specialist",
+      "jobtitle_url": "https://www.zippia.com/inside-product-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Account Executive",
+      "slug": "inside-sales-account-executive",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Administrator",
+      "slug": "inside-sales-administrator",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-administrator-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Agent",
+      "slug": "inside-sales-agent",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Assistant",
+      "slug": "inside-sales-assistant",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Associate",
+      "slug": "inside-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Consultant",
+      "slug": "inside-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Coordinator",
+      "slug": "inside-sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Engineer",
+      "slug": "inside-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Executive",
+      "slug": "inside-sales-executive",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Internship",
+      "slug": "inside-sales-internship",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Person",
+      "slug": "inside-sales-person",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Representative",
+      "slug": "inside-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Specialist",
+      "slug": "inside-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Inside Sales Supervisor",
+      "slug": "inside-sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/inside-sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Installation Sales Coordinator",
+      "slug": "installation-sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/installation-sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Instruments Sales Representative",
+      "slug": "instruments-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/instruments-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Account Representative",
+      "slug": "insurance-account-representative",
+      "jobtitle_url": "https://www.zippia.com/insurance-account-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Adviser",
+      "slug": "insurance-adviser",
+      "jobtitle_url": "https://www.zippia.com/insurance-adviser-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Agent",
+      "slug": "insurance-agent",
+      "jobtitle_url": "https://www.zippia.com/insurance-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Agent/Office Manager",
+      "slug": "insurance-agentoffice-manager",
+      "jobtitle_url": "https://www.zippia.com/insurance-agentoffice-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Agents Supervisor",
+      "slug": "insurance-agents-supervisor",
+      "jobtitle_url": "https://www.zippia.com/insurance-agents-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Broker",
+      "slug": "insurance-broker",
+      "jobtitle_url": "https://www.zippia.com/insurance-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Consultant",
+      "slug": "insurance-consultant",
+      "jobtitle_url": "https://www.zippia.com/insurance-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Counselor",
+      "slug": "insurance-counselor",
+      "jobtitle_url": "https://www.zippia.com/insurance-counselor-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Follow Up Representative",
+      "slug": "insurance-follow-up-representative",
+      "jobtitle_url": "https://www.zippia.com/insurance-follow-up-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Producer",
+      "slug": "insurance-producer",
+      "jobtitle_url": "https://www.zippia.com/insurance-producer-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Rater",
+      "slug": "insurance-rater",
+      "jobtitle_url": "https://www.zippia.com/insurance-rater-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Representative",
+      "slug": "insurance-representative",
+      "jobtitle_url": "https://www.zippia.com/insurance-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Sales Agent",
+      "slug": "insurance-sales-agent",
+      "jobtitle_url": "https://www.zippia.com/insurance-sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Sales Representative",
+      "slug": "insurance-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/insurance-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Sales Supervisor",
+      "slug": "insurance-sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/insurance-sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Service Representative",
+      "slug": "insurance-service-representative",
+      "jobtitle_url": "https://www.zippia.com/insurance-service-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Solicitor",
+      "slug": "insurance-solicitor",
+      "jobtitle_url": "https://www.zippia.com/insurance-solicitor-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Underwriter, Sales",
+      "slug": "insurance-underwriter-sales",
+      "jobtitle_url": "https://www.zippia.com/insurance-underwriter-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Insurance Verification Specialist",
+      "slug": "insurance-verification-specialist",
+      "jobtitle_url": "https://www.zippia.com/insurance-verification-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Internal Sales Representative",
+      "slug": "internal-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/internal-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Internal Wholesaler",
+      "slug": "internal-wholesaler",
+      "jobtitle_url": "https://www.zippia.com/internal-wholesaler-jobs/"
+    },
+    {
+      "jobtitle_name": "International Representative",
+      "slug": "international-representative",
+      "jobtitle_url": "https://www.zippia.com/international-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Internet Sales Associate",
+      "slug": "internet-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/internet-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Internet Sales Representative",
+      "slug": "internet-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/internet-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Inventory And Sales Associate",
+      "slug": "inventory-and-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/inventory-and-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Investment Banker",
+      "slug": "investment-banker",
+      "jobtitle_url": "https://www.zippia.com/investment-banker-jobs/"
+    },
+    {
+      "jobtitle_name": "Investment Representative",
+      "slug": "investment-representative",
+      "jobtitle_url": "https://www.zippia.com/investment-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Jewelry Associate",
+      "slug": "jewelry-associate",
+      "jobtitle_url": "https://www.zippia.com/jewelry-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Jewelry Consultant",
+      "slug": "jewelry-consultant",
+      "jobtitle_url": "https://www.zippia.com/jewelry-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Jewelry Department Supervisor",
+      "slug": "jewelry-department-supervisor",
+      "jobtitle_url": "https://www.zippia.com/jewelry-department-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Jewelry Sales Associate",
+      "slug": "jewelry-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/jewelry-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Jewelry Sales Representative",
+      "slug": "jewelry-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/jewelry-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Junior Account Executive",
+      "slug": "junior-account-executive",
+      "jobtitle_url": "https://www.zippia.com/junior-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Junior Assistant Manager",
+      "slug": "junior-assistant-manager",
+      "jobtitle_url": "https://www.zippia.com/junior-assistant-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Junior Associate",
+      "slug": "junior-associate",
+      "jobtitle_url": "https://www.zippia.com/junior-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Junior Cashier For",
+      "slug": "junior-cashier-for",
+      "jobtitle_url": "https://www.zippia.com/junior-cashier-for-jobs/"
+    },
+    {
+      "jobtitle_name": "Junior Sales Associate",
+      "slug": "junior-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/junior-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Junior Sales Representative",
+      "slug": "junior-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/junior-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Key Account Representative",
+      "slug": "key-account-representative",
+      "jobtitle_url": "https://www.zippia.com/key-account-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Key Holder",
+      "slug": "key-holder",
+      "jobtitle_url": "https://www.zippia.com/key-holder-jobs/"
+    },
+    {
+      "jobtitle_name": "Key Holder/Manager",
+      "slug": "key-holdermanager",
+      "jobtitle_url": "https://www.zippia.com/key-holdermanager-jobs/"
+    },
+    {
+      "jobtitle_name": "Key Holder/Sales Lead",
+      "slug": "key-holdersales-lead",
+      "jobtitle_url": "https://www.zippia.com/key-holdersales-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Keyholding Sales Associate",
+      "slug": "keyholding-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/keyholding-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Kiosk Manager",
+      "slug": "kiosk-manager",
+      "jobtitle_url": "https://www.zippia.com/kiosk-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Land Agent",
+      "slug": "land-agent",
+      "jobtitle_url": "https://www.zippia.com/land-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Landfill Attendant",
+      "slug": "landfill-attendant",
+      "jobtitle_url": "https://www.zippia.com/landfill-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Lawn And Garden Associate",
+      "slug": "lawn-and-garden-associate",
+      "jobtitle_url": "https://www.zippia.com/lawn-and-garden-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Agent",
+      "slug": "lead-agent",
+      "jobtitle_url": "https://www.zippia.com/lead-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead And Assistant Teacher",
+      "slug": "lead-and-assistant-teacher",
+      "jobtitle_url": "https://www.zippia.com/lead-and-assistant-teacher-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Assistant",
+      "slug": "lead-assistant",
+      "jobtitle_url": "https://www.zippia.com/lead-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Assistant Manager",
+      "slug": "lead-assistant-manager",
+      "jobtitle_url": "https://www.zippia.com/lead-assistant-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Associate",
+      "slug": "lead-associate",
+      "jobtitle_url": "https://www.zippia.com/lead-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Bookseller",
+      "slug": "lead-bookseller",
+      "jobtitle_url": "https://www.zippia.com/lead-bookseller-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Brand Representative",
+      "slug": "lead-brand-representative",
+      "jobtitle_url": "https://www.zippia.com/lead-brand-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Cashier",
+      "slug": "lead-cashier",
+      "jobtitle_url": "https://www.zippia.com/lead-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Generating Specialist",
+      "slug": "lead-generating-specialist",
+      "jobtitle_url": "https://www.zippia.com/lead-generating-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Retail Consultant",
+      "slug": "lead-retail-consultant",
+      "jobtitle_url": "https://www.zippia.com/lead-retail-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Sales Consultant",
+      "slug": "lead-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/lead-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Sales Representative",
+      "slug": "lead-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/lead-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Sales Specialist",
+      "slug": "lead-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/lead-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Lead Setter",
+      "slug": "lead-setter",
+      "jobtitle_url": "https://www.zippia.com/lead-setter-jobs/"
+    },
+    {
+      "jobtitle_name": "Leasing Associate",
+      "slug": "leasing-associate",
+      "jobtitle_url": "https://www.zippia.com/leasing-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Leasing Specialist",
+      "slug": "leasing-specialist",
+      "jobtitle_url": "https://www.zippia.com/leasing-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Licensed Agent",
+      "slug": "licensed-agent",
+      "jobtitle_url": "https://www.zippia.com/licensed-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Licensed Insurance Agent",
+      "slug": "licensed-insurance-agent",
+      "jobtitle_url": "https://www.zippia.com/licensed-insurance-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Licensed Insurance Producer",
+      "slug": "licensed-insurance-producer",
+      "jobtitle_url": "https://www.zippia.com/licensed-insurance-producer-jobs/"
+    },
+    {
+      "jobtitle_name": "Licensed Realtor",
+      "slug": "licensed-realtor",
+      "jobtitle_url": "https://www.zippia.com/licensed-realtor-jobs/"
+    },
+    {
+      "jobtitle_name": "Licensed Sales Agent",
+      "slug": "licensed-sales-agent",
+      "jobtitle_url": "https://www.zippia.com/licensed-sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Licensed Sales Producer",
+      "slug": "licensed-sales-producer",
+      "jobtitle_url": "https://www.zippia.com/licensed-sales-producer-jobs/"
+    },
+    {
+      "jobtitle_name": "Life Insurance Agent",
+      "slug": "life-insurance-agent",
+      "jobtitle_url": "https://www.zippia.com/life-insurance-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Lighting Specialist",
+      "slug": "lighting-specialist",
+      "jobtitle_url": "https://www.zippia.com/lighting-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Line Associate",
+      "slug": "line-associate",
+      "jobtitle_url": "https://www.zippia.com/line-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Lister",
+      "slug": "lister",
+      "jobtitle_url": "https://www.zippia.com/lister-jobs/"
+    },
+    {
+      "jobtitle_name": "Livestock Sales Representative",
+      "slug": "livestock-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/livestock-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Local Sales Associate",
+      "slug": "local-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/local-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Lodge Associate",
+      "slug": "lodge-associate",
+      "jobtitle_url": "https://www.zippia.com/lodge-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Logistics Account Executive",
+      "slug": "logistics-account-executive",
+      "jobtitle_url": "https://www.zippia.com/logistics-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Logistics Team Member",
+      "slug": "logistics-team-member",
+      "jobtitle_url": "https://www.zippia.com/logistics-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Lot Associate",
+      "slug": "lot-associate",
+      "jobtitle_url": "https://www.zippia.com/lot-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Lottery Clerk",
+      "slug": "lottery-clerk",
+      "jobtitle_url": "https://www.zippia.com/lottery-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Lounge Car Attendant",
+      "slug": "lounge-car-attendant",
+      "jobtitle_url": "https://www.zippia.com/lounge-car-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Lumber Associate",
+      "slug": "lumber-associate",
+      "jobtitle_url": "https://www.zippia.com/lumber-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Lumber Sales Supervisor",
+      "slug": "lumber-sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/lumber-sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Maintenance Supervisor/Maintenance Manager",
+      "slug": "maintenance-supervisormaintenance-manager",
+      "jobtitle_url": "https://www.zippia.com/maintenance-supervisormaintenance-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Maintenance Team Member",
+      "slug": "maintenance-team-member",
+      "jobtitle_url": "https://www.zippia.com/maintenance-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Major Account Executive",
+      "slug": "major-account-executive",
+      "jobtitle_url": "https://www.zippia.com/major-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Major Account Representative",
+      "slug": "major-account-representative",
+      "jobtitle_url": "https://www.zippia.com/major-account-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Major Sales Associate",
+      "slug": "major-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/major-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Male Model",
+      "slug": "male-model",
+      "jobtitle_url": "https://www.zippia.com/male-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Mall Manager",
+      "slug": "mall-manager",
+      "jobtitle_url": "https://www.zippia.com/mall-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Management Trainee",
+      "slug": "management-trainee",
+      "jobtitle_url": "https://www.zippia.com/management-trainee-jobs/"
+    },
+    {
+      "jobtitle_name": "Manager Of Tire Sales",
+      "slug": "manager-of-tire-sales",
+      "jobtitle_url": "https://www.zippia.com/manager-of-tire-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Manager Trainee",
+      "slug": "manager-trainee",
+      "jobtitle_url": "https://www.zippia.com/manager-trainee-jobs/"
+    },
+    {
+      "jobtitle_name": "Managing Broker",
+      "slug": "managing-broker",
+      "jobtitle_url": "https://www.zippia.com/managing-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Manufacture Sales Representative",
+      "slug": "manufacture-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/manufacture-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Manufacturer's Representative",
+      "slug": "manufacturers-representative",
+      "jobtitle_url": "https://www.zippia.com/manufacturers-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Manufacturers Agent",
+      "slug": "manufacturers-agent",
+      "jobtitle_url": "https://www.zippia.com/manufacturers-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Manufacturing Team Member",
+      "slug": "manufacturing-team-member",
+      "jobtitle_url": "https://www.zippia.com/manufacturing-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Market Development Representative",
+      "slug": "market-development-representative",
+      "jobtitle_url": "https://www.zippia.com/market-development-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Market Maker",
+      "slug": "market-maker",
+      "jobtitle_url": "https://www.zippia.com/market-maker-jobs/"
+    },
+    {
+      "jobtitle_name": "Market Survey Representative",
+      "slug": "market-survey-representative",
+      "jobtitle_url": "https://www.zippia.com/market-survey-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Marketing Agent",
+      "slug": "marketing-agent",
+      "jobtitle_url": "https://www.zippia.com/marketing-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Marketing Engineer",
+      "slug": "marketing-engineer",
+      "jobtitle_url": "https://www.zippia.com/marketing-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Marketing Team Member",
+      "slug": "marketing-team-member",
+      "jobtitle_url": "https://www.zippia.com/marketing-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Marketing/Sales Person",
+      "slug": "marketingsales-person",
+      "jobtitle_url": "https://www.zippia.com/marketingsales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Marketing/Sales Representative",
+      "slug": "marketingsales-representative",
+      "jobtitle_url": "https://www.zippia.com/marketingsales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Material Handling Equipment Sales Representative",
+      "slug": "material-handling-equipment-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/material-handling-equipment-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Meat Department Manager",
+      "slug": "meat-department-manager",
+      "jobtitle_url": "https://www.zippia.com/meat-department-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Meat Market Manager",
+      "slug": "meat-market-manager",
+      "jobtitle_url": "https://www.zippia.com/meat-market-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Media Sales Associate",
+      "slug": "media-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/media-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Media Sales Consultant",
+      "slug": "media-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/media-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Medical Representative",
+      "slug": "medical-representative",
+      "jobtitle_url": "https://www.zippia.com/medical-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Medical Sales Representative",
+      "slug": "medical-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/medical-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Medical Sales Specialist",
+      "slug": "medical-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/medical-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Membership Advisor",
+      "slug": "membership-advisor",
+      "jobtitle_url": "https://www.zippia.com/membership-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Membership Consultant",
+      "slug": "membership-consultant",
+      "jobtitle_url": "https://www.zippia.com/membership-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Membership Sales Representative",
+      "slug": "membership-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/membership-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Memorial Counselor",
+      "slug": "memorial-counselor",
+      "jobtitle_url": "https://www.zippia.com/memorial-counselor-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandise Coordinator",
+      "slug": "merchandise-coordinator",
+      "jobtitle_url": "https://www.zippia.com/merchandise-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandise Lead",
+      "slug": "merchandise-lead",
+      "jobtitle_url": "https://www.zippia.com/merchandise-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandiser, Sales",
+      "slug": "merchandiser-sales",
+      "jobtitle_url": "https://www.zippia.com/merchandiser-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandising Assistant",
+      "slug": "merchandising-assistant",
+      "jobtitle_url": "https://www.zippia.com/merchandising-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandising Associate",
+      "slug": "merchandising-associate",
+      "jobtitle_url": "https://www.zippia.com/merchandising-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandising Execution Associate",
+      "slug": "merchandising-execution-associate",
+      "jobtitle_url": "https://www.zippia.com/merchandising-execution-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandising Execution Team",
+      "slug": "merchandising-execution-team",
+      "jobtitle_url": "https://www.zippia.com/merchandising-execution-team-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandising Representative",
+      "slug": "merchandising-representative",
+      "jobtitle_url": "https://www.zippia.com/merchandising-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchandising Supervisor",
+      "slug": "merchandising-supervisor",
+      "jobtitle_url": "https://www.zippia.com/merchandising-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Merchant",
+      "slug": "merchant",
+      "jobtitle_url": "https://www.zippia.com/merchant-jobs/"
+    },
+    {
+      "jobtitle_name": "Metals Sales Representative",
+      "slug": "metals-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/metals-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Meter Supervisor",
+      "slug": "meter-supervisor",
+      "jobtitle_url": "https://www.zippia.com/meter-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Millwork Sales Specialist",
+      "slug": "millwork-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/millwork-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Millwork Specialist",
+      "slug": "millwork-specialist",
+      "jobtitle_url": "https://www.zippia.com/millwork-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Mobile Consultant",
+      "slug": "mobile-consultant",
+      "jobtitle_url": "https://www.zippia.com/mobile-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Mobile Sales Associate",
+      "slug": "mobile-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/mobile-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Mobile Sales Consultant",
+      "slug": "mobile-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/mobile-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Mobile Sales Lead",
+      "slug": "mobile-sales-lead",
+      "jobtitle_url": "https://www.zippia.com/mobile-sales-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Mobile Sales Representative",
+      "slug": "mobile-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/mobile-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Model/Sales Associate",
+      "slug": "modelsales-associate",
+      "jobtitle_url": "https://www.zippia.com/modelsales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Modeler",
+      "slug": "modeler",
+      "jobtitle_url": "https://www.zippia.com/modeler-jobs/"
+    },
+    {
+      "jobtitle_name": "Money Counter",
+      "slug": "money-counter",
+      "jobtitle_url": "https://www.zippia.com/money-counter-jobs/"
+    },
+    {
+      "jobtitle_name": "Moving Consultant",
+      "slug": "moving-consultant",
+      "jobtitle_url": "https://www.zippia.com/moving-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Municipal Bond Trader",
+      "slug": "municipal-bond-trader",
+      "jobtitle_url": "https://www.zippia.com/municipal-bond-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Music Manager",
+      "slug": "music-manager",
+      "jobtitle_url": "https://www.zippia.com/music-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Music Store Manager",
+      "slug": "music-store-manager",
+      "jobtitle_url": "https://www.zippia.com/music-store-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Music Supervisor",
+      "slug": "music-supervisor",
+      "jobtitle_url": "https://www.zippia.com/music-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Mutual Funds Agent",
+      "slug": "mutual-funds-agent",
+      "jobtitle_url": "https://www.zippia.com/mutual-funds-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Mutuel Clerk",
+      "slug": "mutuel-clerk",
+      "jobtitle_url": "https://www.zippia.com/mutuel-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Named Account Executive",
+      "slug": "named-account-executive",
+      "jobtitle_url": "https://www.zippia.com/named-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "National Account Executive",
+      "slug": "national-account-executive",
+      "jobtitle_url": "https://www.zippia.com/national-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "National Account Representative",
+      "slug": "national-account-representative",
+      "jobtitle_url": "https://www.zippia.com/national-account-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "National Account Specialist",
+      "slug": "national-account-specialist",
+      "jobtitle_url": "https://www.zippia.com/national-account-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "National Sales Assistant",
+      "slug": "national-sales-assistant",
+      "jobtitle_url": "https://www.zippia.com/national-sales-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "National Sales Coordinator",
+      "slug": "national-sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/national-sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Natural Gas Trader",
+      "slug": "natural-gas-trader",
+      "jobtitle_url": "https://www.zippia.com/natural-gas-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Navigator",
+      "slug": "navigator",
+      "jobtitle_url": "https://www.zippia.com/navigator-jobs/"
+    },
+    {
+      "jobtitle_name": "Negotiator Sales",
+      "slug": "negotiator-sales",
+      "jobtitle_url": "https://www.zippia.com/negotiator-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Network Sales Engineer",
+      "slug": "network-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/network-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Newspaper Carrier",
+      "slug": "newspaper-carrier",
+      "jobtitle_url": "https://www.zippia.com/newspaper-carrier-jobs/"
+    },
+    {
+      "jobtitle_name": "Newspaper Delivery Counselor",
+      "slug": "newspaper-delivery-counselor",
+      "jobtitle_url": "https://www.zippia.com/newspaper-delivery-counselor-jobs/"
+    },
+    {
+      "jobtitle_name": "Office Assistant Lead",
+      "slug": "office-assistant-lead",
+      "jobtitle_url": "https://www.zippia.com/office-assistant-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Opener",
+      "slug": "opener",
+      "jobtitle_url": "https://www.zippia.com/opener-jobs/"
+    },
+    {
+      "jobtitle_name": "Options Trader",
+      "slug": "options-trader",
+      "jobtitle_url": "https://www.zippia.com/options-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Order Department Supervisor",
+      "slug": "order-department-supervisor",
+      "jobtitle_url": "https://www.zippia.com/order-department-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Outbound Associate",
+      "slug": "outbound-associate",
+      "jobtitle_url": "https://www.zippia.com/outbound-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Outbound Sales Representative",
+      "slug": "outbound-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/outbound-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Outfitter",
+      "slug": "outfitter",
+      "jobtitle_url": "https://www.zippia.com/outfitter-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Account Executive",
+      "slug": "outside-account-executive",
+      "jobtitle_url": "https://www.zippia.com/outside-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Parts Sales",
+      "slug": "outside-parts-sales",
+      "jobtitle_url": "https://www.zippia.com/outside-parts-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Property Agent",
+      "slug": "outside-property-agent",
+      "jobtitle_url": "https://www.zippia.com/outside-property-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Sales",
+      "slug": "outside-sales",
+      "jobtitle_url": "https://www.zippia.com/outside-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Sales Associate",
+      "slug": "outside-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/outside-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Sales Consultant",
+      "slug": "outside-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/outside-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Sales Engineer",
+      "slug": "outside-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/outside-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Sales Executive",
+      "slug": "outside-sales-executive",
+      "jobtitle_url": "https://www.zippia.com/outside-sales-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Sales Person",
+      "slug": "outside-sales-person",
+      "jobtitle_url": "https://www.zippia.com/outside-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Outside Sales Representative",
+      "slug": "outside-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/outside-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Owner And Sales",
+      "slug": "owner-and-sales",
+      "jobtitle_url": "https://www.zippia.com/owner-and-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Owner, Professional Engineer",
+      "slug": "owner-professional-engineer",
+      "jobtitle_url": "https://www.zippia.com/owner-professional-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Paint Associate",
+      "slug": "paint-associate",
+      "jobtitle_url": "https://www.zippia.com/paint-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Paint Department Supervisor",
+      "slug": "paint-department-supervisor",
+      "jobtitle_url": "https://www.zippia.com/paint-department-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Parking Cashier",
+      "slug": "parking-cashier",
+      "jobtitle_url": "https://www.zippia.com/parking-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Part-Time Key Manager",
+      "slug": "parttime-key-manager",
+      "jobtitle_url": "https://www.zippia.com/parttime-key-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Advisor",
+      "slug": "parts-advisor",
+      "jobtitle_url": "https://www.zippia.com/parts-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Associate",
+      "slug": "parts-associate",
+      "jobtitle_url": "https://www.zippia.com/parts-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Coordinator",
+      "slug": "parts-coordinator",
+      "jobtitle_url": "https://www.zippia.com/parts-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Counter Clerk",
+      "slug": "parts-counter-clerk",
+      "jobtitle_url": "https://www.zippia.com/parts-counter-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Counterman",
+      "slug": "parts-counterman",
+      "jobtitle_url": "https://www.zippia.com/parts-counterman-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Counterperson",
+      "slug": "parts-counterperson",
+      "jobtitle_url": "https://www.zippia.com/parts-counterperson-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Department Manager",
+      "slug": "parts-department-manager",
+      "jobtitle_url": "https://www.zippia.com/parts-department-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Department Supervisor",
+      "slug": "parts-department-supervisor",
+      "jobtitle_url": "https://www.zippia.com/parts-department-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Driver",
+      "slug": "parts-driver",
+      "jobtitle_url": "https://www.zippia.com/parts-driver-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Manager",
+      "slug": "parts-manager",
+      "jobtitle_url": "https://www.zippia.com/parts-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Person",
+      "slug": "parts-person",
+      "jobtitle_url": "https://www.zippia.com/parts-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Puller",
+      "slug": "parts-puller",
+      "jobtitle_url": "https://www.zippia.com/parts-puller-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Runner",
+      "slug": "parts-runner",
+      "jobtitle_url": "https://www.zippia.com/parts-runner-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Sales Associate",
+      "slug": "parts-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/parts-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Sales Person",
+      "slug": "parts-sales-person",
+      "jobtitle_url": "https://www.zippia.com/parts-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Specialist",
+      "slug": "parts-specialist",
+      "jobtitle_url": "https://www.zippia.com/parts-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts Technician",
+      "slug": "parts-technician",
+      "jobtitle_url": "https://www.zippia.com/parts-technician-jobs/"
+    },
+    {
+      "jobtitle_name": "Parts-Counter Sales",
+      "slug": "partscounter-sales",
+      "jobtitle_url": "https://www.zippia.com/partscounter-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Party Director",
+      "slug": "party-director",
+      "jobtitle_url": "https://www.zippia.com/party-director-jobs/"
+    },
+    {
+      "jobtitle_name": "Passer",
+      "slug": "passer",
+      "jobtitle_url": "https://www.zippia.com/passer-jobs/"
+    },
+    {
+      "jobtitle_name": "Pawn Broker",
+      "slug": "pawn-broker",
+      "jobtitle_url": "https://www.zippia.com/pawn-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Personal Banker",
+      "slug": "personal-banker",
+      "jobtitle_url": "https://www.zippia.com/personal-banker-jobs/"
+    },
+    {
+      "jobtitle_name": "Personal Lines Account Manager",
+      "slug": "personal-lines-account-manager",
+      "jobtitle_url": "https://www.zippia.com/personal-lines-account-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Personal Shopper",
+      "slug": "personal-shopper",
+      "jobtitle_url": "https://www.zippia.com/personal-shopper-jobs/"
+    },
+    {
+      "jobtitle_name": "Pest Control Service Sales Agent",
+      "slug": "pest-control-service-sales-agent",
+      "jobtitle_url": "https://www.zippia.com/pest-control-service-sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Pharmaceutical Representative",
+      "slug": "pharmaceutical-representative",
+      "jobtitle_url": "https://www.zippia.com/pharmaceutical-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Pharmaceutical Sales Consultant",
+      "slug": "pharmaceutical-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/pharmaceutical-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Pharmaceutical Sales Person",
+      "slug": "pharmaceutical-sales-person",
+      "jobtitle_url": "https://www.zippia.com/pharmaceutical-sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Pharmaceutical Sales Representative",
+      "slug": "pharmaceutical-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/pharmaceutical-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Pharmaceutical Sales Specialist",
+      "slug": "pharmaceutical-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/pharmaceutical-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Phone Banker",
+      "slug": "phone-banker",
+      "jobtitle_url": "https://www.zippia.com/phone-banker-jobs/"
+    },
+    {
+      "jobtitle_name": "Phone Sales",
+      "slug": "phone-sales",
+      "jobtitle_url": "https://www.zippia.com/phone-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Phone Sales Representative",
+      "slug": "phone-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/phone-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Photo Booth Operator",
+      "slug": "photo-booth-operator",
+      "jobtitle_url": "https://www.zippia.com/photo-booth-operator-jobs/"
+    },
+    {
+      "jobtitle_name": "Photographer's Model",
+      "slug": "photographers-model",
+      "jobtitle_url": "https://www.zippia.com/photographers-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Placer",
+      "slug": "placer",
+      "jobtitle_url": "https://www.zippia.com/placer-jobs/"
+    },
+    {
+      "jobtitle_name": "Plan Checker",
+      "slug": "plan-checker",
+      "jobtitle_url": "https://www.zippia.com/plan-checker-jobs/"
+    },
+    {
+      "jobtitle_name": "Point Of Sales Associate",
+      "slug": "point-of-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/point-of-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Policy Writer, Sales",
+      "slug": "policy-writer-sales",
+      "jobtitle_url": "https://www.zippia.com/policy-writer-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Post Exchange Manager",
+      "slug": "post-exchange-manager",
+      "jobtitle_url": "https://www.zippia.com/post-exchange-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Pre Sales Engineer",
+      "slug": "pre-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/pre-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Premise Sales Representative",
+      "slug": "premise-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/premise-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Presentation Manager",
+      "slug": "presentation-manager",
+      "jobtitle_url": "https://www.zippia.com/presentation-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Presentation Team Member",
+      "slug": "presentation-team-member",
+      "jobtitle_url": "https://www.zippia.com/presentation-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Pricing Associate",
+      "slug": "pricing-associate",
+      "jobtitle_url": "https://www.zippia.com/pricing-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Pricing Coordinator",
+      "slug": "pricing-coordinator",
+      "jobtitle_url": "https://www.zippia.com/pricing-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Primary Care MD",
+      "slug": "primary-care-md",
+      "jobtitle_url": "https://www.zippia.com/primary-care-md-jobs/"
+    },
+    {
+      "jobtitle_name": "Primary Care Provider",
+      "slug": "primary-care-provider",
+      "jobtitle_url": "https://www.zippia.com/primary-care-provider-jobs/"
+    },
+    {
+      "jobtitle_name": "Primary Care Representative",
+      "slug": "primary-care-representative",
+      "jobtitle_url": "https://www.zippia.com/primary-care-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Printing Sales Representative",
+      "slug": "printing-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/printing-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Pro Shop Attendant",
+      "slug": "pro-shop-attendant",
+      "jobtitle_url": "https://www.zippia.com/pro-shop-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Pro Shop Manager",
+      "slug": "pro-shop-manager",
+      "jobtitle_url": "https://www.zippia.com/pro-shop-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Pro-Shop Assistant",
+      "slug": "proshop-assistant",
+      "jobtitle_url": "https://www.zippia.com/proshop-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Produce Department Manager",
+      "slug": "produce-department-manager",
+      "jobtitle_url": "https://www.zippia.com/produce-department-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Produce Department Supervisor",
+      "slug": "produce-department-supervisor",
+      "jobtitle_url": "https://www.zippia.com/produce-department-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Produce Manager",
+      "slug": "produce-manager",
+      "jobtitle_url": "https://www.zippia.com/produce-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Produce Sales Associate",
+      "slug": "produce-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/produce-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Advisor",
+      "slug": "product-advisor",
+      "jobtitle_url": "https://www.zippia.com/product-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Applications Engineer",
+      "slug": "product-applications-engineer",
+      "jobtitle_url": "https://www.zippia.com/product-applications-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Associate",
+      "slug": "product-associate",
+      "jobtitle_url": "https://www.zippia.com/product-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Consultant",
+      "slug": "product-consultant",
+      "jobtitle_url": "https://www.zippia.com/product-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Demonstrator",
+      "slug": "product-demonstrator",
+      "jobtitle_url": "https://www.zippia.com/product-demonstrator-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Management Internship",
+      "slug": "product-management-internship",
+      "jobtitle_url": "https://www.zippia.com/product-management-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Manager Internship",
+      "slug": "product-manager-internship",
+      "jobtitle_url": "https://www.zippia.com/product-manager-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Marketing Engineer",
+      "slug": "product-marketing-engineer",
+      "jobtitle_url": "https://www.zippia.com/product-marketing-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Representative",
+      "slug": "product-representative",
+      "jobtitle_url": "https://www.zippia.com/product-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Product Sales Engineer",
+      "slug": "product-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/product-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Production Counter",
+      "slug": "production-counter",
+      "jobtitle_url": "https://www.zippia.com/production-counter-jobs/"
+    },
+    {
+      "jobtitle_name": "Production Team Member",
+      "slug": "production-team-member",
+      "jobtitle_url": "https://www.zippia.com/production-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Professional Healthcare Representative",
+      "slug": "professional-healthcare-representative",
+      "jobtitle_url": "https://www.zippia.com/professional-healthcare-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Professional Medical Representative",
+      "slug": "professional-medical-representative",
+      "jobtitle_url": "https://www.zippia.com/professional-medical-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Professional Model",
+      "slug": "professional-model",
+      "jobtitle_url": "https://www.zippia.com/professional-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Professional Representative",
+      "slug": "professional-representative",
+      "jobtitle_url": "https://www.zippia.com/professional-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Professional Services Engineer",
+      "slug": "professional-services-engineer",
+      "jobtitle_url": "https://www.zippia.com/professional-services-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Project Sales Engineer",
+      "slug": "project-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/project-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Project Team Member",
+      "slug": "project-team-member",
+      "jobtitle_url": "https://www.zippia.com/project-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Promoter",
+      "slug": "promoter",
+      "jobtitle_url": "https://www.zippia.com/promoter-jobs/"
+    },
+    {
+      "jobtitle_name": "Promotion Specialist",
+      "slug": "promotion-specialist",
+      "jobtitle_url": "https://www.zippia.com/promotion-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Promotional Model",
+      "slug": "promotional-model",
+      "jobtitle_url": "https://www.zippia.com/promotional-model-jobs/"
+    },
+    {
+      "jobtitle_name": "Promotional Representative",
+      "slug": "promotional-representative",
+      "jobtitle_url": "https://www.zippia.com/promotional-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Promotions Assistant",
+      "slug": "promotions-assistant",
+      "jobtitle_url": "https://www.zippia.com/promotions-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Promotions Associate",
+      "slug": "promotions-associate",
+      "jobtitle_url": "https://www.zippia.com/promotions-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Promotions Internship",
+      "slug": "promotions-internship",
+      "jobtitle_url": "https://www.zippia.com/promotions-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Promotions Team Member",
+      "slug": "promotions-team-member",
+      "jobtitle_url": "https://www.zippia.com/promotions-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Proprietary Trader",
+      "slug": "proprietary-trader",
+      "jobtitle_url": "https://www.zippia.com/proprietary-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Publications Sales Representative",
+      "slug": "publications-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/publications-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Publishing Associate",
+      "slug": "publishing-associate",
+      "jobtitle_url": "https://www.zippia.com/publishing-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Account Executive",
+      "slug": "real-estate-account-executive",
+      "jobtitle_url": "https://www.zippia.com/real-estate-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Agent",
+      "slug": "real-estate-agent",
+      "jobtitle_url": "https://www.zippia.com/real-estate-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Broker",
+      "slug": "real-estate-broker",
+      "jobtitle_url": "https://www.zippia.com/real-estate-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Broker Associate",
+      "slug": "real-estate-broker-associate",
+      "jobtitle_url": "https://www.zippia.com/real-estate-broker-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Closer",
+      "slug": "real-estate-closer",
+      "jobtitle_url": "https://www.zippia.com/real-estate-closer-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Consultant",
+      "slug": "real-estate-consultant",
+      "jobtitle_url": "https://www.zippia.com/real-estate-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Internship",
+      "slug": "real-estate-internship",
+      "jobtitle_url": "https://www.zippia.com/real-estate-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Lawyer",
+      "slug": "real-estate-lawyer",
+      "jobtitle_url": "https://www.zippia.com/real-estate-lawyer-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Sales Associate",
+      "slug": "real-estate-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/real-estate-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Sales Supervisor",
+      "slug": "real-estate-sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/real-estate-sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Estate Teacher",
+      "slug": "real-estate-teacher",
+      "jobtitle_url": "https://www.zippia.com/real-estate-teacher-jobs/"
+    },
+    {
+      "jobtitle_name": "Real Time Trader",
+      "slug": "real-time-trader",
+      "jobtitle_url": "https://www.zippia.com/real-time-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Realtor",
+      "slug": "realtor",
+      "jobtitle_url": "https://www.zippia.com/realtor-jobs/"
+    },
+    {
+      "jobtitle_name": "Recieving Associate",
+      "slug": "recieving-associate",
+      "jobtitle_url": "https://www.zippia.com/recieving-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Recovery Associate",
+      "slug": "recovery-associate",
+      "jobtitle_url": "https://www.zippia.com/recovery-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Regional Account Representative",
+      "slug": "regional-account-representative",
+      "jobtitle_url": "https://www.zippia.com/regional-account-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Regional Sales Consultant",
+      "slug": "regional-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/regional-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Regional Sales Engineer",
+      "slug": "regional-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/regional-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Regional Sales Representative",
+      "slug": "regional-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/regional-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Regional Sales Specialist",
+      "slug": "regional-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/regional-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Register Clerk",
+      "slug": "register-clerk",
+      "jobtitle_url": "https://www.zippia.com/register-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Registered Medical Assistant",
+      "slug": "registered-medical-assistant",
+      "jobtitle_url": "https://www.zippia.com/registered-medical-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Registered Representative",
+      "slug": "registered-representative",
+      "jobtitle_url": "https://www.zippia.com/registered-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Registered Sales Assistant",
+      "slug": "registered-sales-assistant",
+      "jobtitle_url": "https://www.zippia.com/registered-sales-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Relationship Banker",
+      "slug": "relationship-banker",
+      "jobtitle_url": "https://www.zippia.com/relationship-banker-jobs/"
+    },
+    {
+      "jobtitle_name": "Renewable Energy Broker",
+      "slug": "renewable-energy-broker",
+      "jobtitle_url": "https://www.zippia.com/renewable-energy-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Renewable Energy Consultant",
+      "slug": "renewable-energy-consultant",
+      "jobtitle_url": "https://www.zippia.com/renewable-energy-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Rental Agent",
+      "slug": "rental-agent",
+      "jobtitle_url": "https://www.zippia.com/rental-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Rental Boats Caretaker",
+      "slug": "rental-boats-caretaker",
+      "jobtitle_url": "https://www.zippia.com/rental-boats-caretaker-jobs/"
+    },
+    {
+      "jobtitle_name": "Rental Clerk",
+      "slug": "rental-clerk",
+      "jobtitle_url": "https://www.zippia.com/rental-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Rental Coordinator",
+      "slug": "rental-coordinator",
+      "jobtitle_url": "https://www.zippia.com/rental-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Rental Counter Clerk",
+      "slug": "rental-counter-clerk",
+      "jobtitle_url": "https://www.zippia.com/rental-counter-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Rental Manager",
+      "slug": "rental-manager",
+      "jobtitle_url": "https://www.zippia.com/rental-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Rental Representative",
+      "slug": "rental-representative",
+      "jobtitle_url": "https://www.zippia.com/rental-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Repair Clerk",
+      "slug": "repair-clerk",
+      "jobtitle_url": "https://www.zippia.com/repair-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Replenishment Associate",
+      "slug": "replenishment-associate",
+      "jobtitle_url": "https://www.zippia.com/replenishment-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Replenishment Manager",
+      "slug": "replenishment-manager",
+      "jobtitle_url": "https://www.zippia.com/replenishment-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Research Assistant Lead",
+      "slug": "research-assistant-lead",
+      "jobtitle_url": "https://www.zippia.com/research-assistant-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Research Team Member",
+      "slug": "research-team-member",
+      "jobtitle_url": "https://www.zippia.com/research-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Residence Leasing Agent",
+      "slug": "residence-leasing-agent",
+      "jobtitle_url": "https://www.zippia.com/residence-leasing-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Residential Sales",
+      "slug": "residential-sales",
+      "jobtitle_url": "https://www.zippia.com/residential-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Residential Sales Representative",
+      "slug": "residential-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/residential-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Restaurant Cashier",
+      "slug": "restaurant-cashier",
+      "jobtitle_url": "https://www.zippia.com/restaurant-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Advertising Account Executive",
+      "slug": "retail-advertising-account-executive",
+      "jobtitle_url": "https://www.zippia.com/retail-advertising-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Cashier",
+      "slug": "retail-cashier",
+      "jobtitle_url": "https://www.zippia.com/retail-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Clerk",
+      "slug": "retail-clerk",
+      "jobtitle_url": "https://www.zippia.com/retail-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Consultant",
+      "slug": "retail-consultant",
+      "jobtitle_url": "https://www.zippia.com/retail-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Management Internship",
+      "slug": "retail-management-internship",
+      "jobtitle_url": "https://www.zippia.com/retail-management-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Merchandiser",
+      "slug": "retail-merchandiser",
+      "jobtitle_url": "https://www.zippia.com/retail-merchandiser-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Representative",
+      "slug": "retail-representative",
+      "jobtitle_url": "https://www.zippia.com/retail-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Associate/Cashier",
+      "slug": "retail-sales-associatecashier",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-associatecashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Consultant",
+      "slug": "retail-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Lead",
+      "slug": "retail-sales-lead",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Manager",
+      "slug": "retail-sales-manager",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Merchandiser",
+      "slug": "retail-sales-merchandiser",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-merchandiser-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Representative",
+      "slug": "retail-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Specialist",
+      "slug": "retail-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Sales Supervisor",
+      "slug": "retail-sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/retail-sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Service Representative",
+      "slug": "retail-service-representative",
+      "jobtitle_url": "https://www.zippia.com/retail-service-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Service Specialist",
+      "slug": "retail-service-specialist",
+      "jobtitle_url": "https://www.zippia.com/retail-service-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Specialist",
+      "slug": "retail-specialist",
+      "jobtitle_url": "https://www.zippia.com/retail-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Retail Supervisor",
+      "slug": "retail-supervisor",
+      "jobtitle_url": "https://www.zippia.com/retail-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Administrator",
+      "slug": "sales-administrator",
+      "jobtitle_url": "https://www.zippia.com/sales-administrator-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Agent",
+      "slug": "sales-agent",
+      "jobtitle_url": "https://www.zippia.com/sales-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales And Leasing Consultant",
+      "slug": "sales-and-leasing-consultant",
+      "jobtitle_url": "https://www.zippia.com/sales-and-leasing-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales And Service Associate",
+      "slug": "sales-and-service-associate",
+      "jobtitle_url": "https://www.zippia.com/sales-and-service-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales And Service Engineer",
+      "slug": "sales-and-service-engineer",
+      "jobtitle_url": "https://www.zippia.com/sales-and-service-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Assistant",
+      "slug": "sales-assistant",
+      "jobtitle_url": "https://www.zippia.com/sales-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Assoc",
+      "slug": "sales-assoc",
+      "jobtitle_url": "https://www.zippia.com/sales-assoc-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Associate",
+      "slug": "sales-associate",
+      "jobtitle_url": "https://www.zippia.com/sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Associate And Cashier",
+      "slug": "sales-associate-and-cashier",
+      "jobtitle_url": "https://www.zippia.com/sales-associate-and-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Associate And Customer Service",
+      "slug": "sales-associate-and-customer-service",
+      "jobtitle_url": "https://www.zippia.com/sales-associate-and-customer-service-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Associate And Shift Leader",
+      "slug": "sales-associate-and-shift-leader",
+      "jobtitle_url": "https://www.zippia.com/sales-associate-and-shift-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Associate Sporting Goods",
+      "slug": "sales-associate-sporting-goods",
+      "jobtitle_url": "https://www.zippia.com/sales-associate-sporting-goods-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Associate/Manager",
+      "slug": "sales-associatemanager",
+      "jobtitle_url": "https://www.zippia.com/sales-associatemanager-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Clerk",
+      "slug": "sales-clerk",
+      "jobtitle_url": "https://www.zippia.com/sales-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Coach",
+      "slug": "sales-coach",
+      "jobtitle_url": "https://www.zippia.com/sales-coach-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Consultant",
+      "slug": "sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Contractor",
+      "slug": "sales-contractor",
+      "jobtitle_url": "https://www.zippia.com/sales-contractor-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Coordinator",
+      "slug": "sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Correspondent",
+      "slug": "sales-correspondent",
+      "jobtitle_url": "https://www.zippia.com/sales-correspondent-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Counselor",
+      "slug": "sales-counselor",
+      "jobtitle_url": "https://www.zippia.com/sales-counselor-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Development Representative",
+      "slug": "sales-development-representative",
+      "jobtitle_url": "https://www.zippia.com/sales-development-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Engineer",
+      "slug": "sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Engineer Lead",
+      "slug": "sales-engineer-lead",
+      "jobtitle_url": "https://www.zippia.com/sales-engineer-lead-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Engineer, Account Manager",
+      "slug": "sales-engineer-account-manager",
+      "jobtitle_url": "https://www.zippia.com/sales-engineer-account-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Engineering Manager",
+      "slug": "sales-engineering-manager",
+      "jobtitle_url": "https://www.zippia.com/sales-engineering-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Expert",
+      "slug": "sales-expert",
+      "jobtitle_url": "https://www.zippia.com/sales-expert-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Facilitator",
+      "slug": "sales-facilitator",
+      "jobtitle_url": "https://www.zippia.com/sales-facilitator-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Floor Associate",
+      "slug": "sales-floor-associate",
+      "jobtitle_url": "https://www.zippia.com/sales-floor-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Floor Leader",
+      "slug": "sales-floor-leader",
+      "jobtitle_url": "https://www.zippia.com/sales-floor-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Floor Team Leader",
+      "slug": "sales-floor-team-leader",
+      "jobtitle_url": "https://www.zippia.com/sales-floor-team-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Internship",
+      "slug": "sales-internship",
+      "jobtitle_url": "https://www.zippia.com/sales-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Lead/Sales Associate",
+      "slug": "sales-leadsales-associate",
+      "jobtitle_url": "https://www.zippia.com/sales-leadsales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Leader",
+      "slug": "sales-leader",
+      "jobtitle_url": "https://www.zippia.com/sales-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Management Consultant",
+      "slug": "sales-management-consultant",
+      "jobtitle_url": "https://www.zippia.com/sales-management-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Management Trainee",
+      "slug": "sales-management-trainee",
+      "jobtitle_url": "https://www.zippia.com/sales-management-trainee-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Operations Coordinator",
+      "slug": "sales-operations-coordinator",
+      "jobtitle_url": "https://www.zippia.com/sales-operations-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Operations Specialist",
+      "slug": "sales-operations-specialist",
+      "jobtitle_url": "https://www.zippia.com/sales-operations-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Person",
+      "slug": "sales-person",
+      "jobtitle_url": "https://www.zippia.com/sales-person-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Producer",
+      "slug": "sales-producer",
+      "jobtitle_url": "https://www.zippia.com/sales-producer-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Professional",
+      "slug": "sales-professional",
+      "jobtitle_url": "https://www.zippia.com/sales-professional-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Promoter",
+      "slug": "sales-promoter",
+      "jobtitle_url": "https://www.zippia.com/sales-promoter-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Promotion Representative",
+      "slug": "sales-promotion-representative",
+      "jobtitle_url": "https://www.zippia.com/sales-promotion-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Representative",
+      "slug": "sales-representative",
+      "jobtitle_url": "https://www.zippia.com/sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Representative Internship",
+      "slug": "sales-representative-internship",
+      "jobtitle_url": "https://www.zippia.com/sales-representative-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Representative/Assistant",
+      "slug": "sales-representativeassistant",
+      "jobtitle_url": "https://www.zippia.com/sales-representativeassistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Service Coordinator",
+      "slug": "sales-service-coordinator",
+      "jobtitle_url": "https://www.zippia.com/sales-service-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Special Agent",
+      "slug": "sales-special-agent",
+      "jobtitle_url": "https://www.zippia.com/sales-special-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Specialist",
+      "slug": "sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Store Checker",
+      "slug": "sales-store-checker",
+      "jobtitle_url": "https://www.zippia.com/sales-store-checker-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Supervisor",
+      "slug": "sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Support Associate",
+      "slug": "sales-support-associate",
+      "jobtitle_url": "https://www.zippia.com/sales-support-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Support Coordinator",
+      "slug": "sales-support-coordinator",
+      "jobtitle_url": "https://www.zippia.com/sales-support-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Support Engineer",
+      "slug": "sales-support-engineer",
+      "jobtitle_url": "https://www.zippia.com/sales-support-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Support Representative",
+      "slug": "sales-support-representative",
+      "jobtitle_url": "https://www.zippia.com/sales-support-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Support Specialist",
+      "slug": "sales-support-specialist",
+      "jobtitle_url": "https://www.zippia.com/sales-support-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Support Supervisor",
+      "slug": "sales-support-supervisor",
+      "jobtitle_url": "https://www.zippia.com/sales-support-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Support Technician",
+      "slug": "sales-support-technician",
+      "jobtitle_url": "https://www.zippia.com/sales-support-technician-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Team Leader",
+      "slug": "sales-team-leader",
+      "jobtitle_url": "https://www.zippia.com/sales-team-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Team Member",
+      "slug": "sales-team-member",
+      "jobtitle_url": "https://www.zippia.com/sales-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Trader",
+      "slug": "sales-trader",
+      "jobtitle_url": "https://www.zippia.com/sales-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Trainee",
+      "slug": "sales-trainee",
+      "jobtitle_url": "https://www.zippia.com/sales-trainee-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales Trainer",
+      "slug": "sales-trainer",
+      "jobtitle_url": "https://www.zippia.com/sales-trainer-jobs/"
+    },
+    {
+      "jobtitle_name": "Sales/Account Representative",
+      "slug": "salesaccount-representative",
+      "jobtitle_url": "https://www.zippia.com/salesaccount-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Sandwich Board Carrier",
+      "slug": "sandwich-board-carrier",
+      "jobtitle_url": "https://www.zippia.com/sandwich-board-carrier-jobs/"
+    },
+    {
+      "jobtitle_name": "Scientific Consultant",
+      "slug": "scientific-consultant",
+      "jobtitle_url": "https://www.zippia.com/scientific-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Seasonal Associate",
+      "slug": "seasonal-associate",
+      "jobtitle_url": "https://www.zippia.com/seasonal-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Seasonal Cashier",
+      "slug": "seasonal-cashier",
+      "jobtitle_url": "https://www.zippia.com/seasonal-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Seasonal Manager",
+      "slug": "seasonal-manager",
+      "jobtitle_url": "https://www.zippia.com/seasonal-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Seasonal Sales Representative",
+      "slug": "seasonal-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/seasonal-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Second Assistant Manager",
+      "slug": "second-assistant-manager",
+      "jobtitle_url": "https://www.zippia.com/second-assistant-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Securities Trader",
+      "slug": "securities-trader",
+      "jobtitle_url": "https://www.zippia.com/securities-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Security Systems Sales Representative",
+      "slug": "security-systems-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/security-systems-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Seller",
+      "slug": "seller",
+      "jobtitle_url": "https://www.zippia.com/seller-jobs/"
+    },
+    {
+      "jobtitle_name": "Selling Specialist",
+      "slug": "selling-specialist",
+      "jobtitle_url": "https://www.zippia.com/selling-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Selling Supervisor",
+      "slug": "selling-supervisor",
+      "jobtitle_url": "https://www.zippia.com/selling-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Account Executive",
+      "slug": "senior-account-executive",
+      "jobtitle_url": "https://www.zippia.com/senior-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Accounts Representative",
+      "slug": "senior-accounts-representative",
+      "jobtitle_url": "https://www.zippia.com/senior-accounts-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Assistant Manager",
+      "slug": "senior-assistant-manager",
+      "jobtitle_url": "https://www.zippia.com/senior-assistant-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Business Development Representative",
+      "slug": "senior-business-development-representative",
+      "jobtitle_url": "https://www.zippia.com/senior-business-development-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Energy Trader",
+      "slug": "senior-energy-trader",
+      "jobtitle_url": "https://www.zippia.com/senior-energy-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Field Applications Engineer",
+      "slug": "senior-field-applications-engineer",
+      "jobtitle_url": "https://www.zippia.com/senior-field-applications-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Inside Sales Representative",
+      "slug": "senior-inside-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/senior-inside-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Marketing Representative",
+      "slug": "senior-marketing-representative",
+      "jobtitle_url": "https://www.zippia.com/senior-marketing-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Power Scheduler",
+      "slug": "senior-power-scheduler",
+      "jobtitle_url": "https://www.zippia.com/senior-power-scheduler-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Pre-Sales Engineer",
+      "slug": "senior-presales-engineer",
+      "jobtitle_url": "https://www.zippia.com/senior-presales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Product Marketing Engineer",
+      "slug": "senior-product-marketing-engineer",
+      "jobtitle_url": "https://www.zippia.com/senior-product-marketing-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Professional Sales Representative",
+      "slug": "senior-professional-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/senior-professional-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Sales Associate",
+      "slug": "senior-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/senior-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Sales Coordinator",
+      "slug": "senior-sales-coordinator",
+      "jobtitle_url": "https://www.zippia.com/senior-sales-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Sales Engineer",
+      "slug": "senior-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/senior-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Sales Representative",
+      "slug": "senior-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/senior-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Sales Specialist",
+      "slug": "senior-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/senior-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Sales Support Specialist",
+      "slug": "senior-sales-support-specialist",
+      "jobtitle_url": "https://www.zippia.com/senior-sales-support-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Solutions Engineer",
+      "slug": "senior-solutions-engineer",
+      "jobtitle_url": "https://www.zippia.com/senior-solutions-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Store Associate",
+      "slug": "senior-store-associate",
+      "jobtitle_url": "https://www.zippia.com/senior-store-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Systems Sales Engineer",
+      "slug": "senior-systems-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/senior-systems-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Technical Marketing Engineer",
+      "slug": "senior-technical-marketing-engineer",
+      "jobtitle_url": "https://www.zippia.com/senior-technical-marketing-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Senior Travel Consultant",
+      "slug": "senior-travel-consultant",
+      "jobtitle_url": "https://www.zippia.com/senior-travel-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Service Account Engineer",
+      "slug": "service-account-engineer",
+      "jobtitle_url": "https://www.zippia.com/service-account-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Service Cashier",
+      "slug": "service-cashier",
+      "jobtitle_url": "https://www.zippia.com/service-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Service Counter Cashier",
+      "slug": "service-counter-cashier",
+      "jobtitle_url": "https://www.zippia.com/service-counter-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Service Station Cashier",
+      "slug": "service-station-cashier",
+      "jobtitle_url": "https://www.zippia.com/service-station-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Service Team Member",
+      "slug": "service-team-member",
+      "jobtitle_url": "https://www.zippia.com/service-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Service/Parts Director",
+      "slug": "serviceparts-director",
+      "jobtitle_url": "https://www.zippia.com/serviceparts-director-jobs/"
+    },
+    {
+      "jobtitle_name": "Services Clerk",
+      "slug": "services-clerk",
+      "jobtitle_url": "https://www.zippia.com/services-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Shift Leader/Cashier",
+      "slug": "shift-leadercashier",
+      "jobtitle_url": "https://www.zippia.com/shift-leadercashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Shift Supervisor",
+      "slug": "shift-supervisor",
+      "jobtitle_url": "https://www.zippia.com/shift-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Shoe Clerk",
+      "slug": "shoe-clerk",
+      "jobtitle_url": "https://www.zippia.com/shoe-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Shop Manager",
+      "slug": "shop-manager",
+      "jobtitle_url": "https://www.zippia.com/shop-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Shopper",
+      "slug": "shopper",
+      "jobtitle_url": "https://www.zippia.com/shopper-jobs/"
+    },
+    {
+      "jobtitle_name": "Showroom Manager",
+      "slug": "showroom-manager",
+      "jobtitle_url": "https://www.zippia.com/showroom-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Signing Agent",
+      "slug": "signing-agent",
+      "jobtitle_url": "https://www.zippia.com/signing-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Signs Sales Representative",
+      "slug": "signs-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/signs-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Site Leasing Agent",
+      "slug": "site-leasing-agent",
+      "jobtitle_url": "https://www.zippia.com/site-leasing-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Site Promotion Agent",
+      "slug": "site-promotion-agent",
+      "jobtitle_url": "https://www.zippia.com/site-promotion-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Snack Bar Cashier",
+      "slug": "snack-bar-cashier",
+      "jobtitle_url": "https://www.zippia.com/snack-bar-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Softlines Supervisor",
+      "slug": "softlines-supervisor",
+      "jobtitle_url": "https://www.zippia.com/softlines-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Software Sales Representative",
+      "slug": "software-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/software-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Business Developer",
+      "slug": "solar-business-developer",
+      "jobtitle_url": "https://www.zippia.com/solar-business-developer-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Consultant",
+      "slug": "solar-consultant",
+      "jobtitle_url": "https://www.zippia.com/solar-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Energy Specialist",
+      "slug": "solar-energy-specialist",
+      "jobtitle_url": "https://www.zippia.com/solar-energy-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Manufacturer's Representative",
+      "slug": "solar-manufacturers-representative",
+      "jobtitle_url": "https://www.zippia.com/solar-manufacturers-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Sales",
+      "slug": "solar-sales",
+      "jobtitle_url": "https://www.zippia.com/solar-sales-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Sales Associate",
+      "slug": "solar-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/solar-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Sales Consultant",
+      "slug": "solar-sales-consultant",
+      "jobtitle_url": "https://www.zippia.com/solar-sales-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Sales Representative",
+      "slug": "solar-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/solar-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Sales Specialist",
+      "slug": "solar-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/solar-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Solar Site Assessment Specialist",
+      "slug": "solar-site-assessment-specialist",
+      "jobtitle_url": "https://www.zippia.com/solar-site-assessment-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Solicitor",
+      "slug": "solicitor",
+      "jobtitle_url": "https://www.zippia.com/solicitor-jobs/"
+    },
+    {
+      "jobtitle_name": "Solution Sales Representative",
+      "slug": "solution-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/solution-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Solutions Engineer",
+      "slug": "solutions-engineer",
+      "jobtitle_url": "https://www.zippia.com/solutions-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Specialty Department Supervisor",
+      "slug": "specialty-department-supervisor",
+      "jobtitle_url": "https://www.zippia.com/specialty-department-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Specialty Representative",
+      "slug": "specialty-representative",
+      "jobtitle_url": "https://www.zippia.com/specialty-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Specialty Sales Representative",
+      "slug": "specialty-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/specialty-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Staff Associate",
+      "slug": "staff-associate",
+      "jobtitle_url": "https://www.zippia.com/staff-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Station Cashier",
+      "slug": "station-cashier",
+      "jobtitle_url": "https://www.zippia.com/station-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Stock Manager",
+      "slug": "stock-manager",
+      "jobtitle_url": "https://www.zippia.com/stock-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Stock Team Member",
+      "slug": "stock-team-member",
+      "jobtitle_url": "https://www.zippia.com/stock-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Stock Trader",
+      "slug": "stock-trader",
+      "jobtitle_url": "https://www.zippia.com/stock-trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Assistant",
+      "slug": "store-assistant",
+      "jobtitle_url": "https://www.zippia.com/store-assistant-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Associate",
+      "slug": "store-associate",
+      "jobtitle_url": "https://www.zippia.com/store-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Attendant",
+      "slug": "store-attendant",
+      "jobtitle_url": "https://www.zippia.com/store-attendant-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Clerk Checker",
+      "slug": "store-clerk-checker",
+      "jobtitle_url": "https://www.zippia.com/store-clerk-checker-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Gift Wrap Associate",
+      "slug": "store-gift-wrap-associate",
+      "jobtitle_url": "https://www.zippia.com/store-gift-wrap-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Leader",
+      "slug": "store-leader",
+      "jobtitle_url": "https://www.zippia.com/store-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Management Internship",
+      "slug": "store-management-internship",
+      "jobtitle_url": "https://www.zippia.com/store-management-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Manager",
+      "slug": "store-manager",
+      "jobtitle_url": "https://www.zippia.com/store-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Manager Trainee",
+      "slug": "store-manager-trainee",
+      "jobtitle_url": "https://www.zippia.com/store-manager-trainee-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Representative",
+      "slug": "store-representative",
+      "jobtitle_url": "https://www.zippia.com/store-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Sales Associate",
+      "slug": "store-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/store-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Shopper",
+      "slug": "store-shopper",
+      "jobtitle_url": "https://www.zippia.com/store-shopper-jobs/"
+    },
+    {
+      "jobtitle_name": "Store Team Leader",
+      "slug": "store-team-leader",
+      "jobtitle_url": "https://www.zippia.com/store-team-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Stores Supervisor",
+      "slug": "stores-supervisor",
+      "jobtitle_url": "https://www.zippia.com/stores-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Stower",
+      "slug": "stower",
+      "jobtitle_url": "https://www.zippia.com/stower-jobs/"
+    },
+    {
+      "jobtitle_name": "Strategic Account Executive",
+      "slug": "strategic-account-executive",
+      "jobtitle_url": "https://www.zippia.com/strategic-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Street Vendor",
+      "slug": "street-vendor",
+      "jobtitle_url": "https://www.zippia.com/street-vendor-jobs/"
+    },
+    {
+      "jobtitle_name": "Student Ambassador",
+      "slug": "student-ambassador",
+      "jobtitle_url": "https://www.zippia.com/student-ambassador-jobs/"
+    },
+    {
+      "jobtitle_name": "Style Advisor",
+      "slug": "style-advisor",
+      "jobtitle_url": "https://www.zippia.com/style-advisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Superior",
+      "slug": "superior",
+      "jobtitle_url": "https://www.zippia.com/superior-jobs/"
+    },
+    {
+      "jobtitle_name": "Supervisor/Sales Associate",
+      "slug": "supervisorsales-associate",
+      "jobtitle_url": "https://www.zippia.com/supervisorsales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Support Team Member",
+      "slug": "support-team-member",
+      "jobtitle_url": "https://www.zippia.com/support-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Surgical Sales Representative",
+      "slug": "surgical-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/surgical-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Tanning Consultant",
+      "slug": "tanning-consultant",
+      "jobtitle_url": "https://www.zippia.com/tanning-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Tasting Room Associate",
+      "slug": "tasting-room-associate",
+      "jobtitle_url": "https://www.zippia.com/tasting-room-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Team Associate",
+      "slug": "team-associate",
+      "jobtitle_url": "https://www.zippia.com/team-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Team Lead/Manager",
+      "slug": "team-leadmanager",
+      "jobtitle_url": "https://www.zippia.com/team-leadmanager-jobs/"
+    },
+    {
+      "jobtitle_name": "Team Leader",
+      "slug": "team-leader",
+      "jobtitle_url": "https://www.zippia.com/team-leader-jobs/"
+    },
+    {
+      "jobtitle_name": "Team Leader/Assistant Manager",
+      "slug": "team-leaderassistant-manager",
+      "jobtitle_url": "https://www.zippia.com/team-leaderassistant-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Team Sports Sales Associate",
+      "slug": "team-sports-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/team-sports-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Technical Internship",
+      "slug": "technical-internship",
+      "jobtitle_url": "https://www.zippia.com/technical-internship-jobs/"
+    },
+    {
+      "jobtitle_name": "Technical Marketing Engineer",
+      "slug": "technical-marketing-engineer",
+      "jobtitle_url": "https://www.zippia.com/technical-marketing-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Technical Sales Engineer",
+      "slug": "technical-sales-engineer",
+      "jobtitle_url": "https://www.zippia.com/technical-sales-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Technical Sales Manager",
+      "slug": "technical-sales-manager",
+      "jobtitle_url": "https://www.zippia.com/technical-sales-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Technical Sales Representative",
+      "slug": "technical-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/technical-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Technical Sales Specialist",
+      "slug": "technical-sales-specialist",
+      "jobtitle_url": "https://www.zippia.com/technical-sales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Technical Solutions Engineer",
+      "slug": "technical-solutions-engineer",
+      "jobtitle_url": "https://www.zippia.com/technical-solutions-engineer-jobs/"
+    },
+    {
+      "jobtitle_name": "Technician/Sales Associate",
+      "slug": "techniciansales-associate",
+      "jobtitle_url": "https://www.zippia.com/techniciansales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Telemarketer",
+      "slug": "telemarketer",
+      "jobtitle_url": "https://www.zippia.com/telemarketer-jobs/"
+    },
+    {
+      "jobtitle_name": "Telemarketer Supervisor",
+      "slug": "telemarketer-supervisor",
+      "jobtitle_url": "https://www.zippia.com/telemarketer-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Telemarketing Agent",
+      "slug": "telemarketing-agent",
+      "jobtitle_url": "https://www.zippia.com/telemarketing-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Telemarketing Fundraiser",
+      "slug": "telemarketing-fundraiser",
+      "jobtitle_url": "https://www.zippia.com/telemarketing-fundraiser-jobs/"
+    },
+    {
+      "jobtitle_name": "Telemarketing Manager",
+      "slug": "telemarketing-manager",
+      "jobtitle_url": "https://www.zippia.com/telemarketing-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Telemarketing Representative",
+      "slug": "telemarketing-representative",
+      "jobtitle_url": "https://www.zippia.com/telemarketing-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Telemarketing Sales Representative",
+      "slug": "telemarketing-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/telemarketing-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Telephone Sales Representative",
+      "slug": "telephone-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/telephone-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Telesales Specialist",
+      "slug": "telesales-specialist",
+      "jobtitle_url": "https://www.zippia.com/telesales-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Telesales Supervisor",
+      "slug": "telesales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/telesales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Territory Account Executive",
+      "slug": "territory-account-executive",
+      "jobtitle_url": "https://www.zippia.com/territory-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Territory Representative",
+      "slug": "territory-representative",
+      "jobtitle_url": "https://www.zippia.com/territory-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Territory Sales Representative",
+      "slug": "territory-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/territory-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Territory Supervisor",
+      "slug": "territory-supervisor",
+      "jobtitle_url": "https://www.zippia.com/territory-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Textile Conversion Manager",
+      "slug": "textile-conversion-manager",
+      "jobtitle_url": "https://www.zippia.com/textile-conversion-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Textiles Sales Representative",
+      "slug": "textiles-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/textiles-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Therapeutic Specialist",
+      "slug": "therapeutic-specialist",
+      "jobtitle_url": "https://www.zippia.com/therapeutic-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Ticket Clerk",
+      "slug": "ticket-clerk",
+      "jobtitle_url": "https://www.zippia.com/ticket-clerk-jobs/"
+    },
+    {
+      "jobtitle_name": "Ticket Sales Representative",
+      "slug": "ticket-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/ticket-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Ticket Sales Supervisor",
+      "slug": "ticket-sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/ticket-sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Ticket Seller",
+      "slug": "ticket-seller",
+      "jobtitle_url": "https://www.zippia.com/ticket-seller-jobs/"
+    },
+    {
+      "jobtitle_name": "Timer",
+      "slug": "timer",
+      "jobtitle_url": "https://www.zippia.com/timer-jobs/"
+    },
+    {
+      "jobtitle_name": "Toll Collector",
+      "slug": "toll-collector",
+      "jobtitle_url": "https://www.zippia.com/toll-collector-jobs/"
+    },
+    {
+      "jobtitle_name": "Tour Agent",
+      "slug": "tour-agent",
+      "jobtitle_url": "https://www.zippia.com/tour-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Tour Sales Representative",
+      "slug": "tour-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/tour-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Trade Specialist",
+      "slug": "trade-specialist",
+      "jobtitle_url": "https://www.zippia.com/trade-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Trader",
+      "slug": "trader",
+      "jobtitle_url": "https://www.zippia.com/trader-jobs/"
+    },
+    {
+      "jobtitle_name": "Trader JOE's",
+      "slug": "trader-joes",
+      "jobtitle_url": "https://www.zippia.com/trader-joes-jobs/"
+    },
+    {
+      "jobtitle_name": "Traffic Representative",
+      "slug": "traffic-representative",
+      "jobtitle_url": "https://www.zippia.com/traffic-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Transfer Agent",
+      "slug": "transfer-agent",
+      "jobtitle_url": "https://www.zippia.com/transfer-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Agency Manager",
+      "slug": "travel-agency-manager",
+      "jobtitle_url": "https://www.zippia.com/travel-agency-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Agent",
+      "slug": "travel-agent",
+      "jobtitle_url": "https://www.zippia.com/travel-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Consultant",
+      "slug": "travel-consultant",
+      "jobtitle_url": "https://www.zippia.com/travel-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Coordinator",
+      "slug": "travel-coordinator",
+      "jobtitle_url": "https://www.zippia.com/travel-coordinator-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Counselor",
+      "slug": "travel-counselor",
+      "jobtitle_url": "https://www.zippia.com/travel-counselor-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Manager",
+      "slug": "travel-manager",
+      "jobtitle_url": "https://www.zippia.com/travel-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Service Consultant",
+      "slug": "travel-service-consultant",
+      "jobtitle_url": "https://www.zippia.com/travel-service-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Travel Specialist",
+      "slug": "travel-specialist",
+      "jobtitle_url": "https://www.zippia.com/travel-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Traveler",
+      "slug": "traveler",
+      "jobtitle_url": "https://www.zippia.com/traveler-jobs/"
+    },
+    {
+      "jobtitle_name": "Traveling Representative",
+      "slug": "traveling-representative",
+      "jobtitle_url": "https://www.zippia.com/traveling-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Treasury Agent",
+      "slug": "treasury-agent",
+      "jobtitle_url": "https://www.zippia.com/treasury-agent-jobs/"
+    },
+    {
+      "jobtitle_name": "Truck Leasing Manager",
+      "slug": "truck-leasing-manager",
+      "jobtitle_url": "https://www.zippia.com/truck-leasing-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Tube Room Cashier",
+      "slug": "tube-room-cashier",
+      "jobtitle_url": "https://www.zippia.com/tube-room-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Underwriting Sales Representative",
+      "slug": "underwriting-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/underwriting-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Uniforms Sales Representative",
+      "slug": "uniforms-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/uniforms-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Used Car Sales Supervisor",
+      "slug": "used-car-sales-supervisor",
+      "jobtitle_url": "https://www.zippia.com/used-car-sales-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Utility Sales Representative",
+      "slug": "utility-sales-representative",
+      "jobtitle_url": "https://www.zippia.com/utility-sales-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Vault Cashier",
+      "slug": "vault-cashier",
+      "jobtitle_url": "https://www.zippia.com/vault-cashier-jobs/"
+    },
+    {
+      "jobtitle_name": "Vending Stand Supervisor",
+      "slug": "vending-stand-supervisor",
+      "jobtitle_url": "https://www.zippia.com/vending-stand-supervisor-jobs/"
+    },
+    {
+      "jobtitle_name": "Vendor",
+      "slug": "vendor",
+      "jobtitle_url": "https://www.zippia.com/vendor-jobs/"
+    },
+    {
+      "jobtitle_name": "Visual Merchandising Manager",
+      "slug": "visual-merchandising-manager",
+      "jobtitle_url": "https://www.zippia.com/visual-merchandising-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Wardrobe Image Consultant",
+      "slug": "wardrobe-image-consultant",
+      "jobtitle_url": "https://www.zippia.com/wardrobe-image-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Warehouse Team Member",
+      "slug": "warehouse-team-member",
+      "jobtitle_url": "https://www.zippia.com/warehouse-team-member-jobs/"
+    },
+    {
+      "jobtitle_name": "Wedding Consultant",
+      "slug": "wedding-consultant",
+      "jobtitle_url": "https://www.zippia.com/wedding-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Welcome Hostess",
+      "slug": "welcome-hostess",
+      "jobtitle_url": "https://www.zippia.com/welcome-hostess-jobs/"
+    },
+    {
+      "jobtitle_name": "Wholesale Account Executive",
+      "slug": "wholesale-account-executive",
+      "jobtitle_url": "https://www.zippia.com/wholesale-account-executive-jobs/"
+    },
+    {
+      "jobtitle_name": "Wholesale Account Manager",
+      "slug": "wholesale-account-manager",
+      "jobtitle_url": "https://www.zippia.com/wholesale-account-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Wholesale Diamond Broker",
+      "slug": "wholesale-diamond-broker",
+      "jobtitle_url": "https://www.zippia.com/wholesale-diamond-broker-jobs/"
+    },
+    {
+      "jobtitle_name": "Wholesale Manager",
+      "slug": "wholesale-manager",
+      "jobtitle_url": "https://www.zippia.com/wholesale-manager-jobs/"
+    },
+    {
+      "jobtitle_name": "Wholesale Representative",
+      "slug": "wholesale-representative",
+      "jobtitle_url": "https://www.zippia.com/wholesale-representative-jobs/"
+    },
+    {
+      "jobtitle_name": "Wholesaler",
+      "slug": "wholesaler",
+      "jobtitle_url": "https://www.zippia.com/wholesaler-jobs/"
+    },
+    {
+      "jobtitle_name": "Wine Consultant",
+      "slug": "wine-consultant",
+      "jobtitle_url": "https://www.zippia.com/wine-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Wireless Consultant",
+      "slug": "wireless-consultant",
+      "jobtitle_url": "https://www.zippia.com/wireless-consultant-jobs/"
+    },
+    {
+      "jobtitle_name": "Wireless Sales Associate",
+      "slug": "wireless-sales-associate",
+      "jobtitle_url": "https://www.zippia.com/wireless-sales-associate-jobs/"
+    },
+    {
+      "jobtitle_name": "Wireless Specialist",
+      "slug": "wireless-specialist",
+      "jobtitle_url": "https://www.zippia.com/wireless-specialist-jobs/"
+    },
+    {
+      "jobtitle_name": "Zone Merchandise Supervisor",
+      "slug": "zone-merchandise-supervisor",
+      "jobtitle_url": "https://www.zippia.com/zone-merchandise-supervisor-jobs/"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+[
+  {
+    "job_id": "s3ppl5lypuxmst2olmolu5nb",
+    "job_name": "Account Customer Engineer",
+    "job_slug": "account-customer-engineer",
+    "industry_id": "cmftgg8nw001vaumfb4cseg4x",
+    "parents": [],
+    "children": [],
+    "details": [
+      {
+        "overview": "There is more than meets the eye when it comes to being an account customer engineer. For example, did you know that they make an average of $27.7 an hour? That's $57,608 a year! Between 2018 and 2028, the career is expected to grow 6% and produce 3,400 job opportunities across the U.S.",
+        "salary": [
+          {
+            "salary_us": 59228,
+            "salary_vn": 11846,
+            "salary_average": 59228
+          }
+        ],
+        "stability_level": 0.3,
+        "diversity": [
+          {
+            "race": [
+              {
+                "group_name": "American Indian and Alaska Native",
+                "percentage": 3
+              },
+              {
+                "group_name": "Asian",
+                "percentage": 7
+              },
+              {
+                "group_name": "Black or African American",
+                "percentage": 14
+              },
+              {
+                "group_name": "Hispanic or Latino",
+                "percentage": 19
+              },
+              {
+                "group_name": "White",
+                "percentage": 57
+              },
+              {
+                "group_name": "Vietnam",
+                "percentage": 0.35
+              }
+            ]
+          },
+          {
+            "gender": {
+              "female": 47,
+              "male": 53
+            }
+          },
+          {
+            "age": 44
+          }
+        ],
+        "stress_level": 7,
+        "complexity_level": 7,
+        "work_life_balance": 6,
+        "skills": [
+          {
+            "skill_name": "Customer Satisfaction",
+            "percent": 22,
+            "description": "Customer Satisfaction is an important skill for this role, representing 22% of the key competencies required."
+          },
+          {
+            "skill_name": "Customer Service",
+            "percent": 21.9,
+            "description": "Customer Service is an important skill for this role, representing 21.9% of the key competencies required."
+          },
+          {
+            "skill_name": "Technical Support",
+            "percent": 11.7,
+            "description": "Technical Support is an important skill for this role, representing 11.7% of the key competencies required."
+          },
+          {
+            "skill_name": "Computer System",
+            "percent": 7.7,
+            "description": "Computer System is an important skill for this role, representing 7.7% of the key competencies required."
+          },
+          {
+            "skill_name": "Software Support",
+            "percent": 7.5,
+            "description": "Software Support is an important skill for this role, representing 7.5% of the key competencies required."
+          },
+          {
+            "skill_name": "POS",
+            "percent": 6.8,
+            "description": "POS is an important skill for this role, representing 6.8% of the key competencies required."
+          },
+          {
+            "skill_name": "Account Management",
+            "percent": -1,
+            "description": "The process of strengthening the relationship between a company and client is called account management. Effective account management has two key objectives, one is to retain loyal customers and the second one is to help the company grow by creating connections with new customers. Here's how account customer engineers use account management:Develop and maintain customer relationships and handle all aspects of account management for an automotive focused die-casting company.Developed 30 new customer accounts and grew account management responsibility to 100 accounts throughout the Bay Area."
+          },
+          {
+            "skill_name": "Windows",
+            "percent": -1,
+            "description": "Windows is a chain of operating systems that controls a computer and is developed by Microsoft. Every version of Windows consists of GUI (graphical user interface), with a desktop that allows the user to open their files. Here's how account customer engineers use windows:Rack, install software and administer servers in a Windows NT/2000 environment.Supervised a team of 22 C++, object-oriented software developers using Windows 3.11, NT 3.51, and NT 4.0."
+          },
+          {
+            "skill_name": "Computer Equipment",
+            "percent": -1,
+            "description": "Computer hardware refers to all the physical parts of a computer which include the central processing unit (CPU), mouse, keyboard, data storage, monitor, graphics card, sound card, motherboard, and speakers. Here's how account customer engineers use computer equipment:Serviced computer equipment ranging from banking systems to intermediate/large CPU's and high production laser printing systems.Provided maintenance and repair of highly complex printing and computer equipment."
+          },
+          {
+            "skill_name": "Zippia Team",
+            "percent": -1,
+            "description": "Zippia Team is an important skill for this role."
+          },
+          {
+            "skill_name": "A",
+            "percent": -1,
+            "description": "Here's how account customer engineers use customer satisfaction:Tracked/analyzed service delivery and revenue performance to ensure a consistently high degree of Customer Satisfaction.Self-directed, remote Account Customer Engineer responsible for total customer satisfaction."
+          },
+          {
+            "skill_name": "B",
+            "percent": -1,
+            "description": "B is an important skill for this role."
+          },
+          {
+            "skill_name": "C",
+            "percent": -1,
+            "description": "Here's how account customer engineers use customer satisfaction:Tracked/analyzed service delivery and revenue performance to ensure a consistently high degree of Customer Satisfaction.Self-directed, remote Account Customer Engineer responsible for total customer satisfaction."
+          },
+          {
+            "skill_name": "D",
+            "percent": -1,
+            "description": "Windows is a chain of operating systems that controls a computer and is developed by Microsoft. Every version of Windows consists of GUI (graphical user interface), with a desktop that allows the user to open their files. Here's how account customer engineers use windows:Rack, install software and administer servers in a Windows NT/2000 environment.Supervised a team of 22 C++, object-oriented software developers using Windows 3.11, NT 3.51, and NT 4.0."
+          },
+          {
+            "skill_name": "E",
+            "percent": -1,
+            "description": "Here's how account customer engineers use customer satisfaction:Tracked/analyzed service delivery and revenue performance to ensure a consistently high degree of Customer Satisfaction.Self-directed, remote Account Customer Engineer responsible for total customer satisfaction."
+          },
+          {
+            "skill_name": "F",
+            "percent": -1,
+            "description": "Here's how account customer engineers use customer satisfaction:Tracked/analyzed service delivery and revenue performance to ensure a consistently high degree of Customer Satisfaction.Self-directed, remote Account Customer Engineer responsible for total customer satisfaction."
+          }
+        ],
+        "pros_and_cons": {
+          "pros": [],
+          "cons": []
+        },
+        "requirements": [
+          {
+            "requirement": "Bachelor's",
+            "level": 63
+          },
+          {
+            "requirement": "Associate",
+            "level": 30.1
+          },
+          {
+            "requirement": "Master's",
+            "level": 4.1
+          },
+          {
+            "requirement": "High School Diploma",
+            "level": 1.4
+          },
+          {
+            "requirement": "Certificate",
+            "level": 1.4
+          }
+        ],
+        "job_description": "",
+        "meta_data": [
+          {
+            "info_name": "Explore account customer engineer education requirements",
+            "info_value": "Most common account customer engineer degreesBachelor's63.0 %Associate30.1 %Master's4.1 %High School Diploma1.4 %Certificate1.4 %"
+          },
+          {
+            "info_name": "Start to develop specific account customer engineer skills",
+            "info_value": "SkillsPercentagesCustomer Satisfaction21.97%Customer Service21.88%Technical Support11.66%Computer System7.67%Software Support7.46%Show more"
+          },
+          {
+            "info_name": "Complete relevant account customer engineer training and internships",
+            "info_value": "Accountants spend an average of 6-12 months on post-employment, on-the-job training. New account customer engineers learn the skills and techniques required for their job and employer during this time. The chart below shows how long it takes to gain competency as an account customer engineer based on U.S. Bureau of Labor Statistics data and data from real account customer engineer resumes."
+          },
+          {
+            "info_name": "Research account customer engineer duties and responsibilities",
+            "info_value": "Manage RFP activity, sales/engineering/channel partner resources.Nominate by customers, sales and EMC management.Maintain OEM equipment which are electrical/mechanical devices attach to the IBM 3800/3900 and 4000 production large system laser printer.Recognize for skill in defusing escalate customer problems through clear communication and well-verse technical proficiency on all EMC hardware."
+          },
+          {
+            "info_name": "Prepare your account customer engineer resume",
+            "info_value": "When your background is strong enough, you can start writing your account customer engineer resume. You can use Zippia's AI resume builder to make the resume writing process easier while also making sure that you include key information that hiring managers expect to see on an account customer engineer resume. You'll find resume tips and examples of skills, responsibilities, and summaries, all provided by Zippi, your career sidekick."
+          },
+          {
+            "info_name": "Apply for account customer engineer jobs",
+            "info_value": "Now it's time to start searching for an account customer engineer job. Consider the tips below for a successful job search:  Browse job boards for relevant postings Consult your professional network Reach out to companies you're interested in working for directly Watch out for job scams"
+          }
+        ],
+        "education": {
+          "description": "There are several educational requirements to become an account customer engineer. Account customer engineers usually study electrical engineering, electrical engineering technology, or business. 63% of account customer engineers hold a bachelor's degree, and 30% hold an associate degree. We analyzed 122 real account customer engineer resumes to see exactly what account customer engineer education sections show. The most common colleges for account customer engineers are the University of Pennsylvania and the University of Pennsylvania. There are also many online account customer engineer courses to help get the education required to be an account customer engineer.",
+          "degree": [
+            {
+              "name": "Bachelor's",
+              "level": 63
+            },
+            {
+              "name": "Associate",
+              "level": 30
+            },
+            {
+              "name": "Master's",
+              "level": 4
+            },
+            {
+              "name": "High School Diploma",
+              "level": 1
+            },
+            {
+              "name": "Other Degrees",
+              "level": 2
+            }
+          ],
+          "major": [
+            {
+              "name": "Electrical Engineering",
+              "level": 1,
+              "major_detailt": "https://www.zippia.com/electrical-engineering-major/"
+            },
+            {
+              "name": "Electrical Engineering Technology",
+              "level": 2,
+              "major_detailt": "https://www.zippia.com/electrical-engineering-technology-major/"
+            },
+            {
+              "name": "Business",
+              "level": 3,
+              "major_detailt": "https://www.zippia.com/business-major/"
+            },
+            {
+              "name": "Computer Science",
+              "level": 4,
+              "major_detailt": "https://www.zippia.com/computer-science-major/"
+            },
+            {
+              "name": "Accounting",
+              "level": 5,
+              "major_detailt": "https://www.zippia.com/accounting-major/"
+            }
+          ],
+          "courses": [
+            {
+              "course_title": "1. Computer Hardware, Operating System and Networking",
+              "rank": 4.1,
+              "review_count": 314,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391971903739426145891248&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcomputer-hardware-operating-system-and-networking-r%2F"
+            },
+            {
+              "course_title": "2. Financial Accounting-Adjusting Entries & Financial Statement",
+              "rank": 0,
+              "review_count": 930,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.3919714124569003127567215&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Ffinancial-accounting-adjusting-entries-financial-statement%2F"
+            },
+            {
+              "course_title": "3. Financial Accounting & Excel-Comprehensive Accounting Course",
+              "rank": 4.6,
+              "review_count": 736,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.3919711043008404489086877&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Ffinancial-accounting-excelcomprehensive-accounting-course%2F"
+            },
+            {
+              "course_title": "4. Accounting & Financial Statement Analysis: Complete Training",
+              "rank": 0,
+              "review_count": 16804,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.3919718305808966048666942&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Faccounting-fsa-a-solid-foundation-for-a-career-in-finance%2F"
+            },
+            {
+              "course_title": "5. Customer Service, Customer Support, And Customer Experience",
+              "rank": 4.3,
+              "review_count": 2666,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.3919712751177284824674039&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fhow-to-find-your-voice-the-resonates-with-your-customers%2F"
+            },
+            {
+              "course_title": "6. Accounting basics, create financial statements easily",
+              "rank": 0,
+              "review_count": 280,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391979342135695139696776&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Faccounting-basics-k%2F"
+            },
+            {
+              "course_title": "7. Principles of Financial Accounting",
+              "rank": 4.6,
+              "review_count": 875,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.3919714667777707343911148&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fhow-to-get-an-a-in-accounting-lessons-from-the-log-cabin%2F"
+            },
+            {
+              "course_title": "8. Excel Accounting Problem",
+              "rank": 0,
+              "review_count": 348,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391979956796699244384255&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fexcel-accounting-problem%2F"
+            },
+            {
+              "course_title": "9. Accounting, Bookkeeping & Financial Analysis (Accounting)",
+              "rank": 4.6,
+              "review_count": 521,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.3919711293318525487826492&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Faccountingcourse%2F"
+            },
+            {
+              "course_title": "10. Customer Service & Support For Customer Service Executives",
+              "rank": 0,
+              "review_count": 941,
+              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391971912206271323371792&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcustomer-service-executive-for-customer-service-support%2F"
+            }
+          ]
+        }
+      }
+    ],
+    "nextId": []
+  }
+]
