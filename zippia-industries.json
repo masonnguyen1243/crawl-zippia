@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "architecture-and-engineering",
+    "name": "Architecture and Engineering"
+  },
+  {
+    "slug": "arts-entertainment-sports-and-media",
+    "name": "Arts, Entertainment, Sports, and Media"
+  },
+  {
+    "slug": "building-and-grounds-maintenance",
+    "name": "Building and Grounds Maintenance"
+  },
+  {
+    "slug": "business-and-financial",
+    "name": "Business and Financial"
+  },
+  {
+    "slug": "community-and-social-services",
+    "name": "Community and Social Services"
+  },
+  {
+    "slug": "computer-and-mathematical",
+    "name": "Computer and Mathematical"
+  },
+  {
+    "slug": "construction-and-extraction",
+    "name": "Construction and Extraction"
+  },
+  {
+    "slug": "education-training-and-library",
+    "name": "Education, Training, and Library"
+  },
+  {
+    "slug": "executive-management",
+    "name": "Executive Management"
+  },
+  {
+    "slug": "farming-fishing-and-forestry",
+    "name": "Farming, Fishing, and Forestry"
+  },
+  {
+    "slug": "food-preparation-and-restaurant",
+    "name": "Food Preparation and Restaurant"
+  },
+  {
+    "slug": "healthcare-practitioner-and-technical",
+    "name": "Healthcare Practitioner and Technical"
+  },
+  {
+    "slug": "healthcare-support",
+    "name": "Healthcare Support"
+  },
+  {
+    "slug": "installation-maintenance-and-repair",
+    "name": "Installation, Maintenance and Repair"
+  },
+  {
+    "slug": "legal",
+    "name": "Legal"
+  },
+  {
+    "slug": "life-physical-and-social-science",
+    "name": "Life, Physical, and Social Science"
+  },
+  {
+    "slug": "military",
+    "name": "Military"
+  },
+  {
+    "slug": "office-and-administrative",
+    "name": "Office and Administrative"
+  },
+  {
+    "slug": "personal-care-and-attendants",
+    "name": "Personal Care and Attendants"
+  },
+  {
+    "slug": "production-and-manufacturing",
+    "name": "Production and Manufacturing"
+  },
+  {
+    "slug": "protective-service",
+    "name": "Protective Service"
+  },
+  {
+    "slug": "sales",
+    "name": "Sales"
+  },
+  {
+    "slug": "transportation",
+    "name": "Transportation"
+  }
+]

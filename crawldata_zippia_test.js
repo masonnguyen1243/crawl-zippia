@@ -64,7 +64,7 @@ export class ZippiaCrawler {
 
   async getJobsList() {
     console.log("Navigating to Zippia sales industry page...");
-    await this.page.goto("https://www.zippia.com/sales-industry/a/", {
+    await this.page.goto("https://www.zippia.com/sales-industry/b/", {
       waitUntil: "networkidle2",
       timeout: 30000,
     });
