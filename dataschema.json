@@ -1,359 +1,42 @@
 [
   {
-    "job_id": "e699c82c-e8ab-4cd5-a874-df9c215a6e14",
-    "industry_id": "e37214ca-28dc-4be5-9e13-bb4fffbd8e14",
-    "job_name": "Account Executive",
-    "parents": [
+    "name": "",
+    "nameEmbedding": [],
+    "website": "",
+    "description": "",
+    "size": "",
+    "industry": "",
+    "location": ["", "", "", "", "", "", "", "", ""],
+    "email": "",
+    "phone": "",
+    "jobs": [
       {
-        "jobtitle": "Substitute Teacher",
-        "jobid": "b5d45472-4d03-4cbb-9158-9355ef290f07"
-      }
-    ],
-    "children": [],
-    "details": [
-      {
-        "overview": "An account executive manages client accounts for a company. They serve as the primary point of contact and work to build strong relationships with clients to meet their needs. Account executives also monitor client satisfaction, identify new business opportunities, and negotiate contracts. They work closely with other departments such as marketing and customer service, to effectively address clientsâ€™ needs. Successful account executives possess communication and negotiation skills.",
-        "salary": [
-          {
-            "salary_us": 59228,
-            "salary_vn": 11846,
-            "salary_average": 59228
-          }
-        ],
-        "stability_level": 0.3,
-        "diversity": [
-          {
-            "race": [
-              {
-                "group_name": "American Indian and Alaska Native",
-                "percentage": 3
-              },
-              {
-                "group_name": "Asian",
-                "percentage": 7
-              },
-              {
-                "group_name": "Black or African American",
-                "percentage": 14
-              },
-              {
-                "group_name": "Hispanic or Latino",
-                "percentage": 19
-              },
-              {
-                "group_name": "White",
-                "percentage": 57
-              },
-              {
-                "group_name": "Vietnam",
-                "percentage": 0.35
-              }
-            ]
-          },
-          {
-            "gender": {
-              "female": 47,
-              "male": 53
-            }
-          },
-          {
-            "age": 44
-          }
-        ],
-        "stress_level": 7,
-        "complexity_level": 7,
-        "work_life_balance": 6,
-        "skills": [
-          {
-            "skill_name": "Customer Service",
-            "percent": 8.7,
-            "description": "Customer Service is an important skill for this role, representing 8.7% of the key competencies required."
-          },
-          {
-            "skill_name": "CRM",
-            "percent": 6.3,
-            "description": "CRM is an important skill for this role, representing 6.3% of the key competencies required."
-          },
-          {
-            "skill_name": "Healthcare",
-            "percent": 5,
-            "description": "Healthcare is an important skill for this role, representing 5% of the key competencies required."
-          },
-          {
-            "skill_name": "Sales Process",
-            "percent": 4.6,
-            "description": "Sales Process is an important skill for this role, representing 4.6% of the key competencies required."
-          },
-          {
-            "skill_name": "Salesforce",
-            "percent": 4.4,
-            "description": "Salesforce is an important skill for this role, representing 4.4% of the key competencies required."
-          },
-          {
-            "skill_name": "Work Ethic",
-            "percent": 4,
-            "description": "Work Ethic is an important skill for this role, representing 4% of the key competencies required."
-          },
-          {
-            "skill_name": "Product Knowledge",
-            "percent": -1,
-            "description": "Product knowledge is the skill of having better information and knowledge about the product you are selling. Product knowledge is essential for the employees of the companies so they can communicate and inform the customers about the product. Having great product knowledge is essential for a better sales pitch and to give the customer a better and complete idea of the product that will influence him to buy the product eventually. Here's how account executives use product knowledge:Cultivated and developed strong broker and consultant relationships through expert product knowledge, territory management practices, and superior customer service.Coached and assisted sales representatives in selling against competition, negotiations, relationship management, and competitive product knowledge."
-          },
-          {
-            "skill_name": "Business Development",
-            "percent": -1,
-            "description": "Business development is the ideas or initiatives that work to make business work better. Selling, advertising, product development, supply chain management, and vendor management are only a few of the divisions involved with it. There is still a lot of networking, negotiating, forming alliances, and trying to save money. The goals set for business development guide and coordinate with all of these various operations and sectors. Here's how account executives use business development:Represented existing accounts, emphasis on new business development in assigned territory for domestic freight forwarding and local cartage services.Top Performer for Soft Launch of Company Top Performer in Sales Business Development Account Management Client Qualification Client Presentations & Education"
-          },
-          {
-            "skill_name": "Customer Relationships",
-            "percent": -1,
-            "description": "Customer relationships are the interactions and efforts made by a company to improve its customer service. Customer relationships cover not just all of the essential roles performed by customer support, but also the initiatives made before and after the interaction with a customer. Here's how account executives use customer relationships:Revitalized volatile customer relationships; reversed potential losses, negotiated and delivered contract extensions, and increased sales in every account.Assume ownership and responsibility for defined market revenue and volume growth, in addition to growing and strengthening existing customer relationships."
-          },
-          {
-            "skill_name": "Account Management",
-            "percent": -1,
-            "description": "The process of strengthening the relationship between a company and client is called account management. Effective account management has two key objectives, one is to retain loyal customers and the second one is to help the company grow by creating connections with new customers. Here's how account executives use account management:Key responsibilities include account management, strategic planning, development and obtaining business that is profitable and aligned with company objectives.Account management included initiating calls to cross-selling existing clients through the account activation process while servicing with a positive attitude."
-          },
-          {
-            "skill_name": "PowerPoint",
-            "percent": -1,
-            "description": "Here's how account executives use powerpoint:Skilled in preparing presentations for both individual and group formats, utilizing both PowerPoint and personal consultation techniques.Develop material for quarterly client meetings including PowerPoint presentations and Excel spreadsheets outlining in-depth, data analysis."
-          },
-          {
-            "skill_name": "Customer Satisfaction",
-            "percent": -1,
-            "description": "Here's how account executives use customer satisfaction:Utilized excellent phone etiquette while moving towards resolution and remaining sympathetic and professional, assuring customer satisfaction and great company image.Generated new business and renewed existing customer accounts, with above-average customer satisfaction results in the sale of Yellow Book advertising."
-          },
-          {
-            "skill_name": "Business Sales",
-            "percent": -1,
-            "description": "Here's how account executives use business sales:Utilized prior experience in business sales at the retail level to create unique solutions tailored to accommodate routine/complex customer requirements.Communicate with Information Technology professionals in order to generate business-to-business sales opportunities for IT vendors and 3rd party partners."
-          },
-          {
-            "skill_name": "Patients",
-            "percent": -1,
-            "description": "Here's how account executives use patients:Collaborated with patient advocacy groups in each state for hemophilia and immune-deficient patients to ensure availability of appropriate pharmaceuticals.Designed and assisted physicians with customized therapy programs to improve quality of life for patients with diverse medical needs/diagnoses."
-          },
-          {
-            "skill_name": "Relationship Building",
-            "percent": -1,
-            "description": "Relationship building is the act of building a lasting social connection with people whether online or in person. It's a soft skill required for those going into marketing, communication, and every other field that requires dealing with the public to help them connect better with people. It's also great as a personal skill for gaining meaningful relationships that can help one in the future. Here's how account executives use relationship building:Conducted daily prospecting, relationship building and strategic problem solving to establish new business opportunities and maintain relationships with current customer baseManaged diverse client base requiring professional relationship building at all levels of organization including Attorneys, Paralegals, and Administrative Assistants."
-          },
-          {
-            "skill_name": "soft skill",
-            "percent": -1,
-            "description": "soft skill is an important skill for this role."
-          }
-        ],
-        "pros_and_cons": {
-          "pros": [
-            "Potential for high income through commission and bonuses",
-            "Collaborative work environment with a team",
-            "Ability to work independently and manage your own schedule",
-            "Access to networking events and industry conferences",
-            "Variety in daily tasks and responsibilities"
-          ],
-          "cons": [
-            "Long hours, including evenings and weekends",
-            "Frequent rejection and frustration when deals don't go through",
-            "Constant need to keep up with industry trends and changes",
-            "Competition with other account executives for clients and commissions",
-            "Potential for conflicts of interest or ethical dilemmas"
-          ]
-        },
-        "requirements": [
-          {
-            "requirement": "Bachelor's",
-            "level": 78
-          },
-          {
-            "requirement": "Associate",
-            "level": 9.7
-          },
-          {
-            "requirement": "Master's",
-            "level": 6.5
-          },
-          {
-            "requirement": "High School Diploma",
-            "level": 3.1
-          },
-          {
-            "requirement": "Diploma",
-            "level": 1.2
-          },
-          {
-            "requirement": "Certificate",
-            "level": 1.1
-          },
-          {
-            "requirement": "Doctorate",
-            "level": 0.4
-          },
-          {
-            "requirement": "License",
-            "level": 0.1
-          }
-        ],
-        "job_description": "",
-        "meta_data": [
-          {
-            "info_name": "Explore account executive education requirements",
-            "info_value": "Most common account executive degreesBachelor's78.0 %Associate9.7 %Master's6.5 %High School Diploma3.1 %Diploma1.2 %Certificate1.1 %Doctorate0.4 %License0.1 %"
-          },
-          {
-            "info_name": "Start to develop specific account executive skills",
-            "info_value": "SkillsPercentagesCustomer Service8.69%CRM6.30%Healthcare5.04%Sales Process4.62%Salesforce4.42%Show more"
-          },
-          {
-            "info_name": "Research account executive duties and responsibilities",
-            "info_value": "Create and manage Facebook and twitter accounts.Have achieve Google certification for both SEM and SEO sales.Lead proposal team in winning a $1MM RFP, turning around a key account relationship.Manage all aspects of new FedEx implementations (automation set-up, operational support and training of customers)."
-          },
-          {
-            "info_name": "Prepare your account executive resume",
-            "info_value": "When your background is strong enough, you can start writing your account executive resume. You can use Zippia's AI resume builder to make the resume writing process easier while also making sure that you include key information that hiring managers expect to see on an account executive resume. You'll find resume tips and examples of skills, responsibilities, and summaries, all provided by Zippi, your career sidekick."
-          },
-          {
-            "info_name": "Apply for account executive jobs",
-            "info_value": "Now it's time to start searching for an account executive job. Consider the tips below for a successful job search:  Browse job boards for relevant postings Consult your professional network Reach out to companies you're interested in working for directly Watch out for job scams"
-          }
-        ],
-        "education": {
-          "description": "There are several educational requirements to become an account executive. Account executives usually study business, marketing, or communication. 78% of account executives hold a bachelor's degree, and 10% hold an associate degree. We analyzed 218,138 real account executive resumes to see exactly what account executive education sections show. The most common colleges for account executives are the University of Phoenix and the University of Phoenix. There are also many online account executive courses to help get the education required to be an account executive.There are certain account executive certifications that you should consider. These account executive certifications include Certified Sales Professional (CSP) and Professional Certified Marketer (PCM).",
-          "degree": [
-            {
-              "name": "Bachelor's",
-              "level": 78
-            },
-            {
-              "name": "Associate",
-              "level": 10
-            },
-            {
-              "name": "Master's",
-              "level": 6
-            },
-            {
-              "name": "High School Diploma",
-              "level": 3
-            },
-            {
-              "name": "Other Degrees",
-              "level": 3
-            }
-          ],
-          "major": [
-            {
-              "name": "Business",
-              "level": 1,
-              "major_detailt": "https://www.zippia.com/business-major/"
-            },
-            {
-              "name": "Marketing",
-              "level": 2,
-              "major_detailt": "https://www.zippia.com/marketing-major/"
-            },
-            {
-              "name": "Communication",
-              "level": 3,
-              "major_detailt": "https://www.zippia.com/communication-major/"
-            },
-            {
-              "name": "Psychology",
-              "level": 4,
-              "major_detailt": "https://www.zippia.com/psychology-major/"
-            },
-            {
-              "name": "Management",
-              "level": 5,
-              "major_detailt": "https://www.zippia.com/management-major/"
-            }
-          ],
-          "courses": [
-            {
-              "course_title": "1. Sales Fire: B2B Sales & Business Development for Startups",
-              "rank": 4.6,
-              "review_count": 584,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391977553504417286432019&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fsalesfire%2F"
-            },
-            {
-              "course_title": "2. The Complete B2B Sales Masterclass: 6 Courses in 1",
-              "rank": 0,
-              "review_count": 413,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391979972938373933884586&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fqualifying-sales-questions-how-to-ask-the-right-questions-in-sales%2F"
-            },
-            {
-              "course_title": "3. Business Development & B2B Sales for Startups- Sales Valley",
-              "rank": 4,
-              "review_count": 6788,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391977675647824477468138&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fbusinessdevelopment-b2b-sales-for-startups-sales-valley%2F"
-            },
-            {
-              "course_title": "4. Sales Training Pro: The Complete Sales Presentation Course",
-              "rank": 0,
-              "review_count": 346,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.39197980297907295209818&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fsales-presentation-bootcamp%2F"
-            },
-            {
-              "course_title": "5. B2B Sales Skills: LinkedIn Lead Generation, Cold Email Sales",
-              "rank": 4.5,
-              "review_count": 327,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391977626157731903864885&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fbusiness-to-business-b2b-sales-masterclass%2F"
-            },
-            {
-              "course_title": "6. The Complete Sales Skills Master Class - Sales Marketing B2B",
-              "rank": 0,
-              "review_count": 741,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391979874369651547731992&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fthe-complete-sales-skills-master-class-sales-marketing-b2b%2F"
-            },
-            {
-              "course_title": "7. Sales Skills: 9 Sales Training Courses In 1",
-              "rank": 4.6,
-              "review_count": 994,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391977581556524655128160&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Flearn-sales-skills%2F"
-            },
-            {
-              "course_title": "8. CSMath: Make Data-Driven Decisions in Customer Success",
-              "rank": 0,
-              "review_count": 320,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.3919710546334706107715162&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcsmath-make-data-driven-decisions%2F"
-            },
-            {
-              "course_title": "9. Sales Machine: The Sales Training B2B Master Course",
-              "rank": 4.5,
-              "review_count": 4040,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391973402003732538782770&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fsales-machine-sales-training%2F"
-            },
-            {
-              "course_title": "10. Sales and Marketing For Online Businesses",
-              "rank": 0,
-              "review_count": 1581,
-              "course_url": "https://click.linksynergy.com/link?id=k*MbTeC0ss0&offerid=1060092.391975121617003077417234&type=15&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fsales-and-marketing-for-online-businesses%2F"
-            }
-          ]
-        }
-      }
-    ],
-    "nextId": [
-      {
-        "jobtitle": "Sales Manager",
-        "jobid": "565101d4-0a77-4016-9889-f2d17bde2c6e"
-      },
-      {
-        "jobtitle": "Account Manager",
-        "jobid": "ee16afd1-df11-4eb6-a8c8-c833fc194827"
-      },
-      {
-        "jobtitle": "Branch Manager",
-        "jobid": "5d0f35e6-a2bd-44d6-a050-0f326ec58486"
-      },
-      {
-        "jobtitle": "Marketing Manager",
-        "jobid": "304c9d27-fcea-4723-9e0f-bc1cc95eaed8"
-      },
-      {
-        "jobtitle": "Relationship Manager",
-        "jobid": "c8950416-c1d7-4e0e-848c-465db00d44a5"
+        "title": "",
+        "source": "",
+        "location": "",
+        "workArrangement": "",
+        "jobType": "",
+        "description": "",
+        "budget": "",
+        "budgetMin": "",
+        "budgetMax": "",
+        "skills": ["", "", "", "", "", "", ""],
+        "requirements": ["", "", "", "", "", "", "", "", "", ""],
+        "status": "",
+        "jobUrl": "",
+        "applicationDeadline": 1758067200000,
+        "descriptionRaw": "",
+        "postedDate": 1701369600000,
+        "titleSum": "",
+        "locationSum": "",
+        "skillsSum": "",
+        "requirementsSum": "",
+        "descriptionSum": "",
+        "titleEmbedding": [],
+        "locationEmbedding": [],
+        "skillsEmbedding": [],
+        "requirementsEmbedding": [],
+        "descriptionEmbedding": []
       }
     ]
   }

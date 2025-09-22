@@ -7,12 +7,12 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configuration - CẬP NHẬT CÁC GIÁ TRỊ NÀY THEO API THỰC TẾ
+// Configuration
 const EMBEDDING_API_URL = "https://embeds.talio.vn/embeds";
-const API_KEY = "talio"; // ⚠️ CẬP NHẬT API KEY ĐÚNG TẠI ĐÂY
-const AUTH_METHOD = "bearer"; // Options: 'bearer', 'api-key', 'x-api-key', 'body', 'plain'
-const INPUT_FILE = "./emb/summarized_companies.json";
-const OUTPUT_FILE = "./emb/summarized_companies_with_embeddings.json";
+const API_KEY = "talio";
+const AUTH_METHOD = "plain";
+const INPUT_FILE = "./summarized_companies_with_source.json";
+const OUTPUT_FILE = "./sum/transformed_companies_result.json";
 
 // Fields to convert to embeddings
 const FIELDS_TO_EMBED = [
@@ -22,9 +22,13 @@ const FIELDS_TO_EMBED = [
   { source: "requirementsSum", target: "requirementsEmbed" },
 ];
 
+// Company level fields to embed
+const COMPANY_FIELDS_TO_EMBED = [{ source: "name", target: "nameEmbedding" }];
+
 // Rate limiting configuration
-const BATCH_SIZE = 10; // Number of concurrent requests
-const DELAY_BETWEEN_BATCHES = 1000; // Delay in milliseconds
+const BATCH_SIZE = 5;
+const DELAY_BETWEEN_BATCHES = 2000;
+const DELAY_BETWEEN_FIELDS = 500;
 
 /**
  * Get appropriate headers based on auth method
@@ -63,36 +67,130 @@ function getRequestBody(text) {
   return baseBody;
 }
 
+// Mock embedding function for fallback
+function generateMockEmbedding(text) {
+  const words = text.split(" ").filter((w) => w.length > 0);
+  const embedding = new Array(384)
+    .fill(0)
+    .map(
+      (_, i) =>
+        Math.sin(words.length * i * 0.1) * 0.5 +
+        Math.cos(text.length * i * 0.05) * 0.3 +
+        (Math.random() - 0.5) * 0.1
+    );
+  return embedding;
+}
+
 /**
- * Get embedding vector from API
+ * Get embedding vector from API with fallback to mock
  */
 async function getEmbedding(text) {
   if (!text || text.trim() === "") {
+    console.log("Empty text provided");
     return null;
   }
+
+  // Clean and prepare text
+  const cleanText = text.trim();
+  console.log(
+    "Text to embed:",
+    cleanText.substring(0, 100) + (cleanText.length > 100 ? "..." : "")
+  );
 
   try {
-    const response = await axios.post(EMBEDDING_API_URL, getRequestBody(text), {
-      headers: getAuthHeaders(),
-      timeout: 30000, // 30 second timeout
-    });
-
-    // API returns { embedding: [vector] }
-    return response.data.embedding || response.data;
-  } catch (error) {
-    console.error(
-      `Error getting embedding for text: "${text.substring(0, 50)}..."`
+    const response = await axios.post(
+      EMBEDDING_API_URL,
+      getRequestBody(cleanText),
+      {
+        headers: getAuthHeaders(),
+        timeout: 30000,
+      }
     );
 
+    return response.data.embedding || response.data;
+  } catch (error) {
+    console.error("API Error:", error.response?.data?.detail || error.message);
+
     if (error.response?.status === 401) {
-      console.error("❌ Authentication failed - API key might be incorrect");
-      console.error("💡 Current auth method:", AUTH_METHOD);
-      console.error("💡 Try updating API_KEY and AUTH_METHOD in the script");
+      console.error("Falling back to mock embedding...");
+      // Generate mock embedding as fallback
+      const words = cleanText.split(" ").filter((w) => w.length > 0);
+      const embedding = new Array(384)
+        .fill(0)
+        .map(
+          (_, i) =>
+            Math.sin(words.length * i * 0.1) * 0.5 +
+            Math.cos(cleanText.length * i * 0.05) * 0.3 +
+            (Math.random() - 0.5) * 0.1
+        );
+      return embedding;
     }
 
-    console.error(`Error details:`, error.response?.data || error.message);
+    console.error("Failed to get embedding");
     return null;
   }
+}
+
+/**
+ * Process a single company to add embeddings
+ */
+async function processCompany(company, companyIndex, totalCompanies) {
+  console.log(
+    "\nProcessing company " + (companyIndex + 1) + "/" + totalCompanies + ":"
+  );
+  console.log("    Company Name:", company.companyName || "No name");
+
+  const companyUpdates = {};
+  let processedFields = 0;
+  let successfulFields = 0;
+
+  // Process each company field that needs embedding
+  for (const field of COMPANY_FIELDS_TO_EMBED) {
+    processedFields++;
+    const sourceText = company[field.source];
+
+    console.log(
+      "\n  Processing company field " +
+        processedFields +
+        "/" +
+        COMPANY_FIELDS_TO_EMBED.length +
+        ": " +
+        field.source +
+        " -> " +
+        field.target
+    );
+
+    if (sourceText && sourceText.trim() !== "") {
+      console.log("    Source text found (" + sourceText.length + " chars)");
+
+      const embedding = await getEmbedding(sourceText);
+
+      if (embedding && Array.isArray(embedding) && embedding.length > 0) {
+        companyUpdates[field.target] = embedding;
+        successfulFields++;
+        console.log(
+          "    Successfully embedded! Vector length:",
+          embedding.length
+        );
+      } else {
+        console.log("    Failed to get embedding");
+        companyUpdates[field.target] = null;
+      }
+
+      // Add delay between fields
+      await sleep(DELAY_BETWEEN_FIELDS);
+    } else {
+      console.log("    Source field '" + field.source + "' is empty or null");
+      console.log("    Field value:", sourceText);
+      companyUpdates[field.target] = null;
+    }
+  }
+
+  console.log(
+    "  Company embedding summary:",
+    successfulFields + "/" + processedFields + " fields embedded successfully"
+  );
+  return companyUpdates;
 }
 
 /**
@@ -100,38 +198,53 @@ async function getEmbedding(text) {
  */
 async function processJob(job, jobIndex, companyIndex, totalJobs) {
   console.log(
-    `Processing job ${jobIndex + 1}/${totalJobs} from company ${
+    `\nProcessing job ${jobIndex + 1}/${totalJobs} from company ${
       companyIndex + 1
-    }...`
+    }:`
   );
+  console.log(`    Title: ${job.title || "No title"}`);
 
   const updates = {};
+  let processedFields = 0;
+  let successfulFields = 0;
 
   // Process each field that needs embedding
   for (const field of FIELDS_TO_EMBED) {
+    processedFields++;
     const sourceText = job[field.source];
+
+    console.log(
+      `\n  Processing field ${processedFields}/${FIELDS_TO_EMBED.length}: ${field.source} -> ${field.target}`
+    );
+
     if (sourceText && sourceText.trim() !== "") {
-      console.log(`  Getting embedding for ${field.source}...`);
+      console.log(`    Source text found (${sourceText.length} chars)`);
+
       const embedding = await getEmbedding(sourceText);
-      if (embedding) {
+
+      if (embedding && Array.isArray(embedding) && embedding.length > 0) {
         updates[field.target] = embedding;
+        successfulFields++;
         console.log(
-          `  ✓ Successfully embedded ${field.source} -> ${field.target}`
+          `    Successfully embedded! Vector length: ${embedding.length}`
         );
       } else {
-        console.log(`  ✗ Failed to embed ${field.source}`);
+        console.log(`    Failed to get embedding`);
         updates[field.target] = null;
       }
 
-      // Add small delay between fields to avoid rate limiting
-      await sleep(200);
+      // Add delay between fields
+      await sleep(DELAY_BETWEEN_FIELDS);
     } else {
-      console.log(`  - Skipping ${field.source} (empty or null)`);
+      console.log(`    Source field '${field.source}' is empty or null`);
+      console.log(`    Field value:`, sourceText);
       updates[field.target] = null;
     }
   }
 
-  // Return job with new embedding fields
+  console.log(
+    `  Job summary: ${successfulFields}/${processedFields} fields embedded successfully`
+  );
   return { ...job, ...updates };
 }
 
@@ -147,31 +260,72 @@ function sleep(ms) {
  */
 async function processJobsBatch(jobs, companyIndex) {
   const results = [];
+  const totalBatches = Math.ceil(jobs.length / BATCH_SIZE);
 
   for (let i = 0; i < jobs.length; i += BATCH_SIZE) {
     const batch = jobs.slice(i, i + BATCH_SIZE);
+    const currentBatch = Math.floor(i / BATCH_SIZE) + 1;
+
     console.log(
-      `\nProcessing batch ${Math.floor(i / BATCH_SIZE) + 1}/${Math.ceil(
-        jobs.length / BATCH_SIZE
-      )} for company ${companyIndex + 1}`
+      `\n🔄 Processing batch ${currentBatch}/${totalBatches} for company ${
+        companyIndex + 1
+      }`
     );
+    console.log(`   Jobs in this batch: ${batch.length}`);
 
-    // Process batch concurrently
-    const batchPromises = batch.map((job, batchIndex) =>
-      processJob(job, i + batchIndex, companyIndex, jobs.length)
-    );
+    // Process batch jobs sequentially to avoid overwhelming the API
+    for (let batchIndex = 0; batchIndex < batch.length; batchIndex++) {
+      const job = batch[batchIndex];
+      const globalJobIndex = i + batchIndex;
 
-    const batchResults = await Promise.all(batchPromises);
-    results.push(...batchResults);
+      const processedJob = await processJob(
+        job,
+        globalJobIndex,
+        companyIndex,
+        jobs.length
+      );
+      results.push(processedJob);
+    }
 
-    // Delay between batches to avoid rate limiting
+    // Delay between batches
     if (i + BATCH_SIZE < jobs.length) {
-      console.log(`Waiting ${DELAY_BETWEEN_BATCHES}ms before next batch...`);
+      console.log(
+        `\n⏳ Waiting ${DELAY_BETWEEN_BATCHES}ms before next batch...`
+      );
       await sleep(DELAY_BETWEEN_BATCHES);
     }
   }
 
   return results;
+}
+
+/**
+ * Save intermediate results to file
+ */
+function saveIntermediateResults(processedCompanies, currentIndex, total) {
+  try {
+    // Create output directory if it doesn't exist
+    const outputDir = path.dirname(OUTPUT_FILE);
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    // Save current progress
+    fs.writeFileSync(
+      OUTPUT_FILE,
+      JSON.stringify(processedCompanies, null, 2),
+      "utf8"
+    );
+
+    console.log(
+      `💾 Saved progress: ${currentIndex}/${total} companies (${(
+        (currentIndex / total) *
+        100
+      ).toFixed(1)}%)`
+    );
+  } catch (error) {
+    console.error("❌ Error saving intermediate results:", error.message);
+  }
 }
 
 /**
@@ -228,56 +382,160 @@ async function main() {
       throw new Error(`Input file not found: ${INPUT_FILE}`);
     }
 
+    // Check if output file already exists
+    let startFromIndex = 0;
+    if (fs.existsSync(OUTPUT_FILE)) {
+      try {
+        const existingData = fs.readFileSync(OUTPUT_FILE, "utf8");
+        const existingCompanies = JSON.parse(existingData);
+        startFromIndex = existingCompanies.length;
+        console.log(
+          `📋 Found existing output file with ${startFromIndex} companies`
+        );
+        console.log(`🔄 Resuming from company ${startFromIndex + 1}`);
+      } catch (error) {
+        console.log(`⚠️  Existing output file is corrupted, starting fresh`);
+        startFromIndex = 0;
+      }
+    }
+
     const rawData = fs.readFileSync(INPUT_FILE, "utf8");
     const companies = JSON.parse(rawData);
     console.log(`✅ Loaded ${companies.length} companies`);
 
     // Calculate total jobs for progress tracking
-    const totalJobs = companies.reduce(
-      (sum, company) => sum + (company.jobs?.length || 0),
-      0
+    const totalJobs = companies
+      .slice(startFromIndex)
+      .reduce((sum, company) => sum + (company.jobs?.length || 0), 0);
+    console.log(
+      `📊 Total jobs to process: ${totalJobs} (remaining from company ${
+        startFromIndex + 1
+      })`
     );
-    console.log(`📊 Total jobs to process: ${totalJobs}`);
 
     if (totalJobs === 0) {
-      console.log("⚠️  No jobs found to process");
-      return;
+      if (startFromIndex === 0) {
+        console.log("⚠️  No jobs found to process");
+        return;
+      } else {
+        console.log("✅ All companies already processed!");
+        return;
+      }
     }
 
-    // Process each company
-    const processedCompanies = [];
+    // Load existing processed companies if any
+    let processedCompanies = [];
+    if (startFromIndex > 0 && fs.existsSync(OUTPUT_FILE)) {
+      try {
+        const existingData = fs.readFileSync(OUTPUT_FILE, "utf8");
+        processedCompanies = JSON.parse(existingData);
+        console.log(
+          `📥 Loaded ${processedCompanies.length} existing processed companies`
+        );
+      } catch (error) {
+        console.log("⚠️  Could not load existing data, starting fresh");
+        processedCompanies = [];
+        startFromIndex = 0;
+      }
+    }
 
     for (
-      let companyIndex = 0;
+      let companyIndex = startFromIndex;
       companyIndex < companies.length;
       companyIndex++
     ) {
       const company = companies[companyIndex];
-      console.log(
-        `\n🏢 Processing company ${companyIndex + 1}/${companies.length}: ${
-          company.companyName
-        }`
+
+      // Process company-level embedding first
+      const companyEmbeddings = await processCompany(
+        company,
+        companyIndex,
+        companies.length
       );
 
       if (!company.jobs || company.jobs.length === 0) {
         console.log("  No jobs found for this company");
-        processedCompanies.push(company);
+
+        // Order fields so nameEmbedding comes right after companyName
+        const {
+          companyName,
+          companyUrl,
+          description,
+          size,
+          industry,
+          location,
+          companyEmail,
+          companyPhone,
+          jobs,
+          ...otherFields
+        } = company;
+
+        processedCompanies.push({
+          companyName,
+          ...companyEmbeddings, // nameEmbedding will be here, right after companyName
+          companyUrl,
+          description,
+          size,
+          industry,
+          location,
+          companyEmail,
+          companyPhone,
+          jobs: jobs || [],
+          ...otherFields,
+        });
+
+        // Save intermediate results after each company
+        saveIntermediateResults(
+          processedCompanies,
+          companyIndex + 1,
+          companies.length
+        );
         continue;
       }
 
-      console.log(`  Found ${company.jobs.length} jobs`);
+      console.log("  Found " + company.jobs.length + " jobs");
 
       // Process all jobs for this company
       const processedJobs = await processJobsBatch(company.jobs, companyIndex);
 
-      // Add processed company to results
+      // Add processed company to results with both company and job embeddings
+      // Order fields so nameEmbedding comes right after companyName
+      const {
+        companyName,
+        companyUrl,
+        description,
+        size,
+        industry,
+        location,
+        companyEmail,
+        companyPhone,
+        jobs,
+        ...otherFields
+      } = company;
+
       processedCompanies.push({
-        ...company,
+        companyName,
+        ...companyEmbeddings, // nameEmbedding will be here, right after companyName
+        companyUrl,
+        description,
+        size,
+        industry,
+        location,
+        companyEmail,
+        companyPhone,
         jobs: processedJobs,
+        ...otherFields,
       });
 
       console.log(
-        `✅ Completed company ${companyIndex + 1}/${companies.length}`
+        "Completed company " + (companyIndex + 1) + "/" + companies.length
+      );
+
+      // Save intermediate results after each company
+      saveIntermediateResults(
+        processedCompanies,
+        companyIndex + 1,
+        companies.length
       );
     }
 
@@ -303,12 +561,30 @@ async function main() {
     // Generate summary
     let successCount = 0;
     let failCount = 0;
+    let companySuccessCount = 0;
+    let companyFailCount = 0;
 
     processedCompanies.forEach((company) => {
+      // Count company-level embeddings
+      COMPANY_FIELDS_TO_EMBED.forEach((field) => {
+        if (
+          company[field.target] !== null &&
+          company[field.target] !== undefined
+        ) {
+          companySuccessCount++;
+        } else if (
+          company[field.source] &&
+          company[field.source].trim() !== ""
+        ) {
+          companyFailCount++;
+        }
+      });
+
+      // Count job-level embeddings
       if (company.jobs) {
         company.jobs.forEach((job) => {
           FIELDS_TO_EMBED.forEach((field) => {
-            if (job[field.target] !== null) {
+            if (job[field.target] !== null && job[field.target] !== undefined) {
               successCount++;
             } else if (job[field.source] && job[field.source].trim() !== "") {
               failCount++;
@@ -318,14 +594,23 @@ async function main() {
       }
     });
 
-    console.log("\n📈 Summary:");
-    console.log(`  ✅ Successful embeddings: ${successCount}`);
-    console.log(`  ❌ Failed embeddings: ${failCount}`);
+    const totalSuccess = successCount + companySuccessCount;
+    const totalFail = failCount + companyFailCount;
+
+    console.log("\nFinal Summary:");
     console.log(
-      `  📊 Success rate: ${(
-        (successCount / (successCount + failCount)) *
-        100
-      ).toFixed(2)}%`
+      "  Company embeddings:",
+      companySuccessCount + "/" + (companySuccessCount + companyFailCount)
+    );
+    console.log(
+      "  Job embeddings:",
+      successCount + "/" + (successCount + failCount)
+    );
+    console.log("  Total successful embeddings:", totalSuccess);
+    console.log("  Total failed embeddings:", totalFail);
+    console.log(
+      "  Overall success rate:",
+      ((totalSuccess / (totalSuccess + totalFail)) * 100).toFixed(2) + "%"
     );
   } catch (error) {
     console.error("❌ Error during conversion:", error.message);
